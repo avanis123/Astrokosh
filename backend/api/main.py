@@ -1,23 +1,46 @@
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import JSONResponse
-import os, shutil
+from fastapi.middleware.cors import CORSMiddleware
+import shutil
 
 from ingestion.process_pdf import process_pdf
 
+
 app = FastAPI()
-UPLOAD_DIR = "../incoming_pdfs"
+
+# Correct upload path
+UPLOAD_DIR = os.path.join(os.path.dirname(__file__), "..", "incoming_pdfs")
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
+# Enable CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 @app.post("/upload_pdf")
-async def upload_pdf(pdf: UploadFile = File(...), mission: str = None):
+async def upload_pdf(file: UploadFile = File(...), mission: str = None):
 
-    file_path = os.path.join(UPLOAD_DIR, pdf.filename)
+    file_path = os.path.join(UPLOAD_DIR, file.filename)
 
-    # Save uploaded file
+    # Save the PDF
     with open(file_path, "wb") as f:
-        shutil.copyfileobj(pdf.file, f)
+        shutil.copyfileobj(file.file, f)
 
-    # Run pipeline
-    process_pdf(file_path, mission_name=mission)
+    # Run the pipeline and capture summary
+    summary = process_pdf(file_path, mission_name=mission)
 
-    return JSONResponse({"status": "success", "file": pdf.filename})
+    return {
+        "status": "success",
+        "filename": file.filename,
+        "mission": mission or file.filename,
+        "chunks": summary["chunks"],
+        "text_length": summary["text_length"]
+    }
+

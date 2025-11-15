@@ -1,25 +1,25 @@
 import os
-from extractor import extract_text
-from chunker import chunk_text
-from embedder import embed_texts
-from store import init_collection, add_documents
+from ingestion.extractor import extract_text
+from ingestion.chunker import chunk_text
+from ingestion.embedder import embed_texts
+from ingestion.store import init_collection, add_documents
+
 
 def process_pdf(pdf_path: str, mission_name: str = None):
-    """Complete pipeline: extract, chunk, embed, store."""
     print(f"\nProcessing PDF: {pdf_path}")
 
-    # 1) Extract raw text
+    # Extract text
     text = extract_text(pdf_path)
 
-    # 2) Chunk the text
+    # Chunk text
     chunks = chunk_text(text)
     print(f"Created {len(chunks)} text chunks.")
 
-    # 3) Embed chunks
+    # Embed
     embeddings = embed_texts(chunks)
     print("Generated embeddings.")
 
-    # 4) Add metadata for each chunk
+    # Metadata
     metadatas = []
     for i in range(len(chunks)):
         metadatas.append({
@@ -28,8 +28,15 @@ def process_pdf(pdf_path: str, mission_name: str = None):
             "source": os.path.basename(pdf_path)
         })
 
-    # 5) Store in vector DB
+    # Store in DB
     collection = init_collection()
     add_documents(collection, chunks, metadatas, embeddings)
 
     print("✓ PDF processed and stored successfully!")
+
+    # ⭐ Return summary dictionary
+    return {
+        "chunks": len(chunks),
+        "text_length": len(text),
+    }
+
