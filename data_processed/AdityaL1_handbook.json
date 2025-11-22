@@ -1,0 +1,4415 @@
+{
+  "file_name": "AdityaL1_handbook.pdf",
+  "mission": "Aditya-L1",
+  "instruments": [
+    "SAR",
+    "HEL1OS",
+    "MAG",
+    "SUIT",
+    "VELC"
+  ],
+  "entities": {
+    "dates": [],
+    "coordinates": [],
+    "mission_phases": [
+      "tli"
+    ],
+    "measurements": [
+      "400nm",
+      "1 AU",
+      "6 nT",
+      "5303 Angstrom",
+      "100-280 nm",
+      "320-360 nm",
+      "000 km",
+      "6378 km",
+      "700 nm",
+      "200-400nm",
+      "22 keV",
+      "280-315 nm",
+      "315 nm",
+      "2 to 22 keV",
+      "125 AU",
+      "400 nm",
+      "360 nm",
+      "400 km",
+      "200-400 nm",
+      "150 keV",
+      "400 km/s",
+      "2100 km",
+      "1 Angstrom",
+      "200 to 400 nm",
+      "10 to 150 keV",
+      "315-400 nm",
+      "000 nT",
+      "280 nm",
+      "396.8 nm",
+      "380 nm"
+    ],
+    "spacy_entities": [
+      {
+        "text": "Tirtha",
+        "label": "PERSON"
+      },
+      {
+        "text": "India",
+        "label": "GPE"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "India",
+        "label": "GPE"
+      },
+      {
+        "text": "India",
+        "label": "GPE"
+      },
+      {
+        "text": "Astronomy",
+        "label": "PERSON"
+      },
+      {
+        "text": "Surya Siddhanta",
+        "label": "PERSON"
+      },
+      {
+        "text": "India",
+        "label": "GPE"
+      },
+      {
+        "text": "Latadeva",
+        "label": "GPE"
+      },
+      {
+        "text": "Indian",
+        "label": "NORP"
+      },
+      {
+        "text": "Aryabhatta",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "India",
+        "label": "GPE"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "India",
+        "label": "GPE"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun-Earth",
+        "label": "ORG"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "ISRO",
+        "label": "ORG"
+      },
+      {
+        "text": "DOS",
+        "label": "ORG"
+      },
+      {
+        "text": "the Principle Investigators",
+        "label": "LOC"
+      },
+      {
+        "text": "Principal Scientist",
+        "label": "PERSON"
+      },
+      {
+        "text": "only a minute",
+        "label": "TIME"
+      },
+      {
+        "text": "three minutes",
+        "label": "TIME"
+      },
+      {
+        "text": "Tirtha",
+        "label": "PERSON"
+      },
+      {
+        "text": "ISRO Headquarters",
+        "label": "ORG"
+      },
+      {
+        "text": "Bengaluru Release",
+        "label": "NORP"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "March 2025",
+        "label": "DATE"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "The Sun-Earth Connection",
+        "label": "ORG"
+      },
+      {
+        "text": "13",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "16 UV light",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "19",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "The Interplanetary Magnetic Field",
+        "label": "ORG"
+      },
+      {
+        "text": "22",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "24",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Space Weather",
+        "label": "PERSON"
+      },
+      {
+        "text": "25",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "30",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Scientific Instruments",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1 Mission",
+        "label": "ORG"
+      },
+      {
+        "text": "32",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Aditya-L1 Data",
+        "label": "ORG"
+      },
+      {
+        "text": "the Aditya-L1 Data",
+        "label": "ORG"
+      },
+      {
+        "text": "36",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Scientific Outcomes",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "VELC",
+        "label": "PERSON"
+      },
+      {
+        "text": "37",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "SUIT",
+        "label": "ORG"
+      },
+      {
+        "text": "41",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the In-Situ Payloads",
+        "label": "ORG"
+      },
+      {
+        "text": "50",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "53",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "54",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "India",
+        "label": "GPE"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Sun-Earth Lagrange",
+        "label": "ORG"
+      },
+      {
+        "text": "L1",
+        "label": "GPE"
+      },
+      {
+        "text": "Lagrangian",
+        "label": "NORP"
+      },
+      {
+        "text": "Sun and Earth",
+        "label": "ORG"
+      },
+      {
+        "text": "four",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Lagrange",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "discussion1",
+        "label": "NORP"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Sun-earth",
+        "label": "LOC"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "five",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "five",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Lagrange",
+        "label": "ORG"
+      },
+      {
+        "text": "L1",
+        "label": "GPE"
+      },
+      {
+        "text": "L2",
+        "label": "GPE"
+      },
+      {
+        "text": "L3",
+        "label": "GPE"
+      },
+      {
+        "text": "L4",
+        "label": "PERSON"
+      },
+      {
+        "text": "five",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "L1",
+        "label": "GPE"
+      },
+      {
+        "text": "L3",
+        "label": "WORK_OF_ART"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun-Earth",
+        "label": "ORG"
+      },
+      {
+        "text": "L1",
+        "label": "GPE"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "JWST",
+        "label": "PERSON"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Lagrange",
+        "label": "ORG"
+      },
+      {
+        "text": "L1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "about 1.5 million kilometers",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "approximately 149.6 million kilometers",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Sun-Earth Lagrange",
+        "label": "ORG"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "L1",
+        "label": "GPE"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "L1",
+        "label": "GPE"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "L1",
+        "label": "GPE"
+      },
+      {
+        "text": "about 178 days",
+        "label": "DATE"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Kepler",
+        "label": "ORG"
+      },
+      {
+        "text": "L1",
+        "label": "GPE"
+      },
+      {
+        "text": "the Aditya-L1 3",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Aditya- L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun-Earth L1",
+        "label": "ORG"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Aditya-L1spacecraft",
+        "label": "ORG"
+      },
+      {
+        "text": "Keplerian",
+        "label": "NORP"
+      },
+      {
+        "text": "SOI",
+        "label": "ORG"
+      },
+      {
+        "text": "Sphere of Influence",
+        "label": "ORG"
+      },
+      {
+        "text": "ISRO Now",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun-Earth L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "twenty-four",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "seven",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth L1",
+        "label": "NORP"
+      },
+      {
+        "text": "three",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Launch Date",
+        "label": "ORG"
+      },
+      {
+        "text": "September 2",
+        "label": "DATE"
+      },
+      {
+        "text": "2023",
+        "label": "DATE"
+      },
+      {
+        "text": "PSLV-C57 Date of Insertion to L1",
+        "label": "ORG"
+      },
+      {
+        "text": "January 6, 2024",
+        "label": "DATE"
+      },
+      {
+        "text": "Broad Scientific",
+        "label": "PERSON"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "three",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "daily",
+        "label": "DATE"
+      },
+      {
+        "text": "6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "three",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "fourth",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "almost zero",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "zero",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "fourth",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "fourth",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "One",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Bose-Einstein",
+        "label": "PERSON"
+      },
+      {
+        "text": "BEC",
+        "label": "ORG"
+      },
+      {
+        "text": "zero",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Fermionic",
+        "label": "ORG"
+      },
+      {
+        "text": "8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Tirtha Pratim Das",
+        "label": "ORG"
+      },
+      {
+        "text": "Hydrogen",
+        "label": "ORG"
+      },
+      {
+        "text": "Helium",
+        "label": "GPE"
+      },
+      {
+        "text": "9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "millions of years",
+        "label": "DATE"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Corona",
+        "label": "ORG"
+      },
+      {
+        "text": "Extreme",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Radio",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Inner Core",
+        "label": "PERSON"
+      },
+      {
+        "text": "140,000 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "up to 7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1.4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "lac km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Sun\u2019s",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "1.4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun\u2019s",
+        "label": "ORG"
+      },
+      {
+        "text": "millions of years",
+        "label": "DATE"
+      },
+      {
+        "text": "11",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "approximately 7 million",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "about 2 million",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Convectio",
+        "label": "ORG"
+      },
+      {
+        "text": "5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "about 2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "approximately 6000 degrees",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Outer Photosphe About 400",
+        "label": "WORK_OF_ART"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "about 7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "only 3700",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "12",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Chromosp",
+        "label": "GPE"
+      },
+      {
+        "text": "About 1700",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2100 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "km thick",
+        "label": "PERSON"
+      },
+      {
+        "text": "between about 3700",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "7700",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "about 7700",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "about 500,000",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Corona Starts",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "13",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "less than 5%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "Helium",
+        "label": "PERSON"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Helium",
+        "label": "ORG"
+      },
+      {
+        "text": "less than 1 %",
+        "label": "PERCENT"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "only about 5 to 10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "a few hundreds",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "second",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "about 400 km/s",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "about 103.89 hours",
+        "label": "TIME"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "about 149.6 million km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Bengaluru",
+        "label": "GPE"
+      },
+      {
+        "text": "Delhi",
+        "label": "GPE"
+      },
+      {
+        "text": "about 4.35 seconds",
+        "label": "TIME"
+      },
+      {
+        "text": "14",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Coronal Mass Ejection",
+        "label": "ORG"
+      },
+      {
+        "text": "Magnetic Field Lines",
+        "label": "ORG"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "2016",
+        "label": "DATE"
+      },
+      {
+        "text": "4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "15",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Sun-Earth L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Solar Energetic Particles",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "SEP",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "16",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Ultra Violet",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "between 200 and 400",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "17",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "100-280",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "280",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "315",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "200",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "18",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun-Earth",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "200",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "the Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "200",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "19",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "280",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "SUIT",
+        "label": "ORG"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "FAC"
+      },
+      {
+        "text": "Sun\u2019s Chromosphere",
+        "label": "ORG"
+      },
+      {
+        "text": "Sunspots",
+        "label": "PERSON"
+      },
+      {
+        "text": "Plages",
+        "label": "ORG"
+      },
+      {
+        "text": "Quiet Sun",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "20",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Solar",
+        "label": "ORG"
+      },
+      {
+        "text": "UltraViolet",
+        "label": "ORG"
+      },
+      {
+        "text": "280",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "21",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "The Interplanetary Magnetic Field",
+        "label": "ORG"
+      },
+      {
+        "text": "the Interplanetary Magnetic Field",
+        "label": "ORG"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "nT",
+        "label": "PERSON"
+      },
+      {
+        "text": "10-9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Tesla",
+        "label": "ORG"
+      },
+      {
+        "text": "30",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "25,000 nT",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "70,000 nT",
+        "label": "PERSON"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "about to 10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "6378 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "day",
+        "label": "DATE"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "approximately 10,000,000",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "about a few hundred",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "about ten",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "approximately between 380",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "700",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "nano meter",
+        "label": "PERSON"
+      },
+      {
+        "text": "Ultra Violet",
+        "label": "ORG"
+      },
+      {
+        "text": "Gamma",
+        "label": "PERSON"
+      },
+      {
+        "text": "Infra Red (",
+        "label": "ORG"
+      },
+      {
+        "text": "IR",
+        "label": "ORG"
+      },
+      {
+        "text": "Radio",
+        "label": "ORG"
+      },
+      {
+        "text": "23",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Solar Wind, IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Sunlight",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sun\u2019s",
+        "label": "ORG"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "four",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "four",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "the year",
+        "label": "DATE"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "24",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "the day",
+        "label": "DATE"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "60 degree",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Space Weather",
+        "label": "PERSON"
+      },
+      {
+        "text": "a few hundreds or thousands",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "25",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Coronal Mass Ejection",
+        "label": "ORG"
+      },
+      {
+        "text": "CME",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "26",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "CME",
+        "label": "ORG"
+      },
+      {
+        "text": "Hydrogen",
+        "label": "ORG"
+      },
+      {
+        "text": "Helium",
+        "label": "ORG"
+      },
+      {
+        "text": "CME",
+        "label": "ORG"
+      },
+      {
+        "text": "billions of tons",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "one ton",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "one thousand kilogram",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "27",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Dst-",
+        "label": "ORG"
+      },
+      {
+        "text": "0",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "three",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Dst",
+        "label": "ORG"
+      },
+      {
+        "text": "Solar",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "28",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "1 to 9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "X9",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "29",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Aditya-L1 Understanding",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun-Earth",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "three",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "First",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "The Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Solar Physics",
+        "label": "ORG"
+      },
+      {
+        "text": "Second",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "about 125",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "AU",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun-Earth",
+        "label": "ORG"
+      },
+      {
+        "text": "1 AU",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "30",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "third",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Sun-Earth",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "ISRO",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "31",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun-Earth",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Scientific Instruments",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1 Mission Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "seven",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "GPE"
+      },
+      {
+        "text": "VELC",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "SUIT",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "SoLEXS",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "ASPEX",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "32",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "SUIT",
+        "label": "ORG"
+      },
+      {
+        "text": "SoLEXS",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "ASPEX",
+        "label": "PERSON"
+      },
+      {
+        "text": "Magnetometer",
+        "label": "PERSON"
+      },
+      {
+        "text": "6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "FAC"
+      },
+      {
+        "text": "33",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "six meters",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "SUIT",
+        "label": "ORG"
+      },
+      {
+        "text": "IUCAA",
+        "label": "ORG"
+      },
+      {
+        "text": "Inter University Centre for Astronomy and Astrophysics",
+        "label": "ORG"
+      },
+      {
+        "text": "Pune",
+        "label": "ORG"
+      },
+      {
+        "text": "the Lune University",
+        "label": "ORG"
+      },
+      {
+        "text": "Indian Institute of Astrophysics",
+        "label": "ORG"
+      },
+      {
+        "text": "Bengaluru",
+        "label": "GPE"
+      },
+      {
+        "text": "ISRO",
+        "label": "ORG"
+      },
+      {
+        "text": "SoLEXS",
+        "label": "ORG"
+      },
+      {
+        "text": "the U R Rao Satellite Centre",
+        "label": "ORG"
+      },
+      {
+        "text": "ISRO",
+        "label": "ORG"
+      },
+      {
+        "text": "ASPEX",
+        "label": "PERSON"
+      },
+      {
+        "text": "PRL (Physical Research Laboratory",
+        "label": "ORG"
+      },
+      {
+        "text": "Ahmedabad",
+        "label": "ORG"
+      },
+      {
+        "text": "Space Physics Laboratory",
+        "label": "ORG"
+      },
+      {
+        "text": "the Vikram Sarabhai Space Centre",
+        "label": "ORG"
+      },
+      {
+        "text": "Thiruvananthapuram",
+        "label": "ORG"
+      },
+      {
+        "text": "LEOS",
+        "label": "ORG"
+      },
+      {
+        "text": "Laboratory for Electro Optic Systems",
+        "label": "ORG"
+      },
+      {
+        "text": "Bengaluru",
+        "label": "GPE"
+      },
+      {
+        "text": "34",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "ISRO Availability of the Aditya-L1 Data",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "L1",
+        "label": "GPE"
+      },
+      {
+        "text": "the Indian Space Science Data Centre",
+        "label": "ORG"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "35",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Aditya-L1 Data",
+        "label": "ORG"
+      },
+      {
+        "text": "January 2025",
+        "label": "DATE"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun-Earth L1",
+        "label": "ORG"
+      },
+      {
+        "text": "approximately 178 days",
+        "label": "DATE"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Sun-Earth Lagrange",
+        "label": "ORG"
+      },
+      {
+        "text": "NASA",
+        "label": "ORG"
+      },
+      {
+        "text": "ESA",
+        "label": "ORG"
+      },
+      {
+        "text": "SOHO",
+        "label": "ORG"
+      },
+      {
+        "text": "WIND",
+        "label": "ORG"
+      },
+      {
+        "text": "ACE",
+        "label": "ORG"
+      },
+      {
+        "text": "SOHO",
+        "label": "ORG"
+      },
+      {
+        "text": "WIND",
+        "label": "ORG"
+      },
+      {
+        "text": "ACE",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "ISRO",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "January 6, 2025",
+        "label": "DATE"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "One",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Visible Emission Line Coronagraph (",
+        "label": "LAW"
+      },
+      {
+        "text": "a Coronal Mass Ejection",
+        "label": "ORG"
+      },
+      {
+        "text": "CME",
+        "label": "ORG"
+      },
+      {
+        "text": "July 16, 2024",
+        "label": "DATE"
+      },
+      {
+        "text": "VELC",
+        "label": "PERSON"
+      },
+      {
+        "text": "36",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "CME",
+        "label": "ORG"
+      },
+      {
+        "text": "CME",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "May 2024",
+        "label": "DATE"
+      },
+      {
+        "text": "ISRO",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Scientific Outcomes",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1 Science",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun\u2019s",
+        "label": "ORG"
+      },
+      {
+        "text": "may 37",
+        "label": "DATE"
+      },
+      {
+        "text": "a few million degree",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Centigrade",
+        "label": "GPE"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun\u2019s",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun\u2019s",
+        "label": "ORG"
+      },
+      {
+        "text": "5303",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Angstrom",
+        "label": "PERSON"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Angstrom",
+        "label": "PERSON"
+      },
+      {
+        "text": "0.0000000001 meter",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Sun\u2019s",
+        "label": "ORG"
+      },
+      {
+        "text": "The Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "VELC",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sun\u2019s",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun\u2019s",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "fifty percent",
+        "label": "PERCENT"
+      },
+      {
+        "text": "about six hours",
+        "label": "TIME"
+      },
+      {
+        "text": "38",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Coronal Mass",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "39",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "India",
+        "label": "GPE"
+      },
+      {
+        "text": "ISRO",
+        "label": "ORG"
+      },
+      {
+        "text": "6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "CME",
+        "label": "ORG"
+      },
+      {
+        "text": "VELC",
+        "label": "PERSON"
+      },
+      {
+        "text": "CME",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "40",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "A few long hours",
+        "label": "TIME"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "India",
+        "label": "GPE"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "a few hours",
+        "label": "TIME"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun\u2019s Ultra Violet",
+        "label": "ORG"
+      },
+      {
+        "text": "200",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "41",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "twenty-four",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sunlight",
+        "label": "PERSON"
+      },
+      {
+        "text": "around eight minutes",
+        "label": "TIME"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "FAC"
+      },
+      {
+        "text": "India",
+        "label": "GPE"
+      },
+      {
+        "text": "The Solar Ultra Violet",
+        "label": "ORG"
+      },
+      {
+        "text": "SUIT",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "200",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "42",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "SUIT",
+        "label": "ORG"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "200",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "NUV",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Magnetic Coupling",
+        "label": "ORG"
+      },
+      {
+        "text": "NUV",
+        "label": "ORG"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Solar Spectral Irradiance: o",
+        "label": "ORG"
+      },
+      {
+        "text": "NUV",
+        "label": "ORG"
+      },
+      {
+        "text": "Solar",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "43",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Potential Effects",
+        "label": "ORG"
+      },
+      {
+        "text": "the Chemistry of Earth's Atmosphere",
+        "label": "ORG"
+      },
+      {
+        "text": "NUV",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Solar Flares and Eruptions",
+        "label": "ORG"
+      },
+      {
+        "text": "NUV",
+        "label": "ORG"
+      },
+      {
+        "text": "Eruptive Phenomena",
+        "label": "PERSON"
+      },
+      {
+        "text": "NUV",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "SUIT",
+        "label": "ORG"
+      },
+      {
+        "text": "7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "44",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "NUV",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "45",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "SUIT",
+        "label": "ORG"
+      },
+      {
+        "text": "SUIT",
+        "label": "ORG"
+      },
+      {
+        "text": "SUIT",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "200",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "eleven",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "eleven",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "ISRO",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "SUIT",
+        "label": "ORG"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "12",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "46",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "only three",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Wavelength Solar",
+        "label": "PERSON"
+      },
+      {
+        "text": "NB",
+        "label": "ORG"
+      },
+      {
+        "text": "BB",
+        "label": "GPE"
+      },
+      {
+        "text": "Photosphere",
+        "label": "GPE"
+      },
+      {
+        "text": "Chromosphere",
+        "label": "ORG"
+      },
+      {
+        "text": "279",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Plages",
+        "label": "ORG"
+      },
+      {
+        "text": "Quiet Sun",
+        "label": "PERSON"
+      },
+      {
+        "text": "Chromosphere",
+        "label": "ORG"
+      },
+      {
+        "text": "NB4",
+        "label": "GPE"
+      },
+      {
+        "text": "280",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Plages",
+        "label": "ORG"
+      },
+      {
+        "text": "Quiet Sun",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sunspot",
+        "label": "GPE"
+      },
+      {
+        "text": "300",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Chromosphere",
+        "label": "ORG"
+      },
+      {
+        "text": "396.8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Plages",
+        "label": "ORG"
+      },
+      {
+        "text": "Quiet Sun",
+        "label": "PERSON"
+      },
+      {
+        "text": "200",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Plages",
+        "label": "ORG"
+      },
+      {
+        "text": "Sunspots",
+        "label": "PERSON"
+      },
+      {
+        "text": "47",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Wavelength Solar",
+        "label": "PERSON"
+      },
+      {
+        "text": "NB",
+        "label": "ORG"
+      },
+      {
+        "text": "BB",
+        "label": "GPE"
+      },
+      {
+        "text": "242",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Plages",
+        "label": "ORG"
+      },
+      {
+        "text": "Sunspots Photosphere",
+        "label": "PERSON"
+      },
+      {
+        "text": "320-360",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "396.8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "SUIT",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "GPE"
+      },
+      {
+        "text": "Chromosphere",
+        "label": "ORG"
+      },
+      {
+        "text": "Sunspots",
+        "label": "PERSON"
+      },
+      {
+        "text": "Plages",
+        "label": "ORG"
+      },
+      {
+        "text": "Quiet Sun",
+        "label": "PERSON"
+      },
+      {
+        "text": "48",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "11",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "280",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "SUIT",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "GPE"
+      },
+      {
+        "text": "Chromosphere",
+        "label": "ORG"
+      },
+      {
+        "text": "Sunspots",
+        "label": "PERSON"
+      },
+      {
+        "text": "Plages",
+        "label": "ORG"
+      },
+      {
+        "text": "Quiet Sun",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "12",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "SUIT",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "GPE"
+      },
+      {
+        "text": "Sunspots",
+        "label": "PERSON"
+      },
+      {
+        "text": "49",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the In-Situ Payloads",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "May 2024",
+        "label": "DATE"
+      },
+      {
+        "text": "last two decades",
+        "label": "DATE"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "ISRO",
+        "label": "ORG"
+      },
+      {
+        "text": "4,5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "13",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Solar",
+        "label": "ORG"
+      },
+      {
+        "text": "ASPEX",
+        "label": "PERSON"
+      },
+      {
+        "text": "ASPEX Team",
+        "label": "ORG"
+      },
+      {
+        "text": "13",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "ASPEX",
+        "label": "PERSON"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Hydrogen",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "the May 10, 2024",
+        "label": "DATE"
+      },
+      {
+        "text": "the late hours",
+        "label": "TIME"
+      },
+      {
+        "text": "50",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Universal Time",
+        "label": "ORG"
+      },
+      {
+        "text": "May 12, 2024 00:00UT",
+        "label": "DATE"
+      },
+      {
+        "text": "14",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "SoLEX",
+        "label": "NORP"
+      },
+      {
+        "text": "X-Ray",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "15",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "HEL1OS",
+        "label": "GPE"
+      },
+      {
+        "text": "X-Ray 51",
+        "label": "PERSON"
+      },
+      {
+        "text": "6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "three",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "L1",
+        "label": "GPE"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "few hours Figures",
+        "label": "TIME"
+      },
+      {
+        "text": "14",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "15",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "X-Ray",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "2 to 22",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "X-Ray",
+        "label": "PERSON"
+      },
+      {
+        "text": "10 to 150",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "16",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IMF",
+        "label": "ORG"
+      },
+      {
+        "text": "52",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "India",
+        "label": "GPE"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Sun-Earth L1 Lagrange",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "seven",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "ISSDC",
+        "label": "ORG"
+      },
+      {
+        "text": "L1",
+        "label": "GPE"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "CME",
+        "label": "ORG"
+      },
+      {
+        "text": "July 2024",
+        "label": "DATE"
+      },
+      {
+        "text": "53",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "ISRO",
+        "label": "ORG"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Arnab Rai Chowdhury",
+        "label": "PERSON"
+      },
+      {
+        "text": "https://youtu.be/CdBXtQEKBRM?si=7UJyiCj5F7ws4uZs",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Sun-Earth Connection: Avenues",
+        "label": "ORG"
+      },
+      {
+        "text": "Next Two Decades",
+        "label": "DATE"
+      },
+      {
+        "text": "Gurubaran",
+        "label": "PERSON"
+      },
+      {
+        "text": "IIG https://youtu.be/wUrtQdaTBOA?si=YnnZMD0E15tQCP2E",
+        "label": "LOC"
+      },
+      {
+        "text": "4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "https://www.isro.gov.in/ISROCapturestheSignaturesoftheRecentSolarE",
+        "label": "ORG"
+      },
+      {
+        "text": "5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sudden",
+        "label": "GPE"
+      },
+      {
+        "text": "the Sun Coronal Mass Ejection",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "PERSON"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Aditya-L1",
+        "label": "ORG"
+      }
+    ]
+  },
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "PDFium",
+    "producer": "PDFium",
+    "creationDate": "D:20250325155314",
+    "modDate": "",
+    "trapped": "",
+    "encryption": null
+  },
+  "pages": [
+    "SCIENCE FO R PEOPLE A \ufffd I \ufffd Y \ufffd - \ufffd 1 I N D I A' S A DV E N T U R E W I T H T H E S U N D r . T i r t h a P r a t i m D a s",
+    "",
+    "A D I T Y A - L 1 I N D I A ' S ADVENTURE W I T H T H E S U N E d i t i o n - 1 Dr. Tirtha Pratim Das",
+    "",
+    "Preface This book is written keeping those enthusiastic people (especially the students) in mind, who will be happy to know about India\u2019s Aditya-L1 mission to study the Sun. Aditya-L1 happens to be India\u2019s first dedicated space- based solar observatory. People without hard core scientific background often find it difficult to identify easy- to-comprehend study material that would quench their thirst for knowledge. This book is dedicated to them. India, as we know, has a long legacy of pursuing Astronomy and solar science. During the era of ~505 CE, Surya Siddhanta was written in India by Latadeva, who was a student of the great Indian scholar Aryabhatta. The text elaborated on the importance and influence of the Sun on our lives. There have been several ground-based observatories in India that contribute immensely to study the Sun. Thus, in a country like India, where the legacy of solar science dates back well before the space age, Aditya-L1 takes it forward with a leap-frog progress by conducting continuous solar observation covering practically all the facets of the solar forcing. In this context, Aditya-L1 not only facilitates solar science research, but also provides insight to heliophysics, Sun-Earth connection, and would eventually foster scientific research on space weather. In this book, these concepts will be presented as lucidly as possible. This book is a sincere attempt to introduce a few basic concepts of physics and solar science, and then to tell about the Aditya-L1 mission, and the scientific insights gained so far. This book is a work to quench academic thirst, and to convey the scientific achievements of the Aditya-L1",
+    "mission. This book does not contain any privileged or confidential information. This book is not meant for any commercial activity; its use should be solely limited to academic and scientific outreach purpose. I profusely thank Chairman, ISRO / Secretary, DOS for sustained encouragement, as well as the Principle Investigators, Principal Scientist, Project Director of this mission, and the teams for the information provided, that helped creating this book. How to use this book: \uf0b7 If you have only a minute to know the scientific greatness of this mission, just read the back cover page. \uf0b7 If you have three minutes, read the blue- font text for more details of the scientific outcomes, and look at the pictures as well. \uf0b7 If you have sufficient time, read the whole book. Initially you may like to skip the footnotes, but reading them will provide more insight. Dr. Tirtha Pratim Das Director, Space Science Programe, ISRO Headquarters, Bengaluru Release of the first edition: March 2025",
+    "Table of Contents Introduction.............................................................................. 2 The States of Matter ................................................................ 5 The Sun as a Ball of Plasma ................................................... 8 Anatomy of Sun ................................................................... 8 The Sun-Earth Connection.................................................... 13 UV light\u2019s effects on Earth ................................................. 16 UV light as a tool to study the Sun .................................... 19 The Interplanetary Magnetic Field (IMF) ........................... 22 How Important Are These Effects on Earth? .................... 24 Space Weather and Its Impact .......................................... 25 Understanding the Sun-Earth Connection and Context of Aditya-L1 ............................................................................... 30 Scientific Instruments (payloads) in Aditya-L1 Mission ......... 32 Availability of the Aditya-L1 Data .......................................... 35 Importance of the Aditya-L1 Data ......................................... 36 Scientific Outcomes from Aditya-L1 ...................................... 37 Science from VELC ........................................................... 37 Science from SUIT ............................................................ 41 Science from the In-Situ Payloads .................................... 50 Summary ............................................................................... 53 Online Resources for Detailed Study .................................... 54 1",
+    "Introduction A ditya-L1 mission is India\u2019s first space mission to study the Sun [1]. The spacecraft did not go close to the Sun (forget about touching the Sun), but it was placed at a region between the Sun and the Earth, where their gravitational forces cancel each other. That place is called the first Sun-Earth Lagrange point (hence the term L1 came; L stands for Lagrangian). For Sun and Earth, there are four more Lagrange points (that\u2019s why this one is called the first), but we will not go to the depth of that discussion1. Here, while we venture to know about the Aditya-L1 mission, it is important to note that the first Sun-earth 1 In space, the dynamics of a two-body system (like the Sun and the Earth) depends on the interplay of gravitational forces and orbital mechanics. As a result, there are five points around the two bodies, called the five Lagrange points, designated as L1, L2, L3, L4 and L5 points. Among these five points, L1, L2, and L3 lie along the line connecting the two bodies, which are gravitationally unstable. L4 and L5 are located at the vertices of equilateral triangles formed with the two bodies, which are gravitationally stable. In the context of the Sun-Earth system, L1, located between the Earth and Sun, offers an uninterrupted view of the Sun, crucial for solar observatories like Aditya-L1. L2, behind Earth, provides a stable, deep-space environment shielded from solar radiation, ideal for telescopes like JWST to observe distant galaxies. L3, opposite Earth from the Sun, is less explored due to its distance. L4 and L5 are gravitationally stable points where asteroids and potentially future space habitats could reside, and are important for studying interplanetary dust and space weather (space weather will be discussed in a following section). 2",
+    "Lagrange point (L1 point in short) is located about 1.5 million kilometers from the Earth, along a hypothetical line joining the centres of the Sun and the Earth, while the total distance between the Sun and the Earth is approximately 149.6 million kilometers. A schematic picture depicting the Sun-Earth Lagrange points and the approximate location of the Aditya-L1 spacecraft are depicted in Figure-1. So, the L1 point is closer to the Earth, than to the Sun. Around the L1 point, we have considered a peculiar type of an orbit, which resembles more like a twisted rubber band, along which the Aditya-L1 spacecraft is made to revolve around the L1 point, which takes about 178 days. Figure 1: Depiction of the Sun-Earth Lagrange points, and the approximate location of the Aditya-L1 spacecraft. Image courtesy: ISRO This peculiar, twisted orbit (peculiar because it is twisted, unlike the planar orbit that you must have studied while learning Kepler\u2019s laws) is called a halo orbit around the L1 point. Had the Aditya-L1 3",
+    "spacecraft not been made to follow this peculiar- shaped orbit, and asked to simply balance itself between the Sun and the Earth, it would definitely have ended up being pulled by the Sun\u2019s or the Earth\u2019s gravity. Figure 2 presents the trajectory of the Aditya- L1 and the approximate shape of the halo orbit around the Sun-Earth L1 point, where it stabilised. Figure 2: Trajectory of the Aditya-L1spacecraft, as it was inserted to the halo orbit. The picture also depicts the approximate shape of the halo orbit. Note that how it differs from the Keplerian orbit. In the picture, the term SOI represents 'Sphere of Influence\u2019 which means the distance of gravitational influence Image courtesy: ISRO Now, the question is, what is Aditya-L1 doing around the Sun-Earth L1 point? A simple and obvious answer to that is, it is studying the Sun. An obvious question would follow then: why do we need to launch a spacecraft to such a complicated orbit; are the ground 4",
+    "observatories studying the Sun not enough? The answer is \u2018no\u2019. Ground observatories that study the Sun are limited by the intervention of the atmosphere around the Earth, as well as the Earth\u2019s magnetic field. Ideally speaking, one needs to study the Sun from a location where there is no atmosphere, no influence of the Earth\u2019s magnetic field, as well as continuous (we often call twenty-four by seven) view of the Sun without being blocked by anything else. The Sun- Earth L1 point satisfies all three of these conditions. The following table provides a few key information about the Aditya-L1 mission. Launch Date: September 2, 2023 Launcher: PSLV-C57 Date of Insertion to L1 January 6, 2024 point: Broad Scientific To study the radiation, Objective: particles and magnetic field from the Sun The States of Matter In order to appreciate why Aditya-L1 was sent to space for solar observation, it is necessary to understand Sun a bit. In this context, it is also necessary to start from the very basics; the states of matter, which most of us have studied in school. This will help us understand several facts about the Sun, and help introducing the context of the Aditya-L1 mission. 5",
+    "Atoms are considered as the building blocks of matter. A group of atoms constitute molecules. The atoms and molecules in any material feel the forces from the surrounding atoms and molecules. We refer this force as interatomic or intermolecular forces. These forces determine whether a material is a solid, liquid, or gas. These are the three states of matter we notice daily around us. In solids, the atoms or molecules are packed very tightly together. They have very strong interatomic or intermolecular forces between one another. It is because of these strong nature of the forces between the atoms and molecules, solids have a definite shape and volume. The atoms and molecules in a solid, once supplied with energy, vibrate in their respective places, but do not move around. On the other hand, in liquids, the atoms or molecules may still be close together, but they have a little more freedom for movement, as their intermolecular forces are weaker than in solids. This feature helps liquids to flow and assume the shape of the container. They have a definite volume, but no definite shape. Upon supply of some energy, the molecules of a liquid may move past one another faster. Coming to the gases, the atoms or molecules are far apart, and hence, their interatomic / intermolecular forces are very weak, almost non-existent. That\u2019s why they move around very quickly and freely, colliding with one another and the walls of their container. Thus, gases have no definite shape or volume. They spread out to fill whatever space is available. 6",
+    "Apart from these three states, matter also has a fourth state. That state is called \u2018plasma\u2019. In all the previously-discussed states of matter (solid, liquid and gas), we have spoken about how are the abilities of atoms and molecules to move past one another. We have not spoken about disturbing the atoms by the removal of one or more electrons from them, making them ionized. When enough energy is supplied, it is possible to remove one or more electrons from the atoms. As a result, the atoms become positive ions (because of the difference in number between the positive and negative charges due to the removal of electrons), while the electrons removed from the atoms move around freely, no longer bounded to any atom. The material, therefore, can be compared with a \u2018soup\u2019 of positive ions and electrons. The overall charge of the whole \u2018soup\u2019 is almost zero (ideally zero), but the ions and electrons coexist in the \u2018soup\u2019 without neutralizing one another. That \u2018soup\u2019 is called \u2018plasma\u2019, which is the fourth state of matter. As plasma comprises charged particles (ions and electrons), they can be disturbed using a magnet; at the same time, the motion of the charged particles creates magnetic fields. If you have studied about electric and magnetic fields, you must have been told that a charged particle, while at rest, gives rise to an electric field; while a charged particle at motion gives rise to a magnetic field. If you also remember an experiment you performed where iron filings used to create beautiful, symmetrical patterns of lines around 7",
+    "a piece of magnet, you will also recall the concept of the magnetic field lines. Those beautiful patterns of the iron fillings you saw around the magnet were the traces of the magnetic field lines, which are otherwise invisible to our eyes. Thus, the charged particles comprising the plasma give rise to complicated structures of magnetic field lines.2 The Sun as a Ball of Plasma You can find plasma almost everywhere in nature, although you might not have thought deeper about them. Think of lightning, the sun, and neon signs. They all contain plasma, the fourth state of matter. In fact, plasma is the most common form of matter in the universe. Stars are made of plasma, and our Sun is also a giant ball of plasma. Anatomy of Sun Sun, the giant ball of plasma, has a layered structure. The figure 3 presents a view of the anatomy of the 2 Beyond the well-known solid, liquid, gas, and plasma, there are additional states of matter. One such state is the Bose-Einstein condensate (BEC), formed when specific atoms are cooled to temperatures extremely close to -273.15 \u00b0C, where all the motions of a molecule \u2018almost\u2019 get frozen (we call this \u2018absolute zero\u2019 temperature). This extreme cooling causes the atoms to merge, lose their individual properties, and act as a single atom. Additionally, other states, such as Fermionic condensates exist, which represent a state where fermions (like electrons), which normally avoid each other, are coaxed into pairing up and behaving as a unified whole. However, these concepts will not be required for our present discussion. 8",
+    "Sun, as if, the Sun is dissected so that its inner layers are visible. Figure 3: Anatomy of the Sun, depicting its layers. Picture drawn by: Tirtha Pratim Das The core, its innermost region, is a site of intense heat and density, where nuclear fusion converts Hydrogen into Helium, generating immense energy. This energy travels outward through a layer called the radiative zone, where energy moves outward as radiation. The 9",
+    "photons created by the core's fusion reactions, take a very long and indirect path through this zone. They get absorbed and released over and over by the dense material there, making this a very slow way for energy to travel. It can take millions of years for the energy to get through this layer. Above the radiative zone, there is convective zone, where energy is moved by circulation (we call this process \u2018convection\u2019) of plasma materials, with hot plasma rising and cooler plasma descending. The photosphere, the Sun's visible surface, releases the majority of the light we see, and has a grainy appearance due to these convection circulation process. The chromosphere, a thinner, hotter layer above the photosphere, is characterized by jets of hot gas. Finally, the corona, which is the Sun's outermost layer, extends far into the space. Corona is extremely hot but of low density, and emits extreme UV rays (Extreme UVs, or EUVs are even more energetic in the range of UV rays), X-rays and the solar wind. Thus, the core of the Sun, due to the nuclear fusion, is the foster house of the gamma rays (very high energy photons, not visible to human eyes). However, the gamma rays produced in the core do not travel directly to the Sun's surface. They undergo a series of processes. As they move outward through the radiative zone, they are repeatedly absorbed and re- emitted by the dense plasma, thereby losing energy. Thus they gradually transform into lower-energy 10",
+    "photons, such as X-rays, ultraviolet light, and eventually, visible light (which we can see). By the time the energy reaches the Sun's surface (photosphere), it is primarily the visible light, which is what we see, although there are lights of higher (UV, X-Rays) and lower (Radio waves) energies. The following table summarises the anatomy of the Sun. It starts from the Sun\u2019s core in the topmost row, while the subsequent rows tell about the outer layers. Regions Extension More (approximate) information Inner Core Till around Nuclear fusion Layers 140,000 km takes place here. (up to 7 (1.4 lac km) Gamma ray lac km from the photons are from the Sun\u2019s centre released in this Sun\u2019s process. centre) Radiative From 1.4 lac Energy of the zone km to 5 lac gamma rays km moves outward as (distances radiation by measured getting absorbed from the and released Sun\u2019s centre) repeatedly by the dense material there, which may take millions of years to cross this zone. Temperatures decrease with distance outwards, ranging from 11",
+    "Regions Extension More (approximate) information approximately 7 million deg C at the inner boundary to about 2 million deg C at the outer edge Convectio From 5 lac Temperatures n zone km to 7 lac continue to km decrease with (distances distance from the measured core, dropping from the from about 2 Sun\u2019s centre) million deg Celsius at the base to approximately 6000 degrees Celsius at the visible surface, the photosphere Outer Photosphe About 400 The deepest layers re km thick directly visible (start at above the layer of the Sun; about 7 convection releases the lac km zone majority of the from the visible light; has a Sun\u2019s grainy centre; appearance due leaving to convection aside the circulation; the corona, temperature this layer varies between has a about 6000 deg C thickness at the bottom and of only 3700 deg C at the top. 12",
+    "Regions Extension More (approximate) information about Chromosp About 1700 Characterized by 2100 km) here km thick, jets of hot gas; above the Temperature in photosphere the chromosphere varies between about 3700 deg C at the bottom and 7700 deg C at the top Transition About 100 Temperature Region km thick, rises abruptly above the from about 7700 photosphere, to about 500,000 which leads deg C to the solar corona Corona Starts above Also called the the transition \u2018solar region, atmosphere\u2019; very extends to thin in density but the very high heliosphere temperature (high (practically energy); no upper limit temperature may of its rise to up to a few extension) million deg C The Sun-Earth Connection Sun generates complicated magnetic field lines around itself, most of which originate and terminate on the Sun forming loop-like structures called arcades, but some of them open up, releasing gush of charged 13",
+    "particles to space, along them. Some of them may even be directed to the Earth. Without venturing into the details, we may recall that the source of solar energy is the nuclear fusion reaction persistently occurring in the core of the Sun. As a result of the fusion process, tremendous amount of energy is released, which is transported from the core of the Sun to its outer atmosphere (called solar corona). The fusion reaction itself, and its effects on the solar plasma, cause release of charged particles from the Sun to the space. The charged particles emitted by the Sun are mostly (~95%) Hydrogen ions and, to a certain quantity (~ less than 5%) doubly ionized Helium (i.e. two electrons are stripped off from the Helium atom), as well as trace quantities (less than 1 %) of heavier ions. The stripped off electrons are also emitted from the Sun. Thus, around the Sun, there are outward flow of charged particles, which are collectively referred to as the \u2018solar wind\u2019, as if, a wind is blowing out from the Sun. However, the number of solar wind ions in the space near the Earth is only about 5 to 10 per centimeter cube. Despite their small number, they travel at a very fast speed, typically, a few hundreds of kilometers per second. If you assume the speed of the solar wind to be about 400 km/s, it would take about 103.89 hours to reach the Earth from the Sun (the distance between the Earth and Sun is about 149.6 million km). If that does not excite you, let me tell you further that, at that speed you can travel from Bengaluru to Delhi in about 4.35 seconds. 14",
+    "Figure 4: Cartoon depicting solar flare, Coronal Mass Ejection, and the spiral shaped Magnetic Field Lines of the IMF. The charged particles follow along the IMF lines in helical paths, as shown in yellow colour. Image courtesy: Nunez et al, 2016 Figure 4 depicts a cartoon style picture (we call these types of pictures \u2018schematic pictures\u2019) of the Sun and how it influences the Earth. In the image, the artist has shown solar flares, CMEs, the spiral shaped magnetic field lines of the IMF (these are called \u2018Parker Spirals\u2019) and the trajectory of the charged particles. We will soon discuss the concept of IMF, which is the magnetic field lines emitted from the Sun, associated with the motion of the charged particles along them. Aditya-L1 has two magnetic field measurement 15",
+    "instruments, called magnetometer, to measure the IMF at the first Sun-Earth L1 point. In contrast to the steady stream of lower-energy charged particles in the solar wind, Solar Energetic Particles (SEPs) are highly energetic charged particles (such as protons and ions), propelled to nearly the speed of light by solar flares and coronal mass ejections (CMEs). Unlike the consistent solar wind, SEPs arrive in sudden bursts, creating a serious radiation threat to spacecraft, astronauts, and potentially even affecting Earth's upper atmosphere. These fast-moving particles can damage electronics and cause radiation storms, making the study and prediction of SEP events vital for space weather forecasting and protecting technology in space. Aditya-L1 is equipped with particle measurement devices as well. UV light\u2019s effects on Earth Let me tell you, the UV light from the Sun has a lot to do with the chemistry of the Earth\u2019s upper atmosphere. It has some more effects on the Earth. Before venturing into the science questions addressed by Aditya-L1, it is important to look into this aspect. The subject Chemistry sheds light on how substances interact and change. When the reactants participate in a chemical reaction, their atoms are rearranged, leading to the creation of completely new substances 16",
+    "with distinct properties. Often, energy is required to start or speed up this transformation. In chemical reactions, the Ultra Violet (UV) light can serve as a catalyst (a catalyst is an agent that affects the speed of a chemical reaction), supplying the energy needed for the chemical reaction to take place. UV light works as a good catalyst in several chemical reactions, which can break the chemical bonds within the reactant molecules, increasing their reactivity and allowing them to form new products. This is especially significant in several of the chemical reactions that take place in the atmosphere of any planet. In the case of the Earth\u2019s atmosphere, UV radiation from the Sun helps the chemical reactions that generate and deplete (destroy) ozone, thereby affecting the makeup and protective functions of Earth's atmosphere. The process of a chemical reaction being affected by photons (in our present discussion, the UV light) is referred to as \u2018photochemistry\u2019. Solar UV radiation, specifically wavelengths between 200 and 400 nanometers, is a key factor in determining the chemical makeup of Earth's higher atmospheric layers. This type of radiation possesses enough energy to disrupt molecular bonds, triggering photochemical reactions that control the creation and destruction of various atmospheric components. A substantial portion of this UV energy is absorbed by the ozone layer within the stratosphere. This absorption drives the breakdown of oxygen molecules (O\u2082) and the subsequent formation of ozone (O\u2083). This 17",
+    "ongoing cycle is essential for protecting Earth's surface from damaging UV radiation. Beyond the ozone layer, this UV radiation also impacts the levels of other atmospheric substances. For instance, nitrogen oxides, which contribute to ozone depletion and other chemical processes, are affected by UV-induced reactions. The specific interactions of UV-C (100-280 nm), UV-B (280-315 nm), and UV-A (315-400 nm) radiation, all within the 200-400 nm range, contribute to the intricate dynamics and chemical processes of Earth's atmosphere. Comprehending these interactions is critical for understanding how solar radiation influences our planet's protective layers and for tracking and forecasting changes in atmospheric composition. Thus, solar UV light has a notable influence on Earth's weather and climate. Additionally, UV light contributes to the creation of certain tiny particles that can help form clouds, influencing rainfall patterns. Even though the direct warming effect on the lower atmosphere is less than that of visible and infrared light, the UV range is vital in the complex interaction of atmospheric processes that ultimately determine Earth's weather and climate. So, if you wish to study these major aspects of the Earth\u2019s atmosphere and their effects on the weather and the climate, you need to study, apart from other 18",
+    "aspects of the Sun-Earth system, the strength of fluctuations of the UV light from the Sun as well. That is all what the Sun\u2019s UV light causes to the Earth. For scientific studies of these aspects, one needs to trace back the UV radiation (200-400 nanometer range) to the Sun. While doing so, a few very interesting aspects of the Sun emerge. UV light as a tool to study the Sun The Sun's ultraviolet (UV) light, particularly within the 200-400 nanometer range, is essential for examining various features of the Sun, providing valueable information on the photosphere, chromosphere, filaments, sunspots, plages, and limb darkening. The photosphere, which is the Sun's visible surface, emits UV radiation that reveals its temperature and elemental constitution. Analyzing specific UV wavelengths allows researchers to identify specific elements and their ionization states. The chromosphere, which is the hotter layer above the photosphere, strongly emits UV light. UV observations are critical for mapping its structure and dynamics, showcasing features like spicules. Filaments, dark, thread-like features seen on the solar disk, are cooler, denser plasma regions in the chromosphere. Observing the Sun in UV helps to \u2018see\u2019 their structure and evolution, as they absorb and re- emit UV radiation. Sunspots, the dark patches often seen on the Sun, which are basically the relatively 19",
+    "cooler photospheric regions, emit UV radiation despite appearing dark in visible light. This radiation provides information on the temperature and the strength of the magnetic field. Plages, which are the bright chromospheric regions linked to the sunspots, show increased UV emission, indicating enhanced magnetic activity and heating. These regions are most clearly seen in the UV spectrum. Limb darkening, the Sun's dimming at its edges, is also observed in UV wavelengths. Analyzing the extent of limb darkening at different UV wavelengths allows scientists to calculate the Sun's atmospheric temperature and understand how the solar material gets sparser (thinner) with the distance from the Sun. Therefore, UV radiation in this range is crucial for comprehending the complex processes in the Sun, which also affect the Earth\u2019s atmosphere, as discussed earlier. Figure 5 shows the Sun photographed at UV wavelength of 280 nm, with the SUIT instrument flown in the Aditya-L1 mission. At that wavelength, it reveals many features of Sun\u2019s Chromosphere, Sunspots, Plages, Quiet Sun features, as well as filaments. The Sun's visible surface reveals a variety of features caused by its magnetic activity. Sunspots, dark and cooler areas, are formed by strong magnetic fields that block heat. Brighter regions, called plages, often appear near sunspots, showing localized heating in the Sun's atmosphere. When the Sun is less active, the \"quiet Sun\" looks relatively even, as you can see the marked region in the figure. Dark, thread-like filaments are seen on the Sun's surface and are 20",
+    "actually cooler plasma held up by magnetic fields. When viewed at the edge of the Sun against space, these filaments appear bright and are called prominences. These features all demonstrate the Sun's intricate magnetic behaviour. Figure 5: The Solar plasma ball, when photographed using its UltraViolet (UV) light (at 280 nm wavelength to be specific), looks like this, depicting different features of the Sun. Image courtesy: SUIT team, IUCAA 21",
+    "The Interplanetary Magnetic Field (IMF) As moving charged particles carry a magnetic field along them, the solar wind ions also carry magnetic field, which is called the Interplanetary Magnetic Field (IMF). These are called \u2018interplanetary\u2019, because, as the solar wind ions travel long distances crossing the planets, the magnetic field lines also move along with them. However, as the IMF travels further away from the Sun, its strength (called \u2018intensity of the magnetic field\u2019) decreases. Do you know, how much strong is the IMF close to the Earth? It may vary between approximately 1 nano Tesla (abbreviated as nT ; nano means 10-9 , and Tesla is a unit of the magnetic field strength) to 30 nano Tesla, while 5 nano Tesla may be a good representative average. You may compare this value with that of the Earth\u2019s magnetic field near its surface, which is often approximated as 40,000 nT (although the Earth\u2019s magnetic field may vary from place to place, and with time; a range of ~ 25,000 nT to 70,000 nT is a good representative of the Earth\u2019s magnetic field). While around 40,000 nT is the value of the Earth\u2019s magnetic field near the Earth\u2019s surface, it is weakened at higher altitudes, as well as towards the polar regions. At higher altitudes (about to 10 times the Earth\u2019s radius; Earth\u2019s equatorial radius is ~ 6378 km), where the Earth\u2019s magnetic field is weak and comparable with the IMF near the Earth, often there is a \u2018hand-wrestling\u2019 between these two. As a result, the boundary of the Earth\u2019s magnetic field experiences fluctuations in the day-side. In the night side, the shape of the Earth\u2019s magnetic field is elongated; this is due to the lesser influence of the IMF 22",
+    "in the night side. Now, you can compare both these numbers (i.e. IMF near the Earth, which is ~ 6 nT, and the Earth\u2019s magnetic field at the surface, which is ~ 40,000 nT) with that of a fridge magnet. A typical fridge magnet has a strength of approximately 10,000,000 nT. Thus, a typical fridge magnet is about a few hundred times stronger than the Earth\u2019s magnetic field (at its surface), and about ten lacs times stronger than the IMF near the Earth. Here, remember that the solar wind and the IMF are not two independent entities, but quite interdependent. As you cannot separate a perfume from its fragrance, or a flame from its light, you cannot isolate the solar wind particles from the IMF. That's why we use the term \u2018associated with' when we refer to the solar wind particles and the IMF. Apart from the solar wind ions and the IMF associated, Sun also emits light. We all are familiar with the importance of sunlight in our daily life. All the forms of life owe their energy to the sunlight. Sunlight allows us to see the world. However, as you are aware, there are light-waves that our eyes cannot sense. If you consider light as a wave, human eyes can typically sense light waves with wavelengths ranging approximately between 380 nm (violet) to 700 nm (red) [nm means nano meter]. Beyond this range, on the shorter wavelength side, there are Ultra Violet (UV) light, X-Rays, Gamma rays, which are invisible to the human eyes. On the longer wavelength side, we have Infra Red (IR) light and Radio waves, which we cannot see either. Sun emits light covering all these 23",
+    "wavelengths. Thanks to the temperature of the Sun, which ensures that the Sun emits most of its light in the range of wavelength that our eyes can see. Otherwise, our eyes would have adapted for either different range of wavelengths, or for darker conditions. Needless to say, apart from the Solar Wind, IMF and Sunlight (we will, now onwards, start calling sunlight as solar radiation, as radiation is a more general term), Sun\u2019s gravity also influences us. In his discussion, we need not delve into that topic. For a detailed tutorial on this topic, watch this video [2]. So, next time when someone asks you about how Sun influences the Earth, don\u2019t forget to mention all the four of them, i.e. (i) gravitation, (ii) solar radiation, (iii) solar wind, and (iv) interplanetary magnetic field. How Important Are These Effects on Earth? If you ask me to arrange these four influences from the Sun in a descending order, I (as somebody residing on the surface of the Earth) will still follow the above-mentioned sequence, i.e. (i) gravitation, (ii) solar radiation, (iii) solar wind, and (iv) interplanetary magnetic field. Let me explain, why. Sun's gravitational effects on Earth cause the year; also to a certain extent the dynamics of the fluids on Earth, to name a few. It is felt by us regardless of whether it is day or night. The solar radiation, on the other hand, directly and prominently affects the day- side of the Earth, although there are a few indirect effects on the night side. This is because the solar 24",
+    "radiation does not reach the night side of the Earth. However, both the day and night sides of the Earth's surface remain fundamentally unaffected by the solar wind (thanks to the Earth's magnetic field) except for the polar regions (higher latitudes around 60 degree, to polewards). Lastly, the IMF is too feeble to be felt on the surface of the Earth, as the Earth's own magnetic field is several times stronger than the IMF at the Earth's surface. Space Weather and Its Impact However, in space, say, a few hundreds or thousands of kilometres above the Earth's surface, the situation is different. At those altitudes, the Earth's magnetic field has lesser strength as compared to the Earth's surface; hence, the solar wind particles can reach those regions. Associated with the solar wind particles, the IMF also penetrates those regions. These effects are more prominent at still higher latitudes, where the Earth's magnetic field may become too feeble to retain its importance as compared with the IMF. This means that sitting at the surface of the Earth we remain more protected from the emissions from the Sun. Thanks to the collective effects of the Earth's atmosphere (which helps absorbing a few types of solar radiation that would have been harmful to the life forms) and the magnetosphere (which deflects the solar wind particles), that the Earth is capable of sustaining life. The moment you come out of the Earth's protective shield (atmosphere and 25",
+    "magnetosphere) you are exposed to the harsh effects of the solar radiation and the solar wind. We say that we are exposed to what is called the \u2018space weather'. The term \u2018space weather\u2019 should not be confused with \u2018weather\u2019, as we are familiar with weather reports based on atmospheric pressure, temperature, wind, humidity, etc.. Earth's atmospheric weather and \"space weather\" are both about changes in their surroundings, but they're caused by different factors and have different kinds of effects. Space weather is driven by the Sun, and it disturbs the Earth's magnetic field. So, while atmospheric weather affects our daily lives, space weather mainly affects our technology, like satellites and power grids. Space weather, to have a detailed understanding, is not only about the exposure to the solar radiation and solar wind (and the IMF associated), but also the wrath of something called solar flare and Coronal Mass Ejection (CME). Solar flares may be intuitively understood as sudden emissions of very bright, high energy radiation (often at X-ray wavelengths). You may call them \u2018glaring\u2019 of the Sun. This is not apparent to the bare eyes (not that you are supposed to stare at the Sun); you need certain types of instruments that are sensitive to high energy radiation. The CMEs may be looked upon as though chunks of solar pieces are erupted out of the bulk solar sphere. You may compare with the volcanic eruption of magmatic materials from the Earth's interior. As the Sun is a plasma ball, and plasma motion is, in general unstable, there is always a tendency of the plasma 26",
+    "fluid to break free even the gravitational pull that holds them together. That is why although the Sun remains a sphere due to its self-gravity, chunks of plasma material may occasionally erupt from the Sun's surface. Those chunks of CME contain huge mass of particles (ions of Hydrogen, Helium and heavier ions, along with electrons). That's why is is called \u2018Mass Ejection\u2019. The adjective \u2018Coronal\u2019 is prefixed to indicate that this mass ejection takes place following the line of the solar corona, which is also known as the solar atmosphere. A typical CME may release billions of tons (one ton is one thousand kilogram) of solar material to space. If those are directed towards the Earth, there are possibilities of the Earth's magnetosphere and upper atmosphere getting severely affected. We call these effects \u2018Space Weather Impacts\u2019. When powerful solar events, like CMEs and solar flares, send out a surge of solar wind, it can collide with Earth's magnetic shield, the magnetosphere. This collision disrupts the Earth's magnetic field, creating what we call a geomagnetic storm, which is a space weather impact. Essentially, a geomagnetic storm is named a \"storm\" because it mirrors the disruptive nature of regular weather storms. Both involve a sudden burst of energy that throws a normally stable system into chaos. Weather storms disrupt the atmosphere with wind and rain, while geomagnetic storms disrupt Earth's magnetic field with solar energy. Just like we talk about the intensity of a weather storm, we measure the strength of a 27",
+    "geomagnetic storm. Both types of storms have a period of intense activity and then a return to normal. Scientists gauge the strength of the geomagnetic storms using two main tools: the Kp-index and the Dst- index. The Kp-index, a scale from 0 to 9, reflects the level of disturbance in the horizontal component of the Earth's magnetic field (remember that magnetic field is a vector quantity and is resolved into three perpendicular components; here we are referring to the component that is horizontal to the Earth), based on readings from ground-based magnetometers (instruments that measure magnetic fields), with higher numbers implying more intense storms. The Dst-index, on the other hand, gives a broader picture of the storm's impact by tracking changes in the horizontal magnetic field near the equator; lower (more negative) Dst values correspond to stronger storms. These indices are crucial for understanding and predicting how geomagnetic storms might affect our technological infrastructure, including power grids, satellites, and communication networks. Coming to Solar flares, as mentioned, they are powerful bursts of energy from the Sun, and are classified based on their X-ray intensity, measured by satellites orbiting Earth. The classification system uses letters and numbers, as summarised below: \uf0b7 A-class: These are the weakest flares, producing barely detectable X-ray emissions. \uf0b7 B-class: Slightly stronger than A-class, but still relatively minor. 28",
+    "\uf0b7 C-class: These are small flares with some noticeable effects, but generally pose little risk to Earth. \uf0b7 M-class: Medium-sized flares that can cause minor to moderate radio blackouts and geomagnetic storms. \uf0b7 X-class: The most powerful flares, capable of causing major radio blackouts, strong geomagnetic storms, and significant disruptions to satellites and power grids. Within each letter class, a numerical scale from 1 to 9 (or higher for X-class) further refines the intensity, with higher numbers indicating stronger flares (e.g., X9 is more intense than X1). The artificial satellites are vulnerable to space weather impacts. A vagary in the solar eruption may cause damages to the satellites, which may eventually affect the satellite-based communication, navigation and Earth Observation infrastructure. At the higher latitudes, the space weather impacts may even affect the ground-based electrical infrastructure like power grids, telegraph lines, etc. To understand the space weather and its impacts on Earth, we need to have a thorough understanding of the Sun-Earth connection. 29",
+    "Understanding the Sun-Earth Connection and Context of Aditya-L1 Understanding the Sun-Earth connection, or, in other words, the effects of solar disturbances on the Earth, requires the knowledge of the following three aspects. First, it is important to know about the science of the Sun. It involves the understanding of the energy generation process within the Sun, transport of the energy from the Sun's core to its outer layers, movement of the plasma inside as well as at the surface of the Sun, instability of the solar plasma fluid, to name a few. Study of the Sun is referred to as \u2018Solar physics\u2019. The Aditya-L1 mission, which is the matter of discussion here, is a Solar Physics mission. It is aimed at studying the solar disturbances. Second, it is important to know how the solar disturbances (CMEs, solar flares, solar wind particles and the IMF associated) propagate in space. As these disturbances propagate in space, their effects become weaker with increasing distance from the Sun. The effects of these disturbances become negligible at a distance of about 125 AU (AU is called the Astronomical Unit; the Sun-Earth distance is 1 AU). If you imagine a sphere with this radius, centred around the Sun, it is called the heliosphere. Thus, heliosphere is the region where the solar effects are predominant. Beyond the heliosphere, the effects of the solar disturbances become almost non-existent. The imaginary boundary that represents the edge of the heliosphere is called the heliopause. Within the 30",
+    "heliosphere, the propagation of the solar wind, IMF, CMEs, solar flares are not obstructed; they are often obstructed by the presence of the other members of the solar system, which include the planets, dwarf planets, natural satellites, asteroids, comets, etc.. Depending on the characteristics (presence of atmosphere, magnetic field, size, etc.) of these obstacles, the nature of interaction of the solar disturbances with them varies. The physics of the propagation of the solar disturbances in the heliosphere and their interactions with the other members of the solar system is referred to as \u2018Heliophysics\u2019. The effects of these solar disturbances on the diverse members of the solar system collectively fall under the topic \u2018planetary space weather\u2019. In the context of the space weather around the Earth, the third aspect to understand the Sun-Earth connection is the physics and chemistry of the interaction of the solar disturbances with the Earth\u2019s upper atmosphere, ionosphgere and the magnetosphere. In general, the branch of study that addresses the Physics and Chemistry of the Earth\u2019s upper atmosphere (it includes the study of the ionosphere, thermosphere as well as the magnetosphere, to a certain extent) is called \u2018Aeronomy\u2019. ISRO is presently preparing for an aeronomy mission called DISHA. Ideally, a solar physics mission and an aeronomy mission, when operated simultaneously, would provide an effective way to understand the solar disturbances and its effects on Earth. 31",
+    "For a detailed discussion on the Sun-Earth connection, listen to the video [3]. Scientific Instruments (payloads) in Aditya-L1 Mission Aditya-L1 carries seven scientific instruments (also called scientific payloads), each designed to observe a different aspect of the Sun. Following is a brief description of the payloads in Aditya-L1. \uf0b7 VELC: This acts like a telescope that lets us see the Sun's faint outer layer, the corona, by blocking the bright solar disc with a circular blocker disc (like the way we can see the solar corona during a total solar eclipse). It helps us study solar eruptions. \uf0b7 SUIT: This is like a UV camera, taking pictures of the whole Sun in ultraviolet light to understand some of its layers. \uf0b7 SoLEXS and HEL1OS: These are like X-ray cameras, measuring X-rays from the Sun to study powerful events like solar flares. \uf0b7 ASPEX and PAPA: These are particle detectors, measuring the stream of particles coming from the Sun, called the solar wind. \uf0b7 Magnetometers: These are like magnetic field detectors, measuring the IMF to measure the Sun's magnetic at the Sun-Earth L1 point. There are two such magnetometers mounted on a stick- like structure (called a \u2018boom\u2019) at two different distances from the spacecraft. 32",
+    "These instruments work together to give us a comprehensive picture of the Sun and its eruptions, which, in turn, help understanding the space weather. Out of these, the VELC, SUIT, SoLEXS and HEl1OS fall under the category of \u2018remote sensing\u2019 instruments, as they remotely study the radiation from the Sun (at different wavelengths). On the other hand, the ASPEX, PAPA and Magnetometer payloads fall under the category of \u2018in-situ\u2019 instruments, which means, they are in direct contact with the subject of their measurement. Figure 6 depicts the mounting locations of these scientific payloads on the Aditya-L1 spacecraft, with the boom in stowed configuration. Figure 6: Locations of the scientici payloads on Aditya-L1 spacerfat. The two magnetometers are not visible in the picture, as the boom is shown in the stowed (folded) configuration. Image courtesy: ISRO Figure 7 depicts the Aditya-L1 with its boom (stick-like structure) in deployed (unfolded) condition, and 33",
+    "showing the mounting locations of the two magnetometers. The boom is six meters long, with one of the magnetometers mounted at its tip, and the other one at the middle of the boom. Two magnetometers are necessary in order to decipher the IMF measurement from the background magnetic field generated by the Aditya-L1 spacecraft itself. Out of these instruments, the SUIT and VELC instruments were developed by IUCAA (Inter University Centre for Astronomy and Astrophysics, located at Pune, within the campus of the Lune University) and IIA (Indian Institute of Astrophysics, Bengaluru) respectively, with support from several ISRO centres. The SoLEXS and HEL1OS instruments were developed by the U R Rao Satellite Centre (URSC), ISRO. The ASPEX and PAPA instruments were developed respectively at PRL (Physical Research Laboratory, at Ahmedabad) and SPL (Space Physics Laboratory, a unit under the Vikram Sarabhai Space Centre of ISRO, at Thiruvananthapuram). Lastly, the magnetometers were developed at LEOS (Laboratory for Electro Optic Systems, at Bengaluru). 34",
+    "Figure 7: Aditya-L1 with its boom deployed. The locations of the two magnetospheres are shown. Image courtesy: ISRO Availability of the Aditya-L1 Data The information gathered by Aditya-L1 includes important scientific details about the Sun's surface, its middle layer, and its outer atmosphere, as well as measurements of particles and magnetic fields at the L1 point. This data is available to everyone through the Indian Space Science Data Centre (ISSDC) website. You can find it by going to the website (https://pradan1.issdc.gov.in/al1). ISRO hopes that scientists, researchers, and students will use this data. Guides on how to analyze the Aditya-L1 data are also provided on the website after you register. 35",
+    "Importance of the Aditya-L1 Data By January 2025, the Aditya-L1 spacecraft has completed two orbits around the Sun-Earth L1 point. It continues to rotate at the rate of approximately 178 days per orbit. Aditya-L1, at present, is not the only solar observatory at the first Sun-Earth Lagrange point. There are NASA and ESA observatories named SOHO, WIND and ACE. They all study the solar disturbances. Even though other solar observatories like SOHO, WIND, and ACE exist at the Sun-Earth L1 point, Aditya-L1 brings unique capabilities. Unlike the others, it focuses on the Sun's inner corona and the dynamics of its atmosphere. It is currently the only space-based solar observatory providing full-disk imaging-spectroscopy in UV light, and it also studies X-rays. While it complements the other observatories in measuring things like photons and solar wind, its unique instruments provide data highly valuable to solar physicists. ISRO released its first data on January 6, 2025, which saw immediate and significant downloads. Aditya-L1 is observing the Sun during its active period, the solar maximum. One highlight is the Visible Emission Line Coronagraph (VELC) observation of a Coronal Mass Ejection (CME) on July 16, 2024, linked to a strong solar flare. VELC tracked the movement of solar material using a specific green light emission, 36",
+    "revealing a temporary dimming of the corona, turbulence with increased temperature, and magnetic field activity that deflected the CME. This detailed observation of a CME's dynamics was published in a scientific paper. Additionally, Aditya-L1 recorded other solar events in May 2024, with summaries available on ISRO's website. With the data now accessible to the global scientific community, it's anticipated that many more discoveries about the Sun will emerge. Scientific Outcomes from Aditya-L1 Science from VELC Many of us choose to leave our family behind and start a new journey altogether for higher education, profession, and create enormous impacts on the society and nation. Those impacts we create are well- noticed and discussed. Did anyone ask, exactly how did our family members feel at the very moment when we left our home? Nobody might have cared to ask that question to those who bade you goodbye. Had somebody asked, the stories of gloom, restlessness, and eventual process of normalisation of the family would have surfaced. But, nobody does. Aditya-L1 asked this question to the Sun, \u201cHow does it feel to sacrifice a portion of yourself, however small, to space, and allow it to wander in oblivion?\u201d The Sun cared to answer. That made Aditya-L1 unique. The Sun\u2019s corona, which is also known as the solar atmosphere, has a very high temperature, which may 37",
+    "reach even a few million degree Centigrade. The temperature is so high, that it can remove multiple electrons even from the heavy elements present in the Sun. At this incredible temperature, these heavily ionized elements emit light (by energy state transition), which is studied by the scientists to understand what is happening in the Sun\u2019s corona. Such a light comes from the Sun\u2019s corona, which is due to a heavily ionized state of iron (Fe). That light has a wavelength of 5303 Angstrom (1 Angstrom is 0.0000000001 meter). Such a wave appears green in colour to the human eyes, and thus, is referred to as the \u2018green line\u2019 of the Sun\u2019s corona. The Aditya-L1 has the VELC instrument onboard, which is capable of studying the Sun\u2019s corona by observing that particular light. Scientists, by studying this light from the Sun\u2019s corona, have witnessed the dramatic phenomenon at the edge of the Sun, all for the first time, wherefrom a chunk of the solar material was dislodged and flung away from the Sun as a Coronal Mass Ejection. As the chunk of the solar material was disengaging itself from the bulk of the Sun, the specific region of the Sun\u2019s corona became dim (less bright). In fact, the brightness of the Sun\u2019s corona at that region reduced by fifty percent. It remained dim for about six hours, before the brightness became normal again. You need to remember that this phenomenon was noticed at a 38",
+    "specific region of the Sun, and not uniformly on the entire solar disc. Refer the figure 8 for this description. It was also noticed that as the chunk was about to bid goodbye to the Sun, the plasma material that made up that region of the Sun became unusually restless, exhibiting a state of enhanced chaos. We call this phenomenon \u2018turbulence of plasma\u2019. It is, as if, the solar material at that particular location became so sad to bid goodbye to their kin that they not only lost their brightness for some time, but also displayed restlessness. Scientists gathered evidences for their restlessness by studying the energy of the light emitted from those regions. Finally, as the solar material (we may call them the \u2018Coronal Mass\u2019) freed itself from the Sun, scientists found that it flung away in a direction away from the Aditya-L1 spacecraft. Had it been directed towards the Aditya-L1 spacecraft, the Earth would have to face an effect of its energy, which would have manifested in its upper atmosphere. Next time, when you come to know that any Coronal Mass has been ejected from the Sun, some of you may remember this discussion about how do the rest of the plasma feel about the departure of their family member; they become dim in sorrow, become restless, and finally, the coronal mass travels away from the Sun. And, all of these have been revealed by 39",
+    "India\u2019s Aditya-L1 mission. A note on this discovery was published in the ISRO website [6]. Figure 8: Images of the west limb of the Sun (where the CME occurred) that were captured with VELC, before and after the CME. It is seen that the coronal structures in the pre-event image have disappeared in the post-event image. Image courtesy: VELC team, IIA You will remember forever that Aditya-L1 cared to ask the Sun, \u201chow does it feel to sacrifice a part of yours\u201d, and the Sun cared to answer. Why don\u2019t you sing this song along: Where plasma danced, in sunlit grace, A sudden void, silence, emptiness. A plasma departs, breaking away, 40",
+    "from the Sun, causing a restless sway, Those who remained, dimmed in gloom, A few long hours before they resume The fiery dance around the ball, Aditya-L1 witnessed them all. \u201cWhile everyone talks about how solar storms affect the Earth, India's Aditya-L1 spacecraft actually looked directly at the Sun where these storms start. It is revealed that when a big chunk of the Sun's atmosphere (a coronal mass ejection) blasts off, the area it came from on the Sun gets noticeably darker, and the surrounding material becomes very disturbed for a few hours.\u201d Science from SUIT Did you ever think that the conditions of life (and also our happiness, mood, health) might have their clues hidden at the deep layers of the Sun? This is true because everything that happens require energy, and the prime source of energy for us is the Sun. It matters how the energy travels from the Sun\u2019s core, reaches at the top of the Sun\u2019s surface through several layers, before propagating to the space, and reaching (a part of it) to the Earth. Sun\u2019s Ultra Violet (UV) light (especially in the wavelength range of 200-400 nm) is an important part of the energy emitted by the Sun. It works as a catalyst 41",
+    "for chemical reactions in Earth\u2019s upper atmosphere, and certain indirect effects on Earth\u2019s weather and climate. Looking back at the Sun to see where this UV light originates helps us understand how the Sun's energy travels and affects Earth. For example, UV light from the Sun's surface (photosphere) tells us about its temperature and what elements are there. UV light from the layer above (chromosphere) lets us map its structure, including jets of hot gas. Studying cooler, darker areas (filaments and sunspots) using UV light helps us figure out their temperature and magnetic fields. Brighter areas (plages) show increased magnetic activity in UV. How the Sun gets dimmer at its edges (limb darkening) in UV light helps us understand how the Sun's atmosphere changes as you move away from its surface. Ideally, there should have been a dedicated telescope stationed in deep space to view the whole of the Sun, at UV wavelength, twenty-four-by-seven, so that not a single piece of information about the solar drama is missed. That would have been a tool to monitor the Sun\u2019s energy transfer process in almost (Sunlight takes around eight minutes to reach the Earth) real time. This was a major gap area, until the Aditya-L1 mission was sent by India. The Solar Ultra Violet Imaging Telescope (SUIT) Aditya-L1 takes pictures of the whole Sun using UV light in the 200-400nm range. It has taken \u2018full figure photographs\u2019 of the Sun at several wavelengths for the first time in the world, depicting several processes 42",
+    "of energy transfer within the Sun. Interpretations of these images lead to scientific results, that would help not only to understand the energy transfer within the Sun, but also provide insight to some of their potential effects on the Earth. Following is a summary of different aspects of the Sun and solar physics, facilitated by the SUIT instrument. 1. Solar Atmosphere Studies: o Photosphere and Chromosphere: Radiation in the 200 to 400 nm (Near UV \u2013 NUV) wavelength range originates from the Sun's photosphere and chromosphere. Observing these layers helps scientists understand the magnetic coupling and dynamics within the solar atmosphere. o Magnetic Coupling: NUV observations are crucial for studying how magnetic fields transfer energy between different layers of the solar atmosphere. 2. Solar Spectral Irradiance: o Variability: The NUV range is central to measuring and monitoring the variability of solar spectral irradiance (Solar spectral irradiance refers to the power per unit area per unit wavelength of solar electromagnetic radiation received from the Sun. It is a measure of how much sunlight, at each specific wavelength, reaches a certain point, like the top of Earth's atmosphere). This 43",
+    "variability affects the Earth's atmosphere and climate. o Potential Effects on the Chemistry of Earth's Atmosphere: NUV radiation influences the chemistry of ozone and oxygen in the Earth's stratosphere, impacting the Sun-climate relationship. 3. Solar Flares and Eruptions: o Energy Distribution: Observing solar flares in the NUV range helps determine the wavelength at which flares radiate most of their energy and the fraction of energy contained within this range. o Eruptive Phenomena: NUV observations can identify chromospheric signatures and counterparts of solar eruptions like jets and macro-spicules. Aditya-L1 instruments have also observed an X6.3- class solar flare, one of the most intense categories of solar eruptions. What makes this discovery unique is that, SUIT detected brightening in the near ultraviolet wavelength range \u2014 a wavelength range never observed before in such detail [7]. Suit recorded the first- ever image of a solar flare \u2018kernel\u20193 in the solar 3 A solar flare kernel is a small, intensely bright region in the lower solar atmosphere, where a flare's energy is initially released. A solar flare kernel begins with interaction between the magnetic field lines (called magnetic reconnection) high in the corona, where magnetic field lines violently rearrange, accelerating particles to near-relativistic speeds. These energized particles, 44",
+    "photosphere and chromosphere. This kernel manifested as brightening in the NUV wavelength band, which was never observed in such great details. This finding provides insight to how solar energy is released from the solar flare through different layers of the Sun\u2019s atmosphere. These observations confirm and ascertain that the energy from the flare spread through different layers of the Sun\u2019s atmosphere, providing new insights into the complex physics behind these massive solar explosions [8]. Refer the figure 9 for more details. primarily electrons, then stream down along magnetic field lines, impacting the denser layers of the sun's lower atmosphere, the chromosphere and photosphere. This collision releases a massive surge of energy, rapidly heating the surrounding plasma. This intense heating causes the plasma to emit a burst of radiation across the electromagnetic spectrum, particularly in X-ray, ultraviolet, and visible light, resulting in the characteristic bright appearance of the kernel. Thus, the kernel is the site where the kinetic energy of accelerated particles is converted into light and heat, marking the point where the flare's energy is deposited into the lower solar atmosphere. By studying the light coming from these kernels, especially in X-rays and UV light, scientists can figure out how the sun shoots out fast-moving particles and how the energy from the flare travels. In a lighter sense, kernels are like the crime scene of a solar flare, giving us clues to how these powerful explosions happen and how energy moves around in the sun. 45",
+    "Figure 9: Observation of the flare as obtained from various SUIT filters. Image courtesy: SUIT team, IUCAA That\u2019s where the ingenuity of the SUIT instrument comes. SUIT is the world\u2019s first camera that takes the photo of the complete Sun, all in UV wavelength of 200 to 400 nm. There are eleven channels in the camera, which means that there are eleven fine ranges of wavelengths that cover this wavelength range. All these channels collectively allow the study of the energy transfer within the Sun, that would surface out, while some of the energy may affect the Earth\u2019s atmosphere. The following table (taken from the ISRO website) presents the features of the Sun studied by each channel of SUIT. Figures 10 through 12 depict how 46",
+    "does the same Sun looks different at different wavelengths (instead of showing all the channels, only three are shown here), emphasising on several features of the Sun. It shows that every region of the electromagnetic spectrum tells a different story of the same target. Name of the channel (emission lines) Wavelength Solar features studied NB means na(rnromw) band; BB means broadband Photosphere, Sunspot, NB1 214 Plages and limb darkening Photosphere, Sunspot, NB2 276 Plages, limb darkening Chromosphere, NB3 (Mg II k) 279 Sunspots, Plages, Quiet Sun, filaments Chromosphere, NB4 (Mg II h) 280 Sunspots, Plages, Quiet Sun, filaments Photosphere, Sunspot, NB5 283 Plages, limb darkening Photosphere, Sunspot, NB6 300 Plages, limb darkening Photosphere, Sunspot, NB7 388 limb darkening Chromosphere, NB8 (Ca II h) 396.8 Sunspots, Plages, Quiet Sun, Photosphere, limb BB1 200-242 darkening, Plages, Sunspots 47",
+    "Name of the channel (emission lines) Wavelength Solar features studied NB means na(rnromw) band; BB means broadband Photosphere, limb BB2 242-300 darkening, Plages, Sunspots Photosphere, limb BB3 320-360 darkening, Sunspots Figure 10: Image of the Sun taken at 396.8 nm wavelength using the SUIT telescope in Aditya-L1, depicting Chromosphere, Sunspots, Plages, Quiet Sun zone. 48",
+    "Figure 11: Image of the Sun taken at 280 nm wavelength using the SUIT telescope in Aditya-L1, depicting Chromosphere, Sunspots, Plages, Quiet Sun, filaments of the Sun. Figure 12: Image of the Sun taken at BB3 channel (320-360 nm wavelength range) using the SUIT telescope in Aditya-L1, depicting Photosphere, limb darkening, Sunspots. 49",
+    "Science from the In-Situ Payloads Aditya-L1 has studied the strong solar storm that hit the Earth in May 2024. This was the biggest solar storm of last two decades and was studied by using Aditya-L1 payloads. A report of the same was published on ISRO website [4,5]. Figure 13: The sudden enhancement of the particle energy and the number during the Solar storm, as captured by the ASPEX instrument. Note the sudden discontinuity in the bright lines. Image courtesy: ASPEX Team, PRL Figure 13 depicts how the ASPEX instrument captured the sudden enhancement of the particle energy and number during the solar storm. The two bright horizontal lines in the figure correspond to Hydrogen and Helium (most abundant species erupted by Sun). As it can be seen, the particles originated due to solar storm reached Aditya-L1 on the May 10, 2024, at the late hours (time is marked in UT 50",
+    "\u2013 the Universal Time or Greenwich Mean Time) and continues until May 12, 2024 00:00UT. Figure 14 (Top) : X-class solar flares observed with the SoLEX instrument in soft X-Ray; Figure 15 (Bottom): X class solar flares observed with HEL1OS in hard X-Ray 51",
+    "Figure 6: The sudden changes in all the three components of the IMF during the solar storm, as captured with the magnetometers in Aditya-L1 This shows the continuous enhanced particle environments at L1 during the solar storm. These particles eventually reach Earth within few hours Figures 14 and 15 depict the X class of solar flares, as captured with SoLEX (in soft X-Ray range of 2 to 22 keV) and HEL1OS (in hard X-Ray range of 10 to 150 keV) respectively. Figure 16 depicts the strong change in the IMF during the solar storm, as recorded by the magnetometers of Aditya-1. 52",
+    "Summary To summarise, Aditya-L1, India's first solar mission, orbits the Sun-Earth L1 Lagrange point, providing a unique opportunity to study the Sun, as it provides continuous (uninterrupted) view of the Sun from a place which is not affected by the atmosphere and the Earth\u2019s magnetic field [9, 10]. It focuses on solar physics, crucial for the understanding of space weather. The spacecraft carries seven payloads, including imagers and particle detectors, to observe the Sun's corona, UV and X-ray emissions, solar wind, and magnetic fields. Data from Aditya-L1, available through the ISSDC website, are vital for studying solar disturbances like flares and coronal mass ejections (CMEs). Unlike other L1 observatories, Aditya-L1 offers unique full- disk UV imaging-spectroscopy and X-ray observations. Recent findings include detailed observations of a significant CME in July 2024, revealing coronal dimming and temperature increases, and the detection of an X6.3-class solar flare with unprecedented detail at UV wavelengths. These observations contribute significantly to our understanding of solar dynamics and space weather, with more discoveries expected as more data are analyzed. 53",
+    "Online Resources for Detailed Study If this article inspires you, you are encouraged to visit the following websites for more information on the Aditya-L1 mission. A few of these links lead to lectures delivered by eminent scientists who contributed to this field of research. [1] Aditya-L1 webpage in ISRO website: https://www.isro.gov.in/Aditya_L1.html [2] The Sun: Our Star; lecture by Prof. Arnab Rai Chowdhury https://youtu.be/CdBXtQEKBRM?si=7UJyiCj5F7ws4uZs [3] Towards a Better Understanding of the Sun-Earth Connection: Avenues for Next Two Decades; lecture by Prof. Gurubaran, IIG https://youtu.be/wUrtQdaTBOA?si=YnnZMD0E15tQCP2E [4] https://www.isro.gov.in/ISROCapturestheSignaturesoftheRecentSolarE ruptiveEvents.html [5] https://www.isro.gov.in/Aditya_L1_SUIT_VELC_Capture_SolarFury.ht ml [6] https://www.isro.gov.in/Aditya_L1_Observations_Coronal_Mass_Ejecti on.html [7] https://www.isro.gov.in/Aditya_L1_SUIT.html [8] https://www.isro.gov.in/SUIT_Aditya- L1_Captures_SolarFlare.html#:~:text=What%20did%20researchers%2 0observe%20from,intense%20categories%20of%20solar%20eruptions . [9] https://youtu.be/6MVrNcSoWtE?si=E4fdmdVsgKW-DUU_ [10] https://youtu.be/OMwAbb0fzUU?si=QEj1pR17GaXZLOl2 54",
+    "",
+    "Solar flares: Sudden burst of radiation from the Sun Coronal Mass Ejection: Sudden release of a chunk of solar material to the space, along with strong solar magnetic field. Aditya-L1 mission probed, for the first time, deep into these two processes and revealed many scientific facts, along with the studies of the solar wind particles and the magnetic field associated. Read this book to appreciate these achievements of the Aditya-L1 mission."
+  ],
+  "tables": [
+    {
+      "0": {
+        "0": "Launch Date:",
+        "1": "Launcher:",
+        "2": "Date  of  Insertion  to  L1 \npoint:",
+        "3": "Broad \nScientific \nObjective:"
+      },
+      "1": {
+        "0": "September 2, 2023",
+        "1": "PSLV-C57",
+        "2": "January 6, 2024",
+        "3": "To \nstudy \nthe \nradiation, \nparticles  and  magnetic \nfield \nfrom the Sun"
+      }
+    },
+    {
+      "0": {
+        "0": "Regions",
+        "1": "Inner \nLayers \n(up \nto  7 \nlac \nkm \nfrom \nthe \nSun\u2019s \ncentre)",
+        "2": ""
+      },
+      "1": {
+        "0": "",
+        "1": "Core",
+        "2": "Radiative \nzone"
+      },
+      "2": {
+        "0": "Extension \n(approximate)",
+        "1": "Till \naround \n140,000 \nkm \n(1.4 \nlac  km) \nfrom \nthe \nSun\u2019s centre",
+        "2": "From  1.4  lac \nkm \nto  5 \nlac \nkm \n(distances \nmeasured \nfrom \nthe \nSun\u2019s centre)"
+      },
+      "3": {
+        "0": "More \ninformation",
+        "1": "Nuclear \nfusion \ntakes  place  here. \nGamma \nray \nphotons \nare \nreleased \nin \nthis \nprocess.",
+        "2": "Energy \nof \nthe \ngamma \nrays \nmoves outward as \nradiation \nby \ngetting \nabsorbed \nand \nreleased \nrepeatedly  by  the \ndense \nmaterial \nthere,  which  may \ntake  millions \nof \nyears to cross this \nzone. \nTemperatures \ndecrease \nwith \ndistance \noutwards, ranging \nfrom"
+      }
+    },
+    {
+      "0": {
+        "0": "Regions",
+        "1": "",
+        "2": "",
+        "3": "Outer \nlayers \n(start \nat \nabout \n7 \nlac \nkm \nfrom \nthe \nSun\u2019s \ncentre; \nleaving \naside  the \ncorona, \nthis  layer \nhas \na \nthickness \nof \nonly"
+      },
+      "1": {
+        "0": "",
+        "1": "",
+        "2": "Convectio\nn zone",
+        "3": "Photosphe\nre"
+      },
+      "2": {
+        "0": "Extension \n(approximate)",
+        "1": "",
+        "2": "From \n5 \nlac \nkm \nto  7 \nlac \nkm \n(distances \nmeasured \nfrom \nthe \nSun\u2019s centre)",
+        "3": "About \n400 \nkm \nthick \nabove \nthe \nconvection \nzone"
+      },
+      "3": {
+        "0": "More \ninformation",
+        "1": "approximately \n7 \nmillion  deg  C  at \nthe \ninner \nboundary to about \n2 million deg C at \nthe outer edge",
+        "2": "Temperatures \ncontinue \nto \ndecrease \nwith \ndistance  from  the \ncore, \ndropping \nfrom \nabout \n2 \nmillion \ndeg \nCelsius \nat \nthe \nbase \nto \napproximately \n6000 \ndegrees \nCelsius \nat \nthe \nvisible \nsurface, \nthe photosphere",
+        "3": "The \ndeepest \ndirectly \nvisible \nlayer  of  the  Sun; \nreleases \nthe \nmajority \nof \nthe \nvisible light; has a \ngrainy \nappearance \ndue \nto \nconvection \ncirculation; \nthe \ntemperature \nvaries \nbetween \nabout 6000 deg C \nat the bottom and \n3700 deg C at the \ntop."
+      }
+    },
+    {
+      "0": {
+        "0": "Regions",
+        "1": "about \n2100 km)",
+        "2": "",
+        "3": ""
+      },
+      "1": {
+        "0": "",
+        "1": "Chromosp\nhere",
+        "2": "Transition \nRegion",
+        "3": "Corona"
+      },
+      "2": {
+        "0": "Extension \n(approximate)",
+        "1": "About \n1700 \nkm \nthick, \nabove \nthe \nphotosphere",
+        "2": "About \n100 \nkm \nthick, \nabove \nthe \nphotosphere, \nwhich \nleads \nto \nthe \nsolar \ncorona",
+        "3": "Starts  above \nthe  transition \nregion, \nextends \nto \nthe \nheliosphere \n(practically \nno upper limit \nof \nits \nextension)"
+      },
+      "3": {
+        "0": "More \ninformation",
+        "1": "Characterized  by \njets  of  hot  gas; \nTemperature \nin \nthe chromosphere \nvaries \nbetween \nabout 3700 deg C \nat the bottom and \n7700 deg C at the \ntop",
+        "2": "Temperature \nrises \nabruptly \nfrom  about  7700 \nto  about  500,000 \ndeg C",
+        "3": "Also \ncalled \nthe \n\u2018solar \natmosphere\u2019; very \nthin in density but \nvery \nhigh \ntemperature  (high \nenergy); \ntemperature  may \nrise to up to a few \nmillion deg C"
+      }
+    },
+    {
+      "0": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "1": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "2": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "3": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "4": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "0": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": ""
+      },
+      "1": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": ""
+      },
+      "2": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": ""
+      },
+      "3": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": ""
+      }
+    },
+    {
+      "0": {
+        "0": "",
+        "1": ""
+      },
+      "1": {
+        "0": "",
+        "1": ""
+      }
+    },
+    {
+      "0": {
+        "0": "Name of the \nchannel (emission \nlines) \nNB means narrow \nband; BB means \nbroadband",
+        "1": "NB1",
+        "2": "NB2",
+        "3": "NB3 (Mg II k)",
+        "4": "NB4 (Mg II h) \nNB5",
+        "5": "NB6",
+        "6": "NB7",
+        "7": "NB8 (Ca II h)",
+        "8": "BB1"
+      },
+      "1": {
+        "0": "Wavelength",
+        "1": "214",
+        "2": "276",
+        "3": "279",
+        "4": "280 \n283",
+        "5": "300",
+        "6": "388",
+        "7": "396.8",
+        "8": "200-242"
+      },
+      "2": {
+        "0": "Solar features studied",
+        "1": "Photosphere, \nSunspot, \nPlages and limb darkening",
+        "2": "Photosphere, \nSunspot, \nPlages, limb darkening",
+        "3": "Chromosphere, \nSunspots,  Plages,  Quiet \nSun, filaments",
+        "4": "Chromosphere, \nSunspots,  Plages,  Quiet \nSun, filaments \nPhotosphere, \nSunspot, \nPlages, limb darkening",
+        "5": "Photosphere, \nSunspot, \nPlages, limb darkening",
+        "6": "Photosphere, \nSunspot, \nlimb darkening",
+        "7": "Chromosphere, \nSunspots,  Plages,  Quiet \nSun,",
+        "8": "Photosphere, \nlimb \ndarkening, \nPlages, \nSunspots"
+      }
+    },
+    {
+      "0": {
+        "0": "Name of the \nchannel (emission \nlines) \nNB means narrow \nband; BB means \nbroadband",
+        "1": "BB2",
+        "2": "BB3"
+      },
+      "1": {
+        "0": "Wavelength",
+        "1": "242-300",
+        "2": "320-360"
+      },
+      "2": {
+        "0": "Solar features studied",
+        "1": "Photosphere, \nlimb \ndarkening, \nPlages, \nSunspots",
+        "2": "Photosphere, \nlimb \ndarkening, Sunspots"
+      }
+    },
+    {
+      "0": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "1": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "2": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "3": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "0": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      },
+      "1": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      },
+      "2": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      },
+      "3": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    },
+    {
+      "0": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "1": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "2": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "3": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "0": {
+        "0": "",
+        "1": ""
+      }
+    },
+    {
+      "0": {
+        "0": "",
+        "1": "",
+        "2": ""
+      }
+    },
+    {
+      "0": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "1": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "2": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "3": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "4": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "5": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "6": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "0": {
+        "0": ""
+      }
+    },
+    {
+      "0": {
+        "0": "Solar flares: Sudden burst of \nradiation from the Sun \nCoronal Mass Ejection: Sudden \nrelease of a chunk of solar material \nto the space, along with strong \nsolar magnetic field. \nAditya-L1 mission probed, for \nthe first time, deep into these \ntwo processes and revealed many \nscientific facts, along with the \nstudies of the solar wind \nparticles and the magnetic field \nassociated. \nRead this book to appreciate \nthese achievements of the \nAditya-L1 mission.",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      },
+      "1": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      },
+      "2": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      },
+      "3": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      },
+      "4": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      },
+      "5": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      },
+      "6": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    {
+      "0": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": ""
+      },
+      "1": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": ""
+      },
+      "2": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": ""
+      },
+      "3": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": ""
+      },
+      "4": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": ""
+      },
+      "5": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,6361 @@
+{
+  "file_name": "Chandrayaan2_handbook.pdf",
+  "mission": "Chandrayaan-2",
+  "instruments": [
+    "SAR",
+    "XSM",
+    "IIRS",
+    "MAG"
+  ],
+  "entities": {
+    "dates": [
+      "4 Sept 2019",
+      "15 Jul 2021",
+      "14 Au+g 2019",
+      "22 Jul 2019",
+      "23 Aug 2019",
+      "15 May 2021",
+      "2 Sept 2019"
+    ],
+    "coordinates": [
+      "7 4 . 9 2 0 \u00b0   S ,   5 4 . 5 2 0 \u00b0   E",
+      "2 3 . 6 \u00b0 N ,   4 7 . 5 \u00b0 W"
+    ],
+    "mission_phases": [
+      "Lunar-Transfer Phase"
+    ],
+    "measurements": [
+      "0.28 m",
+      "1-15 keV",
+      "75 m",
+      "20km",
+      "5m",
+      "800 - 5000 nm",
+      "6.64 m",
+      "15 keV",
+      "2m",
+      "80m",
+      "0.25m",
+      "340 m",
+      "0.8 keV",
+      "3 km",
+      "2-75 m",
+      "5000 nm",
+      "220 km",
+      "0.32 m",
+      "80 m",
+      "3km",
+      "4300 km",
+      "75m",
+      "2.1 km",
+      "100km",
+      "12.5 km",
+      "170 km",
+      "0.3 m",
+      "20 km",
+      "12 km",
+      "100 km",
+      "3000 nm",
+      "4.34 m",
+      "0.2 m",
+      "20 nm",
+      "180 eV",
+      "2 km",
+      "30 km",
+      "5.9 keV",
+      "421 km",
+      "1.12 m",
+      "5 m"
+    ],
+    "spacy_entities": [
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "Terrain Mapping Camera",
+        "label": "ORG"
+      },
+      {
+        "text": "Orbiter Handbook",
+        "label": "PERSON"
+      },
+      {
+        "text": "Payloads Data Science & INDIAN SPACE RESEARCH ORGANISATION",
+        "label": "ORG"
+      },
+      {
+        "text": "Bengaluru",
+        "label": "NORP"
+      },
+      {
+        "text": "Payloads Data Science &",
+        "label": "ORG"
+      },
+      {
+        "text": "2021",
+        "label": "DATE"
+      },
+      {
+        "text": "Science Program Office",
+        "label": "ORG"
+      },
+      {
+        "text": "231",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Karnataka",
+        "label": "GPE"
+      },
+      {
+        "text": "India Back",
+        "label": "ORG"
+      },
+      {
+        "text": "CHAPTER 1 Chandrayaan-2 Mission",
+        "label": "LAW"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "CHAPTER 2 Chandrayaan-2 Orbiter Payloads",
+        "label": "LAW"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "CHAPTER 3",
+        "label": "LAW"
+      },
+      {
+        "text": "Payload Data",
+        "label": "ORG"
+      },
+      {
+        "text": "17",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "CHAPTER 4",
+        "label": "ORG"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "25",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1.1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Spacecraft",
+        "label": "ORG"
+      },
+      {
+        "text": "4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1.3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Orbiter Craft Payloads",
+        "label": "ORG"
+      },
+      {
+        "text": "4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1.4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Orbiter Season Definition",
+        "label": "ORG"
+      },
+      {
+        "text": "7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1.5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Payload Data Storage Streamline",
+        "label": "ORG"
+      },
+      {
+        "text": "8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2.1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "XSM Flight Instrument",
+        "label": "ORG"
+      },
+      {
+        "text": "11",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2.3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "CHACE-2 Flight Instrument",
+        "label": "ORG"
+      },
+      {
+        "text": "12",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2.4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "DFSAR Flight Instrument",
+        "label": "ORG"
+      },
+      {
+        "text": "13",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2.5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS Flight Instrument",
+        "label": "ORG"
+      },
+      {
+        "text": "13",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2.6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "TMC-2 Flight Instrument",
+        "label": "ORG"
+      },
+      {
+        "text": "14",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2.7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "OHRC Flight Instrument",
+        "label": "ORG"
+      },
+      {
+        "text": "15",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2.8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "16",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3.1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Indian Space Science Data Centre",
+        "label": "ORG"
+      },
+      {
+        "text": "Indian Deep Space Network",
+        "label": "FAC"
+      },
+      {
+        "text": "IDSN",
+        "label": "ORG"
+      },
+      {
+        "text": "17",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "PDS4 Data Archival System",
+        "label": "ORG"
+      },
+      {
+        "text": "19",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Mare Imbrium",
+        "label": "ORG"
+      },
+      {
+        "text": "Mg",
+        "label": "PERSON"
+      },
+      {
+        "text": "Al",
+        "label": "PERSON"
+      },
+      {
+        "text": "25",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Vadawale et al",
+        "label": "ORG"
+      },
+      {
+        "text": "28",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print Next V",
+        "label": "ORG"
+      },
+      {
+        "text": "4.3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "HV",
+        "label": "ORG"
+      },
+      {
+        "text": "FP",
+        "label": "ORG"
+      },
+      {
+        "text": "crater ejecta",
+        "label": "PERSON"
+      },
+      {
+        "text": "DFSAR L-band",
+        "label": "PERSON"
+      },
+      {
+        "text": "DC",
+        "label": "GPE"
+      },
+      {
+        "text": "32",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "33",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "0",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "34",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3000",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Integrated Band Depth",
+        "label": "ORG"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "Band Center",
+        "label": "ORG"
+      },
+      {
+        "text": "Band Depth",
+        "label": "ORG"
+      },
+      {
+        "text": "35",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS RGB-FCC",
+        "label": "ORG"
+      },
+      {
+        "text": "Regions of Interests",
+        "label": "ORG"
+      },
+      {
+        "text": "Albedo",
+        "label": "GPE"
+      },
+      {
+        "text": "FCC",
+        "label": "ORG"
+      },
+      {
+        "text": "1-10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Aristarchus",
+        "label": "ORG"
+      },
+      {
+        "text": "Hydroxyl",
+        "label": "GPE"
+      },
+      {
+        "text": "~15-170",
+        "label": "ORG"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "36",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "37",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Three",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Wrinkle Ridge",
+        "label": "FAC"
+      },
+      {
+        "text": "38",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "39",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "VI Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "1.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3.1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "20",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Orbiter Payloads",
+        "label": "ORG"
+      },
+      {
+        "text": "21",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Orbiter Payloads",
+        "label": "ORG"
+      },
+      {
+        "text": "21",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print Next VII",
+        "label": "ORG"
+      },
+      {
+        "text": "List of Abbreviations CPR Circular Polarization",
+        "label": "ORG"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "CHandra\u2019s Atmospheric Compositional",
+        "label": "ORG"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Digital Elevation Models",
+        "label": "ORG"
+      },
+      {
+        "text": "First Ionization Potential",
+        "label": "ORG"
+      },
+      {
+        "text": "IPDA International Planetary Data Alliance",
+        "label": "ORG"
+      },
+      {
+        "text": "PAN Panchromatic",
+        "label": "ORG"
+      },
+      {
+        "text": "PPS Payload Planning System",
+        "label": "ORG"
+      },
+      {
+        "text": "Payload Operation Centres",
+        "label": "ORG"
+      },
+      {
+        "text": "Retrieval, Analytics, Dissemination PRADAN and Notification System",
+        "label": "ORG"
+      },
+      {
+        "text": "SPA South Pole Aitken",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "Terrain Mapping Camera-2 XRf",
+        "label": "PERSON"
+      },
+      {
+        "text": "Fluorescence XSM X-ray",
+        "label": "PERSON"
+      },
+      {
+        "text": "Solar Monitor Back Index Home Print Next IX",
+        "label": "ORG"
+      },
+      {
+        "text": "Data and Science Chandrayaan-2 Mission 1.1 Introduction",
+        "label": "ORG"
+      },
+      {
+        "text": "second",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Indian",
+        "label": "NORP"
+      },
+      {
+        "text": "Lunar",
+        "label": "GPE"
+      },
+      {
+        "text": "Lander",
+        "label": "PERSON"
+      },
+      {
+        "text": "Vikram",
+        "label": "PERSON"
+      },
+      {
+        "text": "Rover",
+        "label": "ORG"
+      },
+      {
+        "text": "Pragyan",
+        "label": "NORP"
+      },
+      {
+        "text": "South Polar",
+        "label": "LOC"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "22",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2019",
+        "label": "DATE"
+      },
+      {
+        "text": "the Indian Space Port",
+        "label": "FAC"
+      },
+      {
+        "text": "Sriharikota",
+        "label": "LOC"
+      },
+      {
+        "text": "Mk-III",
+        "label": "PERSON"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "1.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Develop",
+        "label": "ORG"
+      },
+      {
+        "text": "Demonstrate",
+        "label": "ORG"
+      },
+      {
+        "text": "Lander-Vikram",
+        "label": "ORG"
+      },
+      {
+        "text": "Rover",
+        "label": "ORG"
+      },
+      {
+        "text": "about 70",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1 1.3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Lander",
+        "label": "PERSON"
+      },
+      {
+        "text": "3846 kg",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Earth",
+        "label": "LOC"
+      },
+      {
+        "text": "170 km X 40,421 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "22",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2019",
+        "label": "DATE"
+      },
+      {
+        "text": "5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Lunar Transfer Trajectory",
+        "label": "FAC"
+      },
+      {
+        "text": "14 Aug 2019",
+        "label": "DATE"
+      },
+      {
+        "text": "Lunar-Transfer Phase",
+        "label": "ORG"
+      },
+      {
+        "text": "6 days",
+        "label": "DATE"
+      },
+      {
+        "text": "20th Aug 2019",
+        "label": "DATE"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "100km X 100km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Lander",
+        "label": "PERSON"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2 Sept 2019",
+        "label": "DATE"
+      },
+      {
+        "text": "about one day",
+        "label": "DATE"
+      },
+      {
+        "text": "100 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "30 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Vikram",
+        "label": "ORG"
+      },
+      {
+        "text": "~4",
+        "label": "GPE"
+      },
+      {
+        "text": "days",
+        "label": "DATE"
+      },
+      {
+        "text": "The Orbiter High Resolution Camera",
+        "label": "LAW"
+      },
+      {
+        "text": "0.3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "nearly 10 hours",
+        "label": "TIME"
+      },
+      {
+        "text": "the Vikram Lander",
+        "label": "LAW"
+      },
+      {
+        "text": "4 hours",
+        "label": "TIME"
+      },
+      {
+        "text": "Vikram Lander",
+        "label": "PERSON"
+      },
+      {
+        "text": "2.1 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "eight",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "almost seven years",
+        "label": "DATE"
+      },
+      {
+        "text": "one year",
+        "label": "DATE"
+      },
+      {
+        "text": "1.1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1.1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1.3.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Spacecraft",
+        "label": "ORG"
+      },
+      {
+        "text": "Vikram Lander",
+        "label": "PERSON"
+      },
+      {
+        "text": "six",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Pragyan Rover",
+        "label": "ORG"
+      },
+      {
+        "text": "Vikram",
+        "label": "ORG"
+      },
+      {
+        "text": "Lander",
+        "label": "PERSON"
+      },
+      {
+        "text": "inter module",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "1.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Spacecraft",
+        "label": "GPE"
+      },
+      {
+        "text": "1.3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1.3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Orbiter Craft Payloads",
+        "label": "ORG"
+      },
+      {
+        "text": "eight",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Spectrometer",
+        "label": "PERSON"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "Magnesium, Aluminium,",
+        "label": "ORG"
+      },
+      {
+        "text": "Silicon, Calcium, Titanium, Iron",
+        "label": "ORG"
+      },
+      {
+        "text": "Sodium",
+        "label": "ORG"
+      },
+      {
+        "text": "XRF",
+        "label": "ORG"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "second",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "CHandra\u2019s Atmospheric Compositional Explorer 2",
+        "label": "ORG"
+      },
+      {
+        "text": "CHACE 2",
+        "label": "LAW"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "CHACE",
+        "label": "ORG"
+      },
+      {
+        "text": "Quadrupole",
+        "label": "NORP"
+      },
+      {
+        "text": "Spectrometer",
+        "label": "PERSON"
+      },
+      {
+        "text": "1 to 300",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "CHACE 2\u2019s",
+        "label": "ORG"
+      },
+      {
+        "text": "DFSAR",
+        "label": "ORG"
+      },
+      {
+        "text": "About 5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Circular",
+        "label": "ORG"
+      },
+      {
+        "text": "2-75",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "9\u00b0-35\u00b0",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "~0.8-5.0",
+        "label": "NORP"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Complete",
+        "label": "PERSON"
+      },
+      {
+        "text": "3.0",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "~80 m",
+        "label": "ORG"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "256",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "100 km lunar",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Terrain Mapping Camera",
+        "label": "PERSON"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Terrain Mapping Camera",
+        "label": "WORK_OF_ART"
+      },
+      {
+        "text": "0.5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "20 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "100 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "Lander",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "First",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Digital Elevation Models",
+        "label": "ORG"
+      },
+      {
+        "text": "Second",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "12 km x 3 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "0.32",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "8496",
+        "label": "DATE"
+      },
+      {
+        "text": "2240",
+        "label": "DATE"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "100km X 100km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "IR",
+        "label": "ORG"
+      },
+      {
+        "text": "TMC-2",
+        "label": "ORG"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "Back Index Home Print Next 6",
+        "label": "ORG"
+      },
+      {
+        "text": "season",
+        "label": "DATE"
+      },
+      {
+        "text": "more than 30",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Dual Frequency SAR",
+        "label": "ORG"
+      },
+      {
+        "text": "Noon-Midnight Season",
+        "label": "EVENT"
+      },
+      {
+        "text": "less than 30",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "CHACE 2",
+        "label": "ORG"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "the season",
+        "label": "DATE"
+      },
+      {
+        "text": "noon-midnight",
+        "label": "TIME"
+      },
+      {
+        "text": "AD2",
+        "label": "PERSON"
+      },
+      {
+        "text": "AD2",
+        "label": "GPE"
+      },
+      {
+        "text": "season",
+        "label": "DATE"
+      },
+      {
+        "text": "1.4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Orbiter Season Definition",
+        "label": "ORG"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "10 days",
+        "label": "DATE"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "130",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "12",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Imaging",
+        "label": "GPE"
+      },
+      {
+        "text": "6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "SSR",
+        "label": "ORG"
+      },
+      {
+        "text": "40",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Gb",
+        "label": "PERSON"
+      },
+      {
+        "text": "1.5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Payload Data Storage Streamline",
+        "label": "ORG"
+      },
+      {
+        "text": "DGA",
+        "label": "ORG"
+      },
+      {
+        "text": "8.4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IDSN",
+        "label": "ORG"
+      },
+      {
+        "text": "4.2 Mbps",
+        "label": "PERSON"
+      },
+      {
+        "text": "DGA",
+        "label": "ORG"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "the Payload Planning System",
+        "label": "ORG"
+      },
+      {
+        "text": "PPS",
+        "label": "ORG"
+      },
+      {
+        "text": "1.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Time / Imaging",
+        "label": "ORG"
+      },
+      {
+        "text": "Playback",
+        "label": "PERSON"
+      },
+      {
+        "text": "NM + Edge-On+",
+        "label": "ORG"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "72",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Continuous",
+        "label": "PERSON"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "72",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "/ 65",
+        "label": "DATE"
+      },
+      {
+        "text": "20",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "118",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "/ 80",
+        "label": "DATE"
+      },
+      {
+        "text": "~1:6",
+        "label": "PERSON"
+      },
+      {
+        "text": "20",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Continuous",
+        "label": "PERSON"
+      },
+      {
+        "text": "118mins",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "L3 Mode",
+        "label": "PERSON"
+      },
+      {
+        "text": "7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Continuous",
+        "label": "PERSON"
+      },
+      {
+        "text": "72",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "L3 Mode",
+        "label": "PERSON"
+      },
+      {
+        "text": "2.5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3.5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Data and Science Chandrayaan-2 Orbiter Payloads",
+        "label": "ORG"
+      },
+      {
+        "text": "Orbiter Payloads",
+        "label": "ORG"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Spectrometer",
+        "label": "PERSON"
+      },
+      {
+        "text": "XRF",
+        "label": "ORG"
+      },
+      {
+        "text": "Orbiter",
+        "label": "ORG"
+      },
+      {
+        "text": "0.8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "15",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "XRF",
+        "label": "ORG"
+      },
+      {
+        "text": "Mg",
+        "label": "PERSON"
+      },
+      {
+        "text": "12.5 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "12.5 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "100 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "XRF",
+        "label": "ORG"
+      },
+      {
+        "text": "Solar Monitor",
+        "label": "ORG"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "Orbiter",
+        "label": "GPE"
+      },
+      {
+        "text": "2.1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "CHAPTER 2 Orbiter Payloads",
+        "label": "LAW"
+      },
+      {
+        "text": "2.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "the Lunar X-ray",
+        "label": "FAC"
+      },
+      {
+        "text": "Lunar",
+        "label": "GPE"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "Silicon Drift Detector",
+        "label": "ORG"
+      },
+      {
+        "text": "SDD",
+        "label": "ORG"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "better than 180",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "5.9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "Solar",
+        "label": "ORG"
+      },
+      {
+        "text": "Solar",
+        "label": "ORG"
+      },
+      {
+        "text": "2.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "XSM Flight Instrument",
+        "label": "ORG"
+      },
+      {
+        "text": "2.3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "CHandra\u2019s Atmospheric Composition",
+        "label": "ORG"
+      },
+      {
+        "text": "quadrupole",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "CHACE-2",
+        "label": "ORG"
+      },
+      {
+        "text": "quadrupole",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "11",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "CHAPTER 2 Orbiter Payloads",
+        "label": "LAW"
+      },
+      {
+        "text": "MENCA",
+        "label": "ORG"
+      },
+      {
+        "text": "the Mars Orbiter Mission",
+        "label": "ORG"
+      },
+      {
+        "text": "2.3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2.4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "DFSAR",
+        "label": "ORG"
+      },
+      {
+        "text": "DFSAR",
+        "label": "ORG"
+      },
+      {
+        "text": "1.25GHz",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2.5GHz",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "75",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Dual-Frequency SAR",
+        "label": "ORG"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "CHAPTER 2 Orbiter Payloads",
+        "label": "LAW"
+      },
+      {
+        "text": "DFSAR Flight Instrument",
+        "label": "ORG"
+      },
+      {
+        "text": "2.5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Spectrometer",
+        "label": "PERSON"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "IIRS",
+        "label": "PERSON"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "800 - 5000",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "about 256",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "80",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Ground Sampling Distance",
+        "label": "ORG"
+      },
+      {
+        "text": "20km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "100km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "TMA",
+        "label": "ORG"
+      },
+      {
+        "text": "Offner",
+        "label": "PERSON"
+      },
+      {
+        "text": "FPA",
+        "label": "ORG"
+      },
+      {
+        "text": "HgCdTe",
+        "label": "PERSON"
+      },
+      {
+        "text": "MCT",
+        "label": "ORG"
+      },
+      {
+        "text": "90",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "500",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "256",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "30",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS Flight Instrument",
+        "label": "ORG"
+      },
+      {
+        "text": "13",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "CHAPTER 2 Orbiter Payloads",
+        "label": "LAW"
+      },
+      {
+        "text": "2.6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Terrain Mapping",
+        "label": "PERSON"
+      },
+      {
+        "text": "TMC-2",
+        "label": "GPE"
+      },
+      {
+        "text": "TMC-2",
+        "label": "GPE"
+      },
+      {
+        "text": "TMC",
+        "label": "ORG"
+      },
+      {
+        "text": "TMC-2",
+        "label": "GPE"
+      },
+      {
+        "text": "0.4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "0.85",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "100 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Digital Elevation Model",
+        "label": "ORG"
+      },
+      {
+        "text": "DEM",
+        "label": "ORG"
+      },
+      {
+        "text": "TMC-2",
+        "label": "GPE"
+      },
+      {
+        "text": "TMC-2 Flight Instrument",
+        "label": "ORG"
+      },
+      {
+        "text": "2.7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "PAN",
+        "label": "ORG"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "CHAPTER 2 Orbiter Payloads",
+        "label": "LAW"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "0.25",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "100 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "OHRC Flight Instrument",
+        "label": "ORG"
+      },
+      {
+        "text": "2.8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Orbiter",
+        "label": "ORG"
+      },
+      {
+        "text": "Radio Occultation",
+        "label": "ORG"
+      },
+      {
+        "text": "20",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "10-11",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "8496",
+        "label": "DATE"
+      },
+      {
+        "text": "2240",
+        "label": "DATE"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "15",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "CHAPTER 2 Orbiter Payloads Figure.2.8",
+        "label": "LAW"
+      },
+      {
+        "text": "Data and Science Payload Data Flow to Public Domain",
+        "label": "ORG"
+      },
+      {
+        "text": "Orbiter",
+        "label": "ORG"
+      },
+      {
+        "text": "3.1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "ISSDC Indian Space Science Data Centre",
+        "label": "ORG"
+      },
+      {
+        "text": "ISRO",
+        "label": "ORG"
+      },
+      {
+        "text": "the year 2008",
+        "label": "DATE"
+      },
+      {
+        "text": "3.1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Indian Space Science Data Centre",
+        "label": "ORG"
+      },
+      {
+        "text": "Indian Deep Space Network",
+        "label": "FAC"
+      },
+      {
+        "text": "IDSN",
+        "label": "ORG"
+      },
+      {
+        "text": "17",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Payload Data Flow to Public CHAPTER",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Mega-Tropiques",
+        "label": "ORG"
+      },
+      {
+        "text": "SARAL",
+        "label": "ORG"
+      },
+      {
+        "text": "AIS-SB/Resourcesat-2 & AstroSat",
+        "label": "ORG"
+      },
+      {
+        "text": "ISSDC",
+        "label": "ORG"
+      },
+      {
+        "text": "Youthsat",
+        "label": "GPE"
+      },
+      {
+        "text": "India",
+        "label": "GPE"
+      },
+      {
+        "text": "Lunar Mission Chandrayaan-3",
+        "label": "PERSON"
+      },
+      {
+        "text": "Solar Mission Aditya-L1",
+        "label": "PERSON"
+      },
+      {
+        "text": "3.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "ISDA",
+        "label": "ORG"
+      },
+      {
+        "text": "ISDA",
+        "label": "ORG"
+      },
+      {
+        "text": "ISRO",
+        "label": "ORG"
+      },
+      {
+        "text": "ISDA",
+        "label": "ORG"
+      },
+      {
+        "text": "ISDA",
+        "label": "ORG"
+      },
+      {
+        "text": "Indian Space Science Data Centre",
+        "label": "ORG"
+      },
+      {
+        "text": "Bangalore",
+        "label": "PERSON"
+      },
+      {
+        "text": "2008",
+        "label": "DATE"
+      },
+      {
+        "text": "ISDA",
+        "label": "ORG"
+      },
+      {
+        "text": "AstroSat",
+        "label": "ORG"
+      },
+      {
+        "text": "Upcoming",
+        "label": "ORG"
+      },
+      {
+        "text": "Aditya-L1",
+        "label": "ORG"
+      },
+      {
+        "text": "XPoSat",
+        "label": "NORP"
+      },
+      {
+        "text": "ISDA",
+        "label": "ORG"
+      },
+      {
+        "text": "NASA",
+        "label": "ORG"
+      },
+      {
+        "text": "Planetary Data System",
+        "label": "ORG"
+      },
+      {
+        "text": "ISDA",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "ISRO",
+        "label": "ORG"
+      },
+      {
+        "text": "PDS4",
+        "label": "ORG"
+      },
+      {
+        "text": "3.2.1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "PDS4 Archival System",
+        "label": "ORG"
+      },
+      {
+        "text": "4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "PDS4",
+        "label": "ORG"
+      },
+      {
+        "text": "ISRO",
+        "label": "ORG"
+      },
+      {
+        "text": "PDS4",
+        "label": "ORG"
+      },
+      {
+        "text": "Payload Data Flow to Public CHAPTER",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "PDS4 Data Archival System",
+        "label": "ORG"
+      },
+      {
+        "text": "3.3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "ISSDC and",
+        "label": "ORG"
+      },
+      {
+        "text": "Payload Operation Centres",
+        "label": "ORG"
+      },
+      {
+        "text": "ISSDC",
+        "label": "ORG"
+      },
+      {
+        "text": "Ground Segment",
+        "label": "PERSON"
+      },
+      {
+        "text": "One",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "PDS4",
+        "label": "NORP"
+      },
+      {
+        "text": "PDS4",
+        "label": "ORG"
+      },
+      {
+        "text": "ISSDC",
+        "label": "ORG"
+      },
+      {
+        "text": "PRADAN",
+        "label": "ORG"
+      },
+      {
+        "text": "PRADAN",
+        "label": "ORG"
+      },
+      {
+        "text": "PDS4",
+        "label": "ORG"
+      },
+      {
+        "text": "International Planetary Data Alliance",
+        "label": "ORG"
+      },
+      {
+        "text": "19",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Payload Data Flow to Public CHAPTER",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "PDS4",
+        "label": "ORG"
+      },
+      {
+        "text": "8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3.4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Scientific",
+        "label": "ORG"
+      },
+      {
+        "text": "Orbiter",
+        "label": "ORG"
+      },
+      {
+        "text": "3.1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Dec 2020",
+        "label": "DATE"
+      },
+      {
+        "text": "2021",
+        "label": "DATE"
+      },
+      {
+        "text": "3.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1.25",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "TB",
+        "label": "ORG"
+      },
+      {
+        "text": "3.1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Orbiter Payloads Data",
+        "label": "ORG"
+      },
+      {
+        "text": "Payload",
+        "label": "GPE"
+      },
+      {
+        "text": "Dec 2020",
+        "label": "DATE"
+      },
+      {
+        "text": "269",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "49",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "53",
+        "label": "DATE"
+      },
+      {
+        "text": "102",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "TMC-2",
+        "label": "ORG"
+      },
+      {
+        "text": "40",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "93 133",
+        "label": "DATE"
+      },
+      {
+        "text": "01 28 29",
+        "label": "DATE"
+      },
+      {
+        "text": "07",
+        "label": "DATE"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "0 5 5 Back Index Home Print Next 20",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "Payload Data Flow to Public CHAPTER",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Orbiter Payloads",
+        "label": "ORG"
+      },
+      {
+        "text": "Payload Data Size",
+        "label": "ORG"
+      },
+      {
+        "text": "GB",
+        "label": "GPE"
+      },
+      {
+        "text": "Total Data",
+        "label": "ORG"
+      },
+      {
+        "text": "TB",
+        "label": "ORG"
+      },
+      {
+        "text": "40",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2.4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "0.04",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "541",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1.27",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "TMC-2",
+        "label": "ORG"
+      },
+      {
+        "text": "637",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "22",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "11",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS 21 Table 3.3",
+        "label": "LAW"
+      },
+      {
+        "text": "3.3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Orbiter Payloads Number of Analysis",
+        "label": "WORK_OF_ART"
+      },
+      {
+        "text": "Documents Observation",
+        "label": "ORG"
+      },
+      {
+        "text": "Payload Name",
+        "label": "FAC"
+      },
+      {
+        "text": "PRADAN PRADAN public Always",
+        "label": "ORG"
+      },
+      {
+        "text": "ON Continuous",
+        "label": "PERSON"
+      },
+      {
+        "text": "Geotail Re-distribution",
+        "label": "PERSON"
+      },
+      {
+        "text": "1050",
+        "label": "DATE"
+      },
+      {
+        "text": "6 days",
+        "label": "DATE"
+      },
+      {
+        "text": "L1",
+        "label": "GPE"
+      },
+      {
+        "text": "Active Sun",
+        "label": "PERSON"
+      },
+      {
+        "text": "21",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Payload Data Flow to Public",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "30 days",
+        "label": "DATE"
+      },
+      {
+        "text": "XSM Data",
+        "label": "ORG"
+      },
+      {
+        "text": "Analysis Guide",
+        "label": "ORG"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "DD",
+        "label": "GPE"
+      },
+      {
+        "text": "249",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "XSM Data",
+        "label": "ORG"
+      },
+      {
+        "text": "Archive SIS",
+        "label": "ORG"
+      },
+      {
+        "text": "NM",
+        "label": "ORG"
+      },
+      {
+        "text": "2 CHACE2",
+        "label": "DATE"
+      },
+      {
+        "text": "CHACE-2 403 Nil",
+        "label": "ORG"
+      },
+      {
+        "text": "ch2_chace2",
+        "label": "ORG"
+      },
+      {
+        "text": "22nd May",
+        "label": "DATE"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "/ day",
+        "label": "DATE"
+      },
+      {
+        "text": "Dusk season",
+        "label": "DATE"
+      },
+      {
+        "text": "Data Product imaging",
+        "label": "ORG"
+      },
+      {
+        "text": "PDS4",
+        "label": "ORG"
+      },
+      {
+        "text": "DfSAR 102 Data Analysis archival Systematic Software",
+        "label": "ORG"
+      },
+      {
+        "text": "DFSAR",
+        "label": "PERSON"
+      },
+      {
+        "text": "lunar poles",
+        "label": "PERSON"
+      },
+      {
+        "text": "85 to 90",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the initial seasons",
+        "label": "DATE"
+      },
+      {
+        "text": "80",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Payload Data Flow to Public",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "months",
+        "label": "DATE"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "30",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "User Guide",
+        "label": "ORG"
+      },
+      {
+        "text": "TMC-2",
+        "label": "ORG"
+      },
+      {
+        "text": "133",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "PDS4 Viewer",
+        "label": "ORG"
+      },
+      {
+        "text": "Assembly",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4th",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "15 May 2021",
+        "label": "DATE"
+      },
+      {
+        "text": "Imaging",
+        "label": "GPE"
+      },
+      {
+        "text": "Data Product",
+        "label": "ORG"
+      },
+      {
+        "text": "6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "12",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Sun 29",
+        "label": "ORG"
+      },
+      {
+        "text": "PDS4 Viewer",
+        "label": "ORG"
+      },
+      {
+        "text": "Term Archive",
+        "label": "PERSON"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Assembly",
+        "label": "ORG"
+      },
+      {
+        "text": "20",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "sec",
+        "label": "ORG"
+      },
+      {
+        "text": "23",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Payload Data Flow to Public CHAPTER",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Domain Limited",
+        "label": "ORG"
+      },
+      {
+        "text": "DPSIS",
+        "label": "NORP"
+      },
+      {
+        "text": "DfRS",
+        "label": "PERSON"
+      },
+      {
+        "text": "07",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Nil Technical",
+        "label": "ORG"
+      },
+      {
+        "text": "250 minutes",
+        "label": "TIME"
+      },
+      {
+        "text": "N-M season",
+        "label": "EVENT"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4th",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "15",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Cal Term Archive",
+        "label": "ORG"
+      },
+      {
+        "text": "IR",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Data and Science Major Science Results",
+        "label": "ORG"
+      },
+      {
+        "text": "Orbiter Payloads",
+        "label": "ORG"
+      },
+      {
+        "text": "4.1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Spectrometer",
+        "label": "PERSON"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Spectrometer",
+        "label": "PERSON"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Icarus, Volume 363",
+        "label": "WORK_OF_ART"
+      },
+      {
+        "text": "15",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2021, 114436",
+        "label": "DATE"
+      },
+      {
+        "text": "Mare Imbrium",
+        "label": "ORG"
+      },
+      {
+        "text": "4.1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Mare Imbrium",
+        "label": "ORG"
+      },
+      {
+        "text": "Mg",
+        "label": "PERSON"
+      },
+      {
+        "text": "Al",
+        "label": "PERSON"
+      },
+      {
+        "text": "25",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "Apollo",
+        "label": "ORG"
+      },
+      {
+        "text": "Apollo",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "4.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Solar X-ray Monitor",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "LOC"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "lunar X-ray",
+        "label": "PERSON"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun Solar",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Solar",
+        "label": "ORG"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "2019\u20132020",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "98",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "76 days",
+        "label": "DATE"
+      },
+      {
+        "text": "4.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "EUV",
+        "label": "ORG"
+      },
+      {
+        "text": "the Solar Dynamics Observatory/Atmospheric Imaging Assembly",
+        "label": "ORG"
+      },
+      {
+        "text": "3 \u00d7 1026",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print Next",
+        "label": "ORG"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "Vadawale",
+        "label": "GPE"
+      },
+      {
+        "text": "ApJL",
+        "label": "GPE"
+      },
+      {
+        "text": "912",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "L13",
+        "label": "PERSON"
+      },
+      {
+        "text": "2021",
+        "label": "DATE"
+      },
+      {
+        "text": "First Ionization Potential",
+        "label": "ORG"
+      },
+      {
+        "text": "FIP",
+        "label": "ORG"
+      },
+      {
+        "text": "FIP",
+        "label": "ORG"
+      },
+      {
+        "text": "Sun",
+        "label": "ORG"
+      },
+      {
+        "text": "2019\u20132020",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the past century",
+        "label": "DATE"
+      },
+      {
+        "text": "4.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Mg",
+        "label": "PERSON"
+      },
+      {
+        "text": "Al",
+        "label": "PERSON"
+      },
+      {
+        "text": "Si",
+        "label": "ORG"
+      },
+      {
+        "text": "FIP",
+        "label": "ORG"
+      },
+      {
+        "text": "FIP",
+        "label": "ORG"
+      },
+      {
+        "text": "Vadawale",
+        "label": "GPE"
+      },
+      {
+        "text": "ApJL",
+        "label": "GPE"
+      },
+      {
+        "text": "912",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "L12, 2021",
+        "label": "DATE"
+      },
+      {
+        "text": "27",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "4.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Vadawale et al",
+        "label": "ORG"
+      },
+      {
+        "text": "Evolution of Elemental Abundances During",
+        "label": "ORG"
+      },
+      {
+        "text": "Sept 2019 to May 2020",
+        "label": "DATE"
+      },
+      {
+        "text": "Solar Cycle",
+        "label": "ORG"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "nine",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "B4.5",
+        "label": "PERSON"
+      },
+      {
+        "text": "Back Index Home Print Next 28",
+        "label": "ORG"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "four",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Mg",
+        "label": "PERSON"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "four",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "tens of minutes",
+        "label": "TIME"
+      },
+      {
+        "text": "First Ionization Potential",
+        "label": "ORG"
+      },
+      {
+        "text": "FIP",
+        "label": "ORG"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Ponderomotive",
+        "label": "NORP"
+      },
+      {
+        "text": "One",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "ApJ",
+        "label": "ORG"
+      },
+      {
+        "text": "2021",
+        "label": "DATE"
+      },
+      {
+        "text": "4.3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "CHandra\u2019s Atmospheric Composition",
+        "label": "ORG"
+      },
+      {
+        "text": "CHACE-2",
+        "label": "ORG"
+      },
+      {
+        "text": "Lunar Exospheric",
+        "label": "PERSON"
+      },
+      {
+        "text": "Argon",
+        "label": "ORG"
+      },
+      {
+        "text": "40",
+        "label": "DATE"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "30",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "60",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "the lunar day",
+        "label": "DATE"
+      },
+      {
+        "text": "LACE/Apollo",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "29",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "argon",
+        "label": "ORG"
+      },
+      {
+        "text": "280",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "South Pole Aitken",
+        "label": "LOC"
+      },
+      {
+        "text": "SPA",
+        "label": "ORG"
+      },
+      {
+        "text": "Lunar Exospheric CO 2",
+        "label": "PERSON"
+      },
+      {
+        "text": "CO",
+        "label": "ORG"
+      },
+      {
+        "text": "44",
+        "label": "DATE"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "CO",
+        "label": "ORG"
+      },
+      {
+        "text": "CHACE/MIP",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "CO",
+        "label": "ORG"
+      },
+      {
+        "text": "the Lunar 2",
+        "label": "EVENT"
+      },
+      {
+        "text": "Sridharan et al.",
+        "label": "FAC"
+      },
+      {
+        "text": "2010",
+        "label": "DATE"
+      },
+      {
+        "text": "CHACE",
+        "label": "ORG"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "the South Pole Aitken",
+        "label": "LOC"
+      },
+      {
+        "text": "SPA",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "CO",
+        "label": "ORG"
+      },
+      {
+        "text": "CHACE-2",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2016",
+        "label": "DATE"
+      },
+      {
+        "text": "CO",
+        "label": "ORG"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "DFSAR",
+        "label": "ORG"
+      },
+      {
+        "text": "DFSAR",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Fully Polarimetric",
+        "label": "ORG"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "DFSAR",
+        "label": "ORG"
+      },
+      {
+        "text": "Permanently Shadowed Regions",
+        "label": "ORG"
+      },
+      {
+        "text": "DFSAR",
+        "label": "ORG"
+      },
+      {
+        "text": "Retrieval of Surface Dielectric Constant",
+        "label": "ORG"
+      },
+      {
+        "text": "lunar volcanic",
+        "label": "ORG"
+      },
+      {
+        "text": "Full-Polarimetric",
+        "label": "ORG"
+      },
+      {
+        "text": "Resolution Geo-",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "DFSAR",
+        "label": "ORG"
+      },
+      {
+        "text": "DFSAR",
+        "label": "ORG"
+      },
+      {
+        "text": "31",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "4.3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "HV",
+        "label": "ORG"
+      },
+      {
+        "text": "FP",
+        "label": "ORG"
+      },
+      {
+        "text": "crater ejecta",
+        "label": "PERSON"
+      },
+      {
+        "text": "DFSAR L-band",
+        "label": "PERSON"
+      },
+      {
+        "text": "DC",
+        "label": "GPE"
+      },
+      {
+        "text": "DFSAR",
+        "label": "ORG"
+      },
+      {
+        "text": "DFSAR",
+        "label": "ORG"
+      },
+      {
+        "text": "Performance Characterisation",
+        "label": "ORG"
+      },
+      {
+        "text": "The Planetary Science Journal",
+        "label": "ORG"
+      },
+      {
+        "text": "2:134",
+        "label": "DATE"
+      },
+      {
+        "text": "2021",
+        "label": "DATE"
+      },
+      {
+        "text": "DFSAR",
+        "label": "ORG"
+      },
+      {
+        "text": "Circular Polarization Ratio",
+        "label": "ORG"
+      },
+      {
+        "text": "Permanently Shadowed Regions",
+        "label": "WORK_OF_ART"
+      },
+      {
+        "text": "LRO-MiniRF",
+        "label": "ORG"
+      },
+      {
+        "text": "Byrgius C",
+        "label": "ORG"
+      },
+      {
+        "text": "DFSAR",
+        "label": "ORG"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "IIRS",
+        "label": "PERSON"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "3-\u00b5m",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "5.0",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Lunar",
+        "label": "PERSON"
+      },
+      {
+        "text": "between 29\u00b0 to 62",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "33",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "4.5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "0",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the North Polar Region",
+        "label": "LOC"
+      },
+      {
+        "text": "Moon Preliminary",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "23",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2019",
+        "label": "DATE"
+      },
+      {
+        "text": "~4300 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Band Center",
+        "label": "ORG"
+      },
+      {
+        "text": "2.95",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS",
+        "label": "PERSON"
+      },
+      {
+        "text": "Stebbins",
+        "label": "LOC"
+      },
+      {
+        "text": "Stebbins",
+        "label": "LOC"
+      },
+      {
+        "text": "Sommerfield",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sommerfield",
+        "label": "PERSON"
+      },
+      {
+        "text": "Kirkwood",
+        "label": "PERSON"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "4.6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3000",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Integrated Band Depth",
+        "label": "ORG"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "Band Center",
+        "label": "ORG"
+      },
+      {
+        "text": "Band Depth",
+        "label": "ORG"
+      },
+      {
+        "text": "hydroxyl",
+        "label": "GPE"
+      },
+      {
+        "text": "Aristarchus",
+        "label": "ORG"
+      },
+      {
+        "text": "Imaging Infra-Red Spectrometer",
+        "label": "ORG"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "23.6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "47.5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "3000",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "35",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "3000",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "~5-20%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "~15-170",
+        "label": "ORG"
+      },
+      {
+        "text": "~80 ppm",
+        "label": "ORG"
+      },
+      {
+        "text": "4.7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS RGB-FCC",
+        "label": "ORG"
+      },
+      {
+        "text": "Regions of Interests",
+        "label": "ORG"
+      },
+      {
+        "text": "FCC",
+        "label": "ORG"
+      },
+      {
+        "text": "1-10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Aristarchus",
+        "label": "ORG"
+      },
+      {
+        "text": "Hydroxyl",
+        "label": "GPE"
+      },
+      {
+        "text": "~15-170",
+        "label": "ORG"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Terrain Mapping",
+        "label": "PERSON"
+      },
+      {
+        "text": "Camera-2",
+        "label": "PERSON"
+      },
+      {
+        "text": "TMC-2",
+        "label": "GPE"
+      },
+      {
+        "text": "TMC-2",
+        "label": "GPE"
+      },
+      {
+        "text": "5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "TMC-2",
+        "label": "ORG"
+      },
+      {
+        "text": "100 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Dorsa Geikie",
+        "label": "FAC"
+      },
+      {
+        "text": "Fecunditatis",
+        "label": "ORG"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "TMC-2",
+        "label": "GPE"
+      },
+      {
+        "text": "Digital Elevation Model",
+        "label": "ORG"
+      },
+      {
+        "text": "TMC-2",
+        "label": "GPE"
+      },
+      {
+        "text": "three",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Dorsa Geiki",
+        "label": "ORG"
+      },
+      {
+        "text": "TMC-2",
+        "label": "ORG"
+      },
+      {
+        "text": "Orthoimage",
+        "label": "PERSON"
+      },
+      {
+        "text": "4.9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "37",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "4.9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Three",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Wrinkle Ridge",
+        "label": "FAC"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "1.89%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "Lunar Average",
+        "label": "PERSON"
+      },
+      {
+        "text": "0.26",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Golembek",
+        "label": "PERSON"
+      },
+      {
+        "text": "1991",
+        "label": "DATE"
+      },
+      {
+        "text": "0.60%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "Serenitis",
+        "label": "LOC"
+      },
+      {
+        "text": "Mare Tranquillitatis",
+        "label": "PERSON"
+      },
+      {
+        "text": "0.14%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "Li",
+        "label": "PERSON"
+      },
+      {
+        "text": "2018",
+        "label": "DATE"
+      },
+      {
+        "text": "Crater Size Frequency Distribution",
+        "label": "PERSON"
+      },
+      {
+        "text": "3.4 ga ago",
+        "label": "LOC"
+      },
+      {
+        "text": "Fecunditatis",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "Ga",
+        "label": "PERSON"
+      },
+      {
+        "text": "2017",
+        "label": "DATE"
+      },
+      {
+        "text": "Fecunditatis",
+        "label": "ORG"
+      },
+      {
+        "text": "TMC-2",
+        "label": "GPE"
+      },
+      {
+        "text": "Lunar Crustal Shortening",
+        "label": "ORG"
+      },
+      {
+        "text": "Back Index Home Print Next",
+        "label": "ORG"
+      },
+      {
+        "text": "Science Results CHAPTER",
+        "label": "PERSON"
+      },
+      {
+        "text": "Lunar Wrinkle Ridge",
+        "label": "ORG"
+      },
+      {
+        "text": "Dorsa Geiki",
+        "label": "PERSON"
+      },
+      {
+        "text": "TMC-2",
+        "label": "ORG"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "Lunar",
+        "label": "PERSON"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "morpho",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Ridge",
+        "label": "PERSON"
+      },
+      {
+        "text": "TMC-2",
+        "label": "ORG"
+      },
+      {
+        "text": "4.7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "Analysis",
+        "label": "ORG"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "4.10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "the Boguslawsky E",
+        "label": "FAC"
+      },
+      {
+        "text": "54.520\u00b0 E",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "4 Sept 2019",
+        "label": "DATE"
+      },
+      {
+        "text": "0.28",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "340",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "4.10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "39",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "1969",
+        "label": "DATE"
+      },
+      {
+        "text": "1.12",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "1.12",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "6.64",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "0.2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.34",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "OHRC",
+        "label": "ORG"
+      },
+      {
+        "text": "PSR",
+        "label": "ORG"
+      },
+      {
+        "text": "4.8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Frequency Radio Science",
+        "label": "ORG"
+      },
+      {
+        "text": "Oct 2019",
+        "label": "DATE"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Orbiter",
+        "label": "ORG"
+      },
+      {
+        "text": "Lunar",
+        "label": "GPE"
+      },
+      {
+        "text": "Radio Science",
+        "label": "ORG"
+      },
+      {
+        "text": "Indian Deep Station Network",
+        "label": "FAC"
+      },
+      {
+        "text": "IDSN",
+        "label": "ORG"
+      },
+      {
+        "text": "Doppler",
+        "label": "PERSON"
+      },
+      {
+        "text": "Doppler",
+        "label": "PERSON"
+      },
+      {
+        "text": "Doppler",
+        "label": "PERSON"
+      },
+      {
+        "text": "Doppler",
+        "label": "PERSON"
+      },
+      {
+        "text": "Doppler",
+        "label": "PERSON"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "Doppler",
+        "label": "PERSON"
+      },
+      {
+        "text": "Doppler",
+        "label": "PERSON"
+      },
+      {
+        "text": "about 2 km",
+        "label": "QUANTITY"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "4 4.9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Orbiter Payloads",
+        "label": "WORK_OF_ART"
+      },
+      {
+        "text": "Orbiter Payloads",
+        "label": "ORG"
+      },
+      {
+        "text": "Orbiter Payloads",
+        "label": "ORG"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Spectrometer",
+        "label": "PERSON"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "Icarus",
+        "label": "PERSON"
+      },
+      {
+        "text": "Netra S Pillai",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "S. Narendranath",
+        "label": "PERSON"
+      },
+      {
+        "text": "Srikar P Tadepalli",
+        "label": "PERSON"
+      },
+      {
+        "text": "Anurag Tyagi",
+        "label": "PERSON"
+      },
+      {
+        "text": "Reena Yadav",
+        "label": "PERSON"
+      },
+      {
+        "text": "Brajpal Singh",
+        "label": "PERSON"
+      },
+      {
+        "text": "Vaishali Sharan",
+        "label": "PERSON"
+      },
+      {
+        "text": "P. S. Athiray",
+        "label": "PERSON"
+      },
+      {
+        "text": "P. Sreekumar",
+        "label": "PERSON"
+      },
+      {
+        "text": "K. Sankarasubramanian",
+        "label": "NORP"
+      },
+      {
+        "text": "Basu Sarbadhikari",
+        "label": "PERSON"
+      },
+      {
+        "text": "N. P. S. Mithun",
+        "label": "PERSON"
+      },
+      {
+        "text": "Santosh Vadawale",
+        "label": "ORG"
+      },
+      {
+        "text": "363",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "15",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2021, 114436",
+        "label": "DATE"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Past Century",
+        "label": "EVENT"
+      },
+      {
+        "text": "XSM \u2013 Elemental Abundances",
+        "label": "ORG"
+      },
+      {
+        "text": "the Quiescent Corona",
+        "label": "ORG"
+      },
+      {
+        "text": "Vadawale",
+        "label": "ORG"
+      },
+      {
+        "text": "Mondal, Biswajit",
+        "label": "ORG"
+      },
+      {
+        "text": "Mithun",
+        "label": "GPE"
+      },
+      {
+        "text": "N. P. S.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sarkar",
+        "label": "GPE"
+      },
+      {
+        "text": "Aveek",
+        "label": "GPE"
+      },
+      {
+        "text": "Janardhan",
+        "label": "GPE"
+      },
+      {
+        "text": "Joshi",
+        "label": "PERSON"
+      },
+      {
+        "text": "Bhuwan",
+        "label": "GPE"
+      },
+      {
+        "text": "Bhardwaj",
+        "label": "ORG"
+      },
+      {
+        "text": "Anil",
+        "label": "PERSON"
+      },
+      {
+        "text": "Patel",
+        "label": "PERSON"
+      },
+      {
+        "text": "Arpit R.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Adalja",
+        "label": "GPE"
+      },
+      {
+        "text": "Hitesh",
+        "label": "GPE"
+      },
+      {
+        "text": "Kumar L.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Ladiya",
+        "label": "PERSON"
+      },
+      {
+        "text": "Tinkal",
+        "label": "PERSON"
+      },
+      {
+        "text": "Tiwari",
+        "label": "ORG"
+      },
+      {
+        "text": "Neeraj Kumar",
+        "label": "ORG"
+      },
+      {
+        "text": "Singh",
+        "label": "GPE"
+      },
+      {
+        "text": "Nishant",
+        "label": "GPE"
+      },
+      {
+        "text": "Kumar",
+        "label": "GPE"
+      },
+      {
+        "text": "Sushil",
+        "label": "PERSON"
+      },
+      {
+        "text": "ApJL",
+        "label": "GPE"
+      },
+      {
+        "text": "912",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "L12, 2021",
+        "label": "DATE"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Solar X-ray Monitor",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "Mithun",
+        "label": "PERSON"
+      },
+      {
+        "text": "N. P. S.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Vadawale",
+        "label": "GPE"
+      },
+      {
+        "text": "S. V.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Patel",
+        "label": "PERSON"
+      },
+      {
+        "text": "A. R.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Chakrabarty",
+        "label": "ORG"
+      },
+      {
+        "text": "D.",
+        "label": "NORP"
+      },
+      {
+        "text": "Konar",
+        "label": "GPE"
+      },
+      {
+        "text": "T. N.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Padia",
+        "label": "GPE"
+      },
+      {
+        "text": "G. D.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sarkar",
+        "label": "PERSON"
+      },
+      {
+        "text": "Kumar",
+        "label": "GPE"
+      },
+      {
+        "text": "Jangid",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sarda",
+        "label": "NORP"
+      },
+      {
+        "text": "Shah",
+        "label": "PERSON"
+      },
+      {
+        "text": "M. S.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Bhardwaj",
+        "label": "ORG"
+      },
+      {
+        "text": "Astronomy & Computing",
+        "label": "ORG"
+      },
+      {
+        "text": "34:100449, 2021",
+        "label": "DATE"
+      },
+      {
+        "text": "4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Ground Calibration of Solar X-ray Monitor",
+        "label": "WORK_OF_ART"
+      },
+      {
+        "text": "Mithun",
+        "label": "PERSON"
+      },
+      {
+        "text": "N. P. S.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Vadawale",
+        "label": "GPE"
+      },
+      {
+        "text": "Patel",
+        "label": "PERSON"
+      },
+      {
+        "text": "Arpit R.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Tiwari",
+        "label": "PERSON"
+      },
+      {
+        "text": "Neeraj Kumar",
+        "label": "ORG"
+      },
+      {
+        "text": "Adalja",
+        "label": "GPE"
+      },
+      {
+        "text": "Hiteshkumar L.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Ladiya",
+        "label": "PERSON"
+      },
+      {
+        "text": "Tinkal",
+        "label": "PERSON"
+      },
+      {
+        "text": "Singh",
+        "label": "GPE"
+      },
+      {
+        "text": "Nishant",
+        "label": "GPE"
+      },
+      {
+        "text": "Kumar",
+        "label": "GPE"
+      },
+      {
+        "text": "Sushil",
+        "label": "PERSON"
+      },
+      {
+        "text": "Tiwari",
+        "label": "PERSON"
+      },
+      {
+        "text": "Manoj K.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Modi",
+        "label": "GPE"
+      },
+      {
+        "text": "M. H.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Mondal, Biswajit",
+        "label": "ORG"
+      },
+      {
+        "text": "Sarkar",
+        "label": "ORG"
+      },
+      {
+        "text": "Aveek",
+        "label": "ORG"
+      },
+      {
+        "text": "Joshi",
+        "label": "GPE"
+      },
+      {
+        "text": "Bhuwan",
+        "label": "GPE"
+      },
+      {
+        "text": "Janardhan",
+        "label": "GPE"
+      },
+      {
+        "text": "Bhardwaj",
+        "label": "ORG"
+      },
+      {
+        "text": "Anil",
+        "label": "PERSON"
+      },
+      {
+        "text": "Experimental Astronomy",
+        "label": "ORG"
+      },
+      {
+        "text": "51:1",
+        "label": "DATE"
+      },
+      {
+        "text": "2021",
+        "label": "DATE"
+      },
+      {
+        "text": "5",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Solar X-ray Monitor",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "Performance and Science Prospects",
+        "label": "WORK_OF_ART"
+      },
+      {
+        "text": "Mithun",
+        "label": "PERSON"
+      },
+      {
+        "text": "N. P. S.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Vadawale",
+        "label": "GPE"
+      },
+      {
+        "text": "Santosh V.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sarkar",
+        "label": "PERSON"
+      },
+      {
+        "text": "Aveek",
+        "label": "ORG"
+      },
+      {
+        "text": "Patel",
+        "label": "PERSON"
+      },
+      {
+        "text": "Arpit R.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Mondal, Biswajit",
+        "label": "ORG"
+      },
+      {
+        "text": "Joshi",
+        "label": "GPE"
+      },
+      {
+        "text": "Bhuwan",
+        "label": "GPE"
+      },
+      {
+        "text": "Janardhan",
+        "label": "GPE"
+      },
+      {
+        "text": "Adalja",
+        "label": "GPE"
+      },
+      {
+        "text": "Hiteshkumar L.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Ladiya",
+        "label": "PERSON"
+      },
+      {
+        "text": "Tinkal",
+        "label": "PERSON"
+      },
+      {
+        "text": "Tiwari",
+        "label": "ORG"
+      },
+      {
+        "text": "Neeraj Kumar",
+        "label": "ORG"
+      },
+      {
+        "text": "Singh",
+        "label": "GPE"
+      },
+      {
+        "text": "Nishant",
+        "label": "GPE"
+      },
+      {
+        "text": "Kumar",
+        "label": "GPE"
+      },
+      {
+        "text": "Sushil",
+        "label": "PERSON"
+      },
+      {
+        "text": "Tiwari",
+        "label": "PERSON"
+      },
+      {
+        "text": "Manoj K.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Modi",
+        "label": "GPE"
+      },
+      {
+        "text": "M. H.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Bhardwaj",
+        "label": "ORG"
+      },
+      {
+        "text": "Anil",
+        "label": "ORG"
+      },
+      {
+        "text": "Solar Physics",
+        "label": "ORG"
+      },
+      {
+        "text": "295:139",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2020",
+        "label": "DATE"
+      },
+      {
+        "text": "6",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Dual-Frequency SAR",
+        "label": "ORG"
+      },
+      {
+        "text": "DFSAR",
+        "label": "ORG"
+      },
+      {
+        "text": "Performance Characterisation",
+        "label": "ORG"
+      },
+      {
+        "text": "41",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sriram S. Bhiravarasu",
+        "label": "PERSON"
+      },
+      {
+        "text": "Tathagatha Chakraborty",
+        "label": "ORG"
+      },
+      {
+        "text": "Deepak Putrevu",
+        "label": "PERSON"
+      },
+      {
+        "text": "Dharmendra Pandey",
+        "label": "PERSON"
+      },
+      {
+        "text": "Anup Das",
+        "label": "PERSON"
+      },
+      {
+        "text": "V. M. Ramanujam",
+        "label": "PERSON"
+      },
+      {
+        "text": "Raghav Mehra",
+        "label": "PERSON"
+      },
+      {
+        "text": "Parikshit Parasher",
+        "label": "PERSON"
+      },
+      {
+        "text": "Krishna M. Agrawal",
+        "label": "PERSON"
+      },
+      {
+        "text": "Shubham Gupta",
+        "label": "PERSON"
+      },
+      {
+        "text": "Gaurav S. Seth",
+        "label": "PERSON"
+      },
+      {
+        "text": "Nikhil Y. Pandya",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sanjay Trivedi",
+        "label": "PERSON"
+      },
+      {
+        "text": "Arundhati Misra",
+        "label": "ORG"
+      },
+      {
+        "text": "Rajeev Jyoti",
+        "label": "PERSON"
+      },
+      {
+        "text": "Raj Kumar",
+        "label": "PERSON"
+      },
+      {
+        "text": "The Planetary Science Journal",
+        "label": "ORG"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "134",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2021",
+        "label": "DATE"
+      },
+      {
+        "text": "7",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "OH & H",
+        "label": "ORG"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "IIRS",
+        "label": "ORG"
+      },
+      {
+        "text": "3.0",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Chauhan",
+        "label": "GPE"
+      },
+      {
+        "text": "Chauhan",
+        "label": "GPE"
+      },
+      {
+        "text": "Sharma",
+        "label": "GPE"
+      },
+      {
+        "text": "S.",
+        "label": "NORP"
+      },
+      {
+        "text": "Amitabh",
+        "label": "PERSON"
+      },
+      {
+        "text": "Patil",
+        "label": "PERSON"
+      },
+      {
+        "text": "A. N.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Parashar",
+        "label": "GPE"
+      },
+      {
+        "text": "Kumar",
+        "label": "GPE"
+      },
+      {
+        "text": "A.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Desai",
+        "label": "PERSON"
+      },
+      {
+        "text": "N. M.,",
+        "label": "PERSON"
+      },
+      {
+        "text": "R.",
+        "label": "NORP"
+      },
+      {
+        "text": "Kiran Kumar",
+        "label": "PERSON"
+      },
+      {
+        "text": "A. S.",
+        "label": "PERSON"
+      },
+      {
+        "text": "2021",
+        "label": "DATE"
+      },
+      {
+        "text": "Press",
+        "label": "ORG"
+      },
+      {
+        "text": "8",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Dorsa Geikie",
+        "label": "PERSON"
+      },
+      {
+        "text": "Terrain Mapping",
+        "label": "PERSON"
+      },
+      {
+        "text": "A.S. Arya",
+        "label": "PERSON"
+      },
+      {
+        "text": "Joyita Thapa",
+        "label": "PERSON"
+      },
+      {
+        "text": "Abhik Kundu",
+        "label": "PERSON"
+      },
+      {
+        "text": "Rwiti Basu",
+        "label": "PERSON"
+      },
+      {
+        "text": "Amitabh",
+        "label": "PERSON"
+      },
+      {
+        "text": "Ankush Kumar",
+        "label": "PERSON"
+      },
+      {
+        "text": "Arup Roychowdhury",
+        "label": "PERSON"
+      },
+      {
+        "text": "2021",
+        "label": "DATE"
+      },
+      {
+        "text": "Mar 2021",
+        "label": "DATE"
+      },
+      {
+        "text": "9",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Lunar Exosphere",
+        "label": "FAC"
+      },
+      {
+        "text": "Orbiter",
+        "label": "ORG"
+      },
+      {
+        "text": "Dhanya",
+        "label": "PERSON"
+      },
+      {
+        "text": "Manuscript",
+        "label": "PERSON"
+      },
+      {
+        "text": "2021",
+        "label": "DATE"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "the Past Century",
+        "label": "EVENT"
+      },
+      {
+        "text": "Vadawale",
+        "label": "ORG"
+      },
+      {
+        "text": "Mithun",
+        "label": "PERSON"
+      },
+      {
+        "text": "N. P. S.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Mondal, Biswajit",
+        "label": "ORG"
+      },
+      {
+        "text": "Sarkar",
+        "label": "ORG"
+      },
+      {
+        "text": "Aveek",
+        "label": "GPE"
+      },
+      {
+        "text": "Janardhan",
+        "label": "GPE"
+      },
+      {
+        "text": "Joshi",
+        "label": "PERSON"
+      },
+      {
+        "text": "Bhuwan",
+        "label": "GPE"
+      },
+      {
+        "text": "Bhardwaj",
+        "label": "ORG"
+      },
+      {
+        "text": "Anil",
+        "label": "PERSON"
+      },
+      {
+        "text": "Patel",
+        "label": "PERSON"
+      },
+      {
+        "text": "Arpit R.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Adalja",
+        "label": "GPE"
+      },
+      {
+        "text": "Hitesh",
+        "label": "GPE"
+      },
+      {
+        "text": "Kumar L.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Ladiya",
+        "label": "PERSON"
+      },
+      {
+        "text": "Tinkal",
+        "label": "PERSON"
+      },
+      {
+        "text": "Tiwari",
+        "label": "ORG"
+      },
+      {
+        "text": "Neeraj Kumar",
+        "label": "ORG"
+      },
+      {
+        "text": "Singh",
+        "label": "GPE"
+      },
+      {
+        "text": "Nishant",
+        "label": "GPE"
+      },
+      {
+        "text": "Kumar",
+        "label": "GPE"
+      },
+      {
+        "text": "Sushil",
+        "label": "PERSON"
+      },
+      {
+        "text": "ApJL",
+        "label": "GPE"
+      },
+      {
+        "text": "912",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "L13",
+        "label": "PERSON"
+      },
+      {
+        "text": "2021",
+        "label": "DATE"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Science Results",
+        "label": "PERSON"
+      },
+      {
+        "text": "R. K.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Ambili",
+        "label": "PERSON"
+      },
+      {
+        "text": "K. M.,",
+        "label": "PERSON"
+      },
+      {
+        "text": "Choudhury",
+        "label": "GPE"
+      },
+      {
+        "text": "S.",
+        "label": "ORG"
+      },
+      {
+        "text": "Dhanya",
+        "label": "GPE"
+      },
+      {
+        "text": "M. B.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Bhardwaj",
+        "label": "ORG"
+      },
+      {
+        "text": "2016",
+        "label": "DATE"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "Geophys",
+        "label": "PERSON"
+      },
+      {
+        "text": "Res",
+        "label": "PERSON"
+      },
+      {
+        "text": "Lett",
+        "label": "PERSON"
+      },
+      {
+        "text": "43",
+        "label": "DATE"
+      },
+      {
+        "text": "10,025",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "10,033",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "doi:10.1002/2016GL070612",
+        "label": "ORG"
+      },
+      {
+        "text": "Golombek",
+        "label": "PERSON"
+      },
+      {
+        "text": "M. P.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Plescia",
+        "label": "GPE"
+      },
+      {
+        "text": "J. B.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Franklin",
+        "label": "ORG"
+      },
+      {
+        "text": "Faulting",
+        "label": "ORG"
+      },
+      {
+        "text": "Lunar",
+        "label": "GPE"
+      },
+      {
+        "text": "Texas",
+        "label": "GPE"
+      },
+      {
+        "text": "USA",
+        "label": "GPE"
+      },
+      {
+        "text": "1991",
+        "label": "DATE"
+      },
+      {
+        "text": "21",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "pp",
+        "label": "GPE"
+      },
+      {
+        "text": "679\u2013693",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Li",
+        "label": "PERSON"
+      },
+      {
+        "text": "Ling",
+        "label": "PERSON"
+      },
+      {
+        "text": "J.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Chen",
+        "label": "PERSON"
+      },
+      {
+        "text": "J.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Y. and",
+        "label": "PERSON"
+      },
+      {
+        "text": "J. Struct",
+        "label": "PERSON"
+      },
+      {
+        "text": "2018",
+        "label": "DATE"
+      },
+      {
+        "text": "109",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "27\u201337",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Mondal, Biswajit",
+        "label": "ORG"
+      },
+      {
+        "text": "Sarkar",
+        "label": "ORG"
+      },
+      {
+        "text": "Aveek",
+        "label": "ORG"
+      },
+      {
+        "text": "Vadawale",
+        "label": "GPE"
+      },
+      {
+        "text": "Santosh V.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Mithun N. P. S.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Janardhan P.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Del Zanna",
+        "label": "GPE"
+      },
+      {
+        "text": "Giulio",
+        "label": "ORG"
+      },
+      {
+        "text": "Mason",
+        "label": "ORG"
+      },
+      {
+        "text": "Helen E.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Mitra-Kraev",
+        "label": "ORG"
+      },
+      {
+        "text": "Urmila",
+        "label": "PERSON"
+      },
+      {
+        "text": "Narendranath",
+        "label": "GPE"
+      },
+      {
+        "text": "Evolution of Elemental Abundances",
+        "label": "ORG"
+      },
+      {
+        "text": "XSM",
+        "label": "ORG"
+      },
+      {
+        "text": "ApJ",
+        "label": "ORG"
+      },
+      {
+        "text": "arXiv:2107.07825",
+        "label": "ORG"
+      },
+      {
+        "text": "2021",
+        "label": "DATE"
+      },
+      {
+        "text": "Sridharan",
+        "label": "GPE"
+      },
+      {
+        "text": "R.",
+        "label": "NORP"
+      },
+      {
+        "text": "S. M. Ahmed",
+        "label": "PERSON"
+      },
+      {
+        "text": "T.P. Das",
+        "label": "ORG"
+      },
+      {
+        "text": "N. Naik",
+        "label": "PERSON"
+      },
+      {
+        "text": "G. Supriya",
+        "label": "PERSON"
+      },
+      {
+        "text": "CHACE",
+        "label": "ORG"
+      },
+      {
+        "text": "Planetary",
+        "label": "GPE"
+      },
+      {
+        "text": "Space Science",
+        "label": "PERSON"
+      },
+      {
+        "text": "58",
+        "label": "DATE"
+      },
+      {
+        "text": "1567\u20131577, 2010",
+        "label": "DATE"
+      },
+      {
+        "text": "Vadawale",
+        "label": "ORG"
+      },
+      {
+        "text": "Santosh V.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Mithun",
+        "label": "PERSON"
+      },
+      {
+        "text": "N. P. S.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Mondal, Biswajit",
+        "label": "ORG"
+      },
+      {
+        "text": "Sarkar",
+        "label": "ORG"
+      },
+      {
+        "text": "Aveek",
+        "label": "GPE"
+      },
+      {
+        "text": "Janardhan",
+        "label": "GPE"
+      },
+      {
+        "text": "Joshi",
+        "label": "PERSON"
+      },
+      {
+        "text": "Bhuwan",
+        "label": "GPE"
+      },
+      {
+        "text": "Bhardwaj",
+        "label": "ORG"
+      },
+      {
+        "text": "Anil",
+        "label": "PERSON"
+      },
+      {
+        "text": "Patel",
+        "label": "PERSON"
+      },
+      {
+        "text": "Arpit R.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Adalja",
+        "label": "GPE"
+      },
+      {
+        "text": "Hitesh",
+        "label": "GPE"
+      },
+      {
+        "text": "Kumar L.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Ladiya",
+        "label": "PERSON"
+      },
+      {
+        "text": "Tinkal",
+        "label": "PERSON"
+      },
+      {
+        "text": "Tiwari",
+        "label": "ORG"
+      },
+      {
+        "text": "Neeraj Kumar",
+        "label": "ORG"
+      },
+      {
+        "text": "Singh",
+        "label": "GPE"
+      },
+      {
+        "text": "Nishant",
+        "label": "GPE"
+      },
+      {
+        "text": "Kumar",
+        "label": "GPE"
+      },
+      {
+        "text": "Sushil",
+        "label": "PERSON"
+      },
+      {
+        "text": "the Past Century",
+        "label": "EVENT"
+      },
+      {
+        "text": "ApJL",
+        "label": "GPE"
+      },
+      {
+        "text": "912",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "L13",
+        "label": "PERSON"
+      },
+      {
+        "text": "2021",
+        "label": "DATE"
+      },
+      {
+        "text": "Vadawale",
+        "label": "ORG"
+      },
+      {
+        "text": "Mondal, Biswajit",
+        "label": "ORG"
+      },
+      {
+        "text": "Mithun",
+        "label": "GPE"
+      },
+      {
+        "text": "N. P. S.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sarkar",
+        "label": "GPE"
+      },
+      {
+        "text": "Aveek",
+        "label": "GPE"
+      },
+      {
+        "text": "Janardhan",
+        "label": "GPE"
+      },
+      {
+        "text": "Joshi",
+        "label": "PERSON"
+      },
+      {
+        "text": "Bhuwan",
+        "label": "GPE"
+      },
+      {
+        "text": "Bhardwaj",
+        "label": "ORG"
+      },
+      {
+        "text": "Anil",
+        "label": "PERSON"
+      },
+      {
+        "text": "Patel",
+        "label": "PERSON"
+      },
+      {
+        "text": "Arpit R.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Adalja",
+        "label": "GPE"
+      },
+      {
+        "text": "Hitesh",
+        "label": "GPE"
+      },
+      {
+        "text": "Kumar L.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Ladiya",
+        "label": "PERSON"
+      },
+      {
+        "text": "Tinkal",
+        "label": "PERSON"
+      },
+      {
+        "text": "Tiwari",
+        "label": "ORG"
+      },
+      {
+        "text": "Neeraj Kumar",
+        "label": "ORG"
+      },
+      {
+        "text": "Singh",
+        "label": "GPE"
+      },
+      {
+        "text": "Nishant",
+        "label": "GPE"
+      },
+      {
+        "text": "Kumar",
+        "label": "GPE"
+      },
+      {
+        "text": "Sushil",
+        "label": "PERSON"
+      },
+      {
+        "text": "the Past Century",
+        "label": "EVENT"
+      },
+      {
+        "text": "the Quiescent Corona",
+        "label": "ORG"
+      },
+      {
+        "text": "ApJL",
+        "label": "GPE"
+      },
+      {
+        "text": "912",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "L12, 2021",
+        "label": "DATE"
+      },
+      {
+        "text": "Yue",
+        "label": "PERSON"
+      },
+      {
+        "text": "Z.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON"
+      },
+      {
+        "text": "G. G.",
+        "label": "PERSON"
+      },
+      {
+        "text": "Di",
+        "label": "PERSON"
+      },
+      {
+        "text": "K.",
+        "label": "NORP"
+      },
+      {
+        "text": "Liu",
+        "label": "PERSON"
+      },
+      {
+        "text": "Earth Planet",
+        "label": "LOC"
+      },
+      {
+        "text": "Sci",
+        "label": "PERSON"
+      },
+      {
+        "text": "Lett",
+        "label": "PERSON"
+      },
+      {
+        "text": "2017",
+        "label": "DATE"
+      },
+      {
+        "text": "477",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "14\u201320",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "43",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Back Index Home Print",
+        "label": "ORG"
+      },
+      {
+        "text": "Moon",
+        "label": "PERSON"
+      },
+      {
+        "text": "Terrain Mapping Camera",
+        "label": "ORG"
+      },
+      {
+        "text": "Orbiter Handbook",
+        "label": "PERSON"
+      },
+      {
+        "text": "Payloads Data Science & INDIAN SPACE RESEARCH ORGANISATION",
+        "label": "ORG"
+      },
+      {
+        "text": "Bengaluru",
+        "label": "NORP"
+      }
+    ]
+  },
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "Adobe InDesign CS6 (Windows)",
+    "producer": "Adobe PDF Library 10.0.1",
+    "creationDate": "D:20210906120620+05'30'",
+    "modDate": "D:20210906120650+05'30'",
+    "trapped": "",
+    "encryption": null
+  },
+  "pages": [
+    "Glimpse of the Moon as seen from Terrain Mapping Camera onboard Orbiter Handbook of Payloads Data Science & INDIAN SPACE RESEARCH ORGANISATION I n d i a n S p a c e R e s e a r c h O r g a n i s a t i o n Bengaluru Bengaluru Index Home Print Next",
+    "Handbook of Payloads Data Science & Version-1.0 August, 2021 INDIAN SPACE RESEARCH ORGANISATION Bengaluru II Back Index Home Print Next",
+    "Compiled and Edited by Science Program Office ISRO Headquarters Antariksh Bhavan, New BEL Road Bengaluru-560 231 Karnataka, India Back Index Home Print Next III",
+    "Contents LIST Of fIGuRES. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . v LIST Of TABLES . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vII LIST Of ABBREvIATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .vIII CHAPTER 1 Chandrayaan-2 Mission . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 CHAPTER 2 Chandrayaan-2 Orbiter Payloads . . . . . . . . . . . . . . . . . . . . . . . . . 10 CHAPTER 3 Payload Data flow to Public Domain . . . . . . . . . . . . . . . . . . . . . . . 17 CHAPTER 4 Major Science Results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25 IV Back Index Home Print Next",
+    "List of Figures Figure 1.1: Chandrayaan-2 Mission Profile. . . . . . . . . . . . . . . . . . . . . . . . . . . 3 Figure 1.2: Chandrayaan-2 Spacecraft. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 Figure 1.3: Chandrayaan-2 Orbiter Craft Payloads. . . . . . . . . . . . . . . . . . . . . . . 4 Figure 1.4: Orbiter Season Definition. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 Figure 1.5: Payload Data Storage Streamline. . . . . . . . . . . . . . . . . . . . . . . . . . 8 Figure 1.6: Space and Ground Segment Chain. . . . . . . . . . . . . . . . . . . . . . . . . 9 Figure 2.1: CLASS Flight Instrument. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 Figure 2.2: XSM Flight Instrument.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 Figure 2.3: CHACE-2 Flight Instrument. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 Figure 2.4: DFSAR Flight Instrument. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 Figure 2.5: IIRS Flight Instrument. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 Figure 2.6: TMC-2 Flight Instrument. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 Figure 2.7: OHRC Flight Instrument. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 Figure 2.8: DFRS Experiment. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16 Figure 3.1: Indian Space Science Data Centre (ISSDC) building at Indian Deep Space Network (IDSN). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17 Figure 3.2: Chandrayaan-2 PDS4 Data Archival System. . . . . . . . . . . . . . . . . . . 19 Figure 4.1: X-ray fluorescence spectrum from a region in Mare Imbrium (track shown on the left) O, Na , Mg, Al and Si lines are observed with the scattered continuum. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25 Figure 4.2: Solar X-ray flux light curve obtained with XSM during the first two primary observing seasons. Blue shaded periods denote times when no active regions were present on the solar disk. Microflares detected during this period are marked by the red points and vertical lines (Adapted from Vadawale et al 2021b). . . . . . . . . . . . . . . . . . . . . . . 28 Back Index Home Print Next V",
+    "Figure 4.3: (a) High sensitivity of the cross-polarization channel (HV) in FP acquisition towards crater ejecta. (b) High resolution DFSAR L-band acquisition efficiently differentiates the lunar impact craters belonging to various degradation stages. (c) Integration of retrieved surface DC and roughness along with polarimetric parameter provides critical insight towards occurrence of water ice in PSRs in lunar poles. . . . . . . 32 Figure 4.4: Thermally corrected lunar spectra for IIRS data strip-2 for bright anorthositic, mare and near polar highland surface. It shows significant lunar hydration feature varying with different surface composition types 33 Figure 4.5: Total hydration maps for the thermally corrected Chandrayaan-2 IIRS strips analysed in the present study. The observed total water concentration is varying between near 0 to 800 ppm having strong control on mineralogy and latitudes. . . . . . . . . . . . . . . . . . . . . . . 34 Figure 4.6: (a) 3000-nm Integrated Band Depth (IBD) map to highlight the variations in the strength of the hydration (OH/H2O) feature as captured by Ch-2 IIRS data over the north polar region on the far side of the Moon; (b) Band Center; (c) Band Depth and (d) Band Area Map . . . . . . . . . . . . . 35 Figure 4.7: (a) Ch-2 IIRS RGB-FCC. Coloured boxes indicate Regions of Interests (ROIs); (b) IBD-Albedo-based FCC. ROIs are marked as 1-10; (c) Mean spectral plot corresponding to the ROIs; (d) Temperature map; (e) ESPAT vis-\u00e0-vis H2O content map of crater Aristarchus. The nature of the hydration feature strongly suggests it to be Hydroxyl (OH) and the water content is found to vary from ~15-170 ppm. The IIRS spectral range beyond 3 \u00b5m has helped in complete characterisation of the lunar hydration feature for the first time.. . . . . . . . . . . . . . . . . . . . . . . . 36 Figure 4.8: Schematic of a Classic Wrinkle Ridge . . . . . . . . . . . . . . . . . . . . . . 37 Figure 4.9: Three dimensional perspective view of Wrinkle Ridge Dorsa Geiki (DG) . . 38 Figure 4.10: Figure (a) shows the boulders that are identified and mapped (shown for a small region). The red circles indicate a circumscribing circle around a boulder and the red line indicates the shadow length. Figure (b) shows the distribution of boulders around a simple crater. The yellow circles indicate the boulders locations and the red circles indicate the distance from the crater centre in terms of crater radii. Figure (c) shows the rose diagram which shows the spatial distribution of boulders around the crater. The proportion of cyan colour in a sector indicates the number of boulders (shown by blue colour) present in that sector. . . . . . . . . . . . . . . . . . 39 VI Back Index Home Print Next",
+    "List of Tables Table 1.2: Typical Payload Operation Plan . . . . . . . . . . . . . . . . . . . . . . . . . . 9 Table 3.1: Publicly Available Data of Chandrayaan-2 Orbiter Payloads . . . . . . . . . 20 Table 3.2: Data volume of Chandrayaan-2 Orbiter Payloads available in public domain . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21 Table-3.3: Analysis tools and documents available in public domain for Chandrayaan-2 Orbiter Payloads . . . . . . . . . . . . . . . . . . . . . . . . . 21 Back Index Home Print Next VII",
+    "List of Abbreviations CPR Circular Polarization Ratio CHACE 2 CHandra\u2019s Atmospheric Compositional Explorer 2 CLASS Chandrayaan-2 Large Area Soft X-ray Spectrometer CSfD Crater Size Frequency Distribution DEMs Digital Elevation Models DG Dorsa Geikie DfSAR Dual Frequency Synthetic Aperture Radar DfRS Dual Frequency Radio Science DGA Dual Gimballed Antenna EPO Earth Parking Orbit fIP First Ionization Potential fPA Focal Plane Array fP Fully Polarimetric GSD Ground Sampling Distance OH Hydroxyl IIRS Imaging Infra-Red Spectrometer ISSDC Indian Space Science Data Centre IDSN Indian Deep Space Network VIII Back Index Home Print Next",
+    "IPDA International Planetary Data Alliance ISDA ISRO Science Data Archive LTA` Long Term Archive MOM Mars Orbiter Mission OHRC Orbiter High Resolution Camera OC Orbiter Craft PAN Panchromatic PPS Payload Planning System POCs Payload Operation Centres PSRs Permanently Shadowed Regions PDS Planetary Data System Policy Based data Retrieval, Analytics, Dissemination PRADAN and Notification System QMA Quadrupole Mass Spectrometer SDD Silicon Drift Detector SPA South Pole Aitken TMC 2 Terrain Mapping Camera-2 XRf X-ray Fluorescence XSM X-ray Solar Monitor Back Index Home Print Next IX",
+    "Handbook of C H A P T E R 1 Payloads, Data and Science Chandrayaan-2 Mission 1.1 Introduction Chandrayaan-2, is the second spacecraft in the Indian series of Lunar exploration satellites. It comprises of an Orbiter, Lander named Vikram and Rover named Pragyan to explore the unexplored South Polar region of the Moon. It was launched on 22 Jul 2019 from the Indian Space Port, Sriharikota by GSLV Mk-III. It was a highly complex mission, comprising of many new technological developments. The mission is designed to expand the lunar scientific knowledge through detailed study of topography, mineral identification and distribution, surface chemical composition, mapping, seismology, characterisation of top soil and compositional studies of the tenuous lunar atmosphere, leading to a new understanding of the origin and evolution of the Moon. 1.2 Objectives 1.2.1 Mission Objectives Mission objectives are as follows:  Expanding the technologies inherited from Chandrayaan-1 spacecraft and \u201cDevelop and Demonstrate\u201d newer technologies that will be useful for future planetary missions.  To design, realize and deploy Lander-Vikram capable of soft landing on a specified lunar site and deploy a Rover to carry out in-situ analysis of elements.  To carry payloads in the Orbiter-craft that will enhance the scientific objectives of Chandrayaan-1 with improved resolution. A lunar landing site was selected in the lunar south pole region at about 70 deg Latitude. 1.2.2 Science Objectives The scientific objective of the mission is to expand the lunar scientific knowledge through detailed study of topography, mineralogy, surface chemistry, regolith characterisation and exospheric molecules leading to a better understanding of the origin and evolution of the Moon. 1 Back Index Home Print Next",
+    "Chandrayaan-2 Mission CHAPTER 1 1.3 Mission Description 1.3.1 Mission Overview A highly complex mission with many time critical events, was divided into different phases as detailed below.  Earth-Centric Phase Chandrayaan-2, as a composite module (Lander stacked on the orbiter) with a mass of 3846 kg, was injected into an Earth Parking Orbit (EPO) of 170 km X 40,421 km on 22 Jul 2019. After 5 successful orbit maneuvers, it was injected into the Lunar Transfer Trajectory on 14 Aug 2019.  Lunar-Transfer Phase After 6 days of cruise in the transfer trajectory it was inserted into a lunar orbit on 20th Aug 2019 with firing of thrusters on the orbiter.  Moon-Centric Phase In this phase, 4 maneuvers were carried out to reach a lunar orbit of 100km X 100km. Further, the Orbiter and Lander modules were separated as two independent satellites at a pre-defined time on 2 Sept 2019. Both remained in the same orbit for about one day. Later, a de-boost maneuver was performed to attain an interim orbit of 100 km x 30 km. Vikram remained in this orbit for ~4 days to verify and validate the performance of all sub-systems followed by a powered descent. The Orbiter High Resolution Camera (provides the highest resolution of 0.3 m of any lunar mission to date) was used to image the landing site prior to landing (nearly 10 hours before) and the data were downloaded, analyzed and with the help of decision support system, hazards were identified and uplinked to the Vikram Lander, 4 hours prior to landing. Vikram Lander descent was as planned and normal performance was observed up to an altitude of 2.1 km. Subsequently communication from lander to the ground stations was lost and the lander had a hard landing on the lunar surface. The Orbiter, placed in its intended orbit around the Moon, will enrich our understanding of the Moon\u2019s evolution and mapping of minerals and water molecules in polar regions, using its eight advanced scientific instruments. The Orbiter camera with the highest resolution will provide high resolution images which will be immensely useful to the global scientific Back Index Home Print Next 2",
+    "Chandrayaan-2 Mission CHAPTER 1 community. The precise launch and optimised mission management has ensured a long life of almost seven years instead of the planned one year. The mission profile is shown in the Figure 1.1 below: Figure 1.1: Chandrayaan-2 Mission Profile. 1.3.2 Spacecraft Chandrayaan-2 spacecraft consists of an Orbiter Craft (OC) and a Vikram Lander, with a six wheeled Pragyan Rover accommodated inside Vikram. The Orbiter and Lander modules are interfaced mechanically by an inter module adapter. 3 Back Index Home Print Next",
+    "Chandrayaan-2 Mission CHAPTER 1 The Chandrayaan-2 Orbiter is shown in Figure 1.2 Figure 1.2: Chandrayaan-2 Spacecraft. Orbiter craft carried scientific payloads is shown in Figure 1.3. Figure 1.3: Chandrayaan-2 Orbiter Craft Payloads. Back Index Home Print Next 4",
+    "Chandrayaan-2 Mission CHAPTER 1 1.3.3 Orbiter Payloads There were eight scientific payloads hosted on the orbiter craft. Brief details about payloads are given below: Chandrayaan-2 Large Area Soft X-ray Spectrometer (CLASS) CLASS measures the Moon\u2019s X-ray Fluorescence (XRF) spectra to examine the presence of major elements such as Magnesium, Aluminium, Silicon, Calcium, Titanium, Iron, and Sodium. The XRF technique will detect these elements by measuring the characteristic X-rays they emit when excited by solar X-ray emission. Solar X-ray Monitor (XSM) XSM detects X-rays emitted by the Sun and its corona, measures its intensity, and supports the CLASS payload. It provides the solar X-ray spectrum in the energy range of 1-15 keV incident on the lunar surface. XSM provides high energy resolution and high-cadence measurements (full spectrum every second) as input for analysis of data from CLASS. CHandra\u2019s Atmospheric Compositional Explorer 2 (CHACE 2) CHACE 2 will expand upon the CHACE experiment on Chandrayaan-1. It is a Quadrupole Mass Spectrometer (QMA) capable of studies of the lunar neutral exosphere in the mass range of 1 to 300 amu with the mass resolution of ~0.5 amu. CHACE 2\u2019s primary objective is to carry out an in-situ study of the composition and distribution of the lunar neutral exosphere and its variability. Dual Frequency Synthetic Aperture Radar (DFSAR) The dual frequency (L and S) SAR will provide enhanced capabilities compared to Chandrayaan-1\u2019s S-band mini SAR in areas such as:  L-band for greater depth of penetration (About 5m \u2014 twice that of S-band)  Circular and full polarimetry \u2014 with a range of resolution options (2-75 m) and incident angles (9\u00b0-35\u00b0) \u2014 for understanding scattering properties of permanently shadowed regions The main scientific objectives of this payload are:  Quantitative estimation of water-ice in the polar regions  High-resolution lunar mapping in the polar regions  Estimation of regolith thickness and its distribution 5 Back Index Home Print Next",
+    "Chandrayaan-2 Mission CHAPTER 1 Imaging Infra-Red Spectrometer (IIRS) Imaging Infra-Red Spectrometer (IIRS) is a hyper-spectral optical imaging instrument. This instrument maps geomorphology and mineralogy of lunar surface. The mission is intended to cover the Moon surface. The prime objectives of IIRS are:  Global mineralogical and volatile mapping of the Moon in the spectral range of ~0.8-5.0 \u00b5m for the first time, at the high resolution of ~20 nm  Complete characterisation of water/hydroxyl feature near 3.0 \u00b5m for the first time at high spatial (~80 m) and spectral (~20 nm) resolutions IIRS will measure the solar radiation reflected off the Moon\u2019s surface in 256 contiguous spectral bands from a 100 km lunar orbit. Terrain Mapping Camera (TMC 2) TMC 2 is a miniature version of the Terrain Mapping Camera on Chandrayaan-1 mission. Its primary objective is to map the lunar surface in the panchromatic spectral band (0.5-0.8 microns) with a high spatial resolution of 5 m and a swath of 20 km from 100 km lunar polar orbit. The data collected by TMC 2 will give us clues about the Moon\u2019s evolution and help us prepare 3D maps of the lunar surface. Orbiter High Resolution Camera (OHRC) OHRC provides high-resolution images of the landing site which ensure the Lander\u2019s safe touchdown by detecting any craters or boulders, prior to separation. The images it captures, taken from two different look angles, serve dual purposes. First, these images are used to generate DEMs (Digital Elevation Models) of the landing site. Second, they are used for scientific research after its initial role in the landing phase. OHRC\u2019s images can capture the same area on the lunar surface from two different orbits. The coverage area in this case is of 12 km x 3 km with ground resolution of 0.32 m. Dual Frequency Radio Science (DFRS) Experiment To study the temporal evolution of electron density in the Lunar ionosphere. Two coherent signals at X (8496 MHz), and S (2240 MHz) band are transmitted simultaneously from satellite, and received at ground-based receivers. 2 Payload Operations The Orbiter is in a 100km X 100km polar orbit around the Moon. The angle between sun\u2019s location, lunar region of study and the payload on the Orbiter (sun aspect angle) varies widely giving rise to extreme sun illumination conditions. Moreover, some are optical/IR payloads like TMC-2, IIRS and OHRC requiring certain illumination conditions for optimal Back Index Home Print Next 6",
+    "Chandrayaan-2 Mission CHAPTER 1 operation of payload. Hence, payload operations are season based and classified as follows:  Dawn-Dusk Season: Angle b/w sun and orbital plane is more than 30 deg. The primary payload (nominal) is the Dual Frequency SAR.  Noon-Midnight Season: Angle b/w sun and orbital plane is less than 30 deg. The primary payload (nominal) is TMC 2 and IIRS.  CLASS, CHACE 2 and XSM are all operated during all seasons.  DFRS is operated whenever the constraints are met (i.e. S-band antenna looking at ground station and X-band antenna will be steered to the ground station). It is planned once a month. During DFRS operation, other payloads are not operated.  OHRC operations are done based on feasibility and user requirements in campaign mode The attitude followed is also different, based on the season to ensure maximum power generation. The spacecraft attitude followed during dawn-dusk season is called AD1 and attitude during noon-midnight season is AD2 (orbit reference frame attitude). While in AD2, yaw flip is needed to ensure sun on solar panel side and also provide better thermal environment. Thus twice a year, a yaw flip is required. The figure below summarizes the season-based payload operation: Figure 1.4: Orbiter Season Definition. 7 Back Index Home Print Next",
+    "Chandrayaan-2 Mission CHAPTER 1 The nominal operations durations for different payloads are as follows: OHRC : 10 sec XSM : Continuously ON CLASS : During sunlit, continuously ON 10 days around full Moon CHACE-2 : 130 min-260 min/twice a day 6 orbits apart SAR : 2 min TMC-2 : 10 min IIRS : 12 min (10 min of Imaging) DFRS : 6 min The payload data is recorded onto onboard SSR of 40 Gb capacity which is partitioned into channels. The figure below shows the streamline of payload data storage: Figure 1.5: Payload Data Storage Streamline. The data stored onboard is transmitted through X-band using DGA (Dual Gimballed Antenna) at a rate of 8.4 Mbps over IDSN stations and 4.2 Mbps over other stations network. The DGA is steered to the required position by onboard look vector generation algorithm based on the station index. The spacecraft is steered to the imaging attitude from the nominal attitude based on the requirement in each payload session. All payload operations and data download operations are automated and triggered onboard using macros and onboard timer based commands. The user request handling, nominal payload operations Back Index Home Print Next 8",
+    "Chandrayaan-2 Mission CHAPTER 1 planning and scheduling and translation of the plan to spacecraft commands and handled by the Payload Planning System (PPS) software. The space and ground segment chain are shown below: Figure 1.6 : Space and Ground Segment Chain. The typical operation plan during different scenarios is shown below: Table 1.2: Typical Payload Operation Plan visibility Time / Imaging to Plan Attributes Imaging Payloads Playback (PB) Time PB Ratio Plan-A NM + Edge-On+ TMC+IIRS (10 mins) 72 mins / 60 mins ~ 1:6 Near Side SunLit XSM+CLASS (10 mins) + CHACE (Continuous) Plan-B NM + Edge-On+ TMC+IIRS (10 mins) 72 mins / 65 mins ~1:6 Far Side SunLit XSM+CLASS (20 mins) + CHACE (Continuous) Plan-C NM + Face-On TMC+IIRS (10 mins) 118 mins / 80 mins ~1:6 XSM+CLASS (20 mins) + CHACE (Continuous) + SAR (3 mins Low Mode) Plan-D DD + Face-On XSM+Class (Continuous) 118mins / 105 mins ~ 1:18 SAR \u2013 L3 Mode (5mins) ( SAR L3) Or SAR-S3 mode (7 mins) Plan-E DD + Edge-On XSM+Class (Continuous) 72 mins / 60 mins ~ 1:18 SAR \u2013 L3 Mode (2.5 mins) (SAR L3) Or SAR-S3 mode ( 3.5 mins) 9 Back Index Home Print Next",
+    "Handbook of C H A P T E R 2 Payloads, Data and Science Chandrayaan-2 Orbiter Payloads The previous chapter has introduced about the Chandrayaan-2 mission, its objectives, payloads and different phases of the mission. This chapter briefly discuss about the Chandrayaan-2 Orbiter Payloads. 2. 1 Chandrayaan-2 Large Area Soft X-ray Spectrometer (CLASS) Payload CLASS is an X-ray fluorescence (XRF) experiment onboard Chandrayaan-2 Orbiter to map the elemental abundances of the major rock forming elements on the lunar surface. The operating energy range 0.8 keV to 15 keV covers the XRF lines from Mg, Al, Si, Ca, Ti and Fe as well as Na, Cr etc which may be detected. The spatial resolution is 12.5 km x 12.5 km from a 100 km orbit. In order to convert the XRF line flux to abundances, the incident solar spectrum is measured simultaneously with the X-ray Solar Monitor (XSM) payload onboard Chandrayaan-2 Orbiter. Figure 2.1: CLASS Flight Instrument Back Index Home Print Next 10",
+    "Chandrayaan-2 CHAPTER 2 Orbiter Payloads 2.2 Solar X-ray Monitor (XSM) XSM is a scientific instrument on-board the orbiter of Chandrayaan-2 mission. XSM, along with another instrument CLASS, comprise a scientific experiment known as remote X-ray fluorescence spectroscopy. It provides the measurement of soft X-ray spectrum from the Sun, which is used for the quantitative analysis of the Lunar X-ray fluorescence measurements by CLASS to obtain estimate of the elemental composition of Lunar surface on global scale. XSM instrument employs Silicon Drift Detector (SDD) to cover the X-ray energy range of 1-15 keV with a spectral resolution of better than 180 eV at 5.9 keV. XSM also incorporates an innovative moving mechanism in order to cover the wide range of intensities of X-rays during large solar flares. Apart from providing support to CLASS experiment, the high cadence X-ray spectral measurements during wide range of Solar flare classes will be useful in improving our understanding of the Solar corona. Figure 2.2: XSM Flight Instrument 2.3 CHandra\u2019s Atmospheric Composition Explorer-2 (CHACE-2) CHACE-2 is a quadrupole mass spectrometer based payload. The scientific objective of this instrument is to study the neutral composition of the tenuous lunar exosphere. The CHACE-2 instrument, apart from having a quadrupole mass filter, also has a Bayard Alpert 11 Back Index Home Print Next",
+    "Chandrayaan-2 CHAPTER 2 Orbiter Payloads gauge to measure the total pressure. CHACE-2 derives its heritage from the MENCA payload aboard the Mars Orbiter Mission. Figure 2.3: CHACE-2 Flight Instrument 2.4 Dual Frequency Synthetic Aperture Radar (DFSAR) DFSAR is a microwave imaging instrument, is configured with L-band (1.25GHz) and S-band (2.5GHz) SAR systems with resolution capability from 2m to 75m (slant-range). It is designed to operate in fully-polarimetric and hybrid-polarimetric modes to enable unambiguous detection of water-ice on the lunar poles. The unique combination of simultaneous L and S-band polarimetric SAR operation is expected to provide quantitative estimation of water-ice over the lunar-poles. Chandrayaan-2 Dual-Frequency SAR is bringing out lunar surface and sub-surface physical characteristics by operating in various modes, such as: High resolution with 2m slant-range (one-order better than previously flown lunar-radars), Full-polarimetric mode (first-ever in any planetary mission), L-band hybrid-polarimetry (first L-band operation on the Moon). Back Index Home Print Next 12",
+    "Chandrayaan-2 CHAPTER 2 Orbiter Payloads Figure.2.4: DFSAR Flight Instrument 2.5 Imaging Infra-red Spectrometer (IIRS) IIRS is an imaging hyperspectral instrument studying for mineralogy of lunar surface (including the hydroxyl signature). IIRS operates in the 800 - 5000 nm spectral range with about 256 contiguous bands. It has 80m Ground Sampling Distance (GSD) and 20km swath at nadir from 100km orbit altitude. Optical design is based on the TMA as fore-optics and Offner (convex multi-blazed grating) based spectrometer. Focal plane array (FPA) is HgCdTe (MCT) based actively cooled to 90K, having 500 x 256 pixels format with 30\u00b5m pixel size. Figure.2.5: IIRS Flight Instrument 13 Back Index Home Print Next",
+    "Chandrayaan-2 CHAPTER 2 Orbiter Payloads 2.6 Terrain Mapping Camera-2 (TMC-2) TMC-2 is a follow-on of the TMC onboard Chandrayan-1. TMC-2 payload is configured to provide panchromatic images (0.4\u00b5m to 0.85\u00b5m) in 5m spatial resolution and stereo triplets (fore, nadir and aft views) from 100 km circular orbit around moon for preparing detailed 3-D map or Digital Elevation Model (DEM) of the complete lunar surface (especially the smaller objects like craters, riles, flow structures, smaller graben forms). DEM derived from TMC-2 will be used for detail morphometric analysis of lunar surface. Figure.2.6: TMC-2 Flight Instrument 2.7 Orbiter High Resolution Camera (OHRC) OHRC is a very high spatial resolution camera operating in visible panchromatic (PAN) band. OHRC\u2019s primary goal is to image landing-site region prior to landing for characterisation and finding hazard-free zones. Post landing operation of the OHRC will be for scientific studies Back Index Home Print Next 14",
+    "Chandrayaan-2 CHAPTER 2 Orbiter Payloads of small-scale features on lunar surface. Ground sampling distance (GSD) and swath of OHRC (in nadir view) are 0.25m and 3km respectively, from 100 km altitude. Figure.2.7: OHRC Flight Instrument 2.8 Dual Frequency Radio Science Experiment (DFRS) DFRS experiment aboard Chandrayaan-2 uses communication channel between Orbiter and ground in Radio Occultation mode to study the temporal evolution of electron density in the Lunar ionosphere. It consists of a highly stable 20 MHz EMXO source, having a stability of the order of 10-11, which generates two coherent signals at X (8496 MHz), and S (2240 MHz) band of radio frequencies. The coherent radio signals, transmitted simultaneously from satellite, and received at ground based deep station network receivers would be used to study temporal and spatial variations in the Lunar ionosphere. The major science objectives of the experiments include, (a) to study the variations in the ionosphere/ atmosphere at Moon , (b) to explore if the Ionosphere at Moon is omnipresent or has episodic appearances and, (c) to confirm the source of the ions in the lunar ionosphere, whether dusty or molecular ions. 15 Back Index Home Print Next",
+    "Chandrayaan-2 CHAPTER 2 Orbiter Payloads Figure.2.8: DFRS Experiment The orbiters\u2019 payloads are also discussed in greater detail in Chapter-2 of the document \u2018Science Results from Chandrayaan-2 Mission\u2019. Back Index Home Print Next 16",
+    "Handbook of C H A P T E R 3 Payloads, Data and Science Payload Data Flow to Public Domain In the previous chapter, brief details about the Chandrayaan-2 Orbiter payloads were presented. This chapter details with the dissemination of the data acquired by these payloads in public domain to enable wider science use. 3.1 Brief Introduction to ISSDC Indian Space Science Data Centre (ISSDC) is the prime data centre of the ISRO for all the science, lunar and interplanetary missions of ISRO. It is the state-of-the-art facility which provides the data ingest, processing, archival and dissemination services for all the space science missions. ISSDC was established in the year 2008 to meet the requirements of Chandrayaan-1. Figure 3.1: Indian Space Science Data Centre (ISSDC) building at Indian Deep Space Network (IDSN) 17 Back Index Home Print Next",
+    "Payload Data Flow to Public CHAPTER 3 Domain Besides supporting real time operations of Chandrayaan-2, Mega-Tropiques, Mars Orbiter Mission (MOM), SARAL, AIS-SB/Resourcesat-2 & AstroSat, ISSDC has supported post mission life activities for Chandrayaan-1 and Youthsat. ISSDC is supporting another India\u2019s next major Lunar Mission Chandrayaan-3, maiden Solar Mission Aditya-L1 and Astronomical Mission XPoSat. 3.2 ISRO Science Data Archive (ISDA) ISRO Science Data Archive (ISDA) is the central repository for all scientific and engineering data acquired by different ISRO\u2019s planetary missions. ISDA makes the planetary data sets accessible to the world-wide scientific community. ISDA was established at Indian Space Science Data Centre (ISSDC) Bangalore (http://issdc.gov.in) during Chandrayaan-1 mission in 2008. ISDA archives data sets from following missions:  Chandrayaan-1  Mars Orbiter Mission  AstroSat  Chandrayaan-2  Upcoming missions: Aditya-L1, XPoSat All ISDA data are compliant with NASA\u2019s Planetary Data System (PDS) Standards for formatting and labelling files, including requirements for documentation and the structuring of data sets. ISDA provides an opportunity for international collaboration of space agencies with a mission of providing access to scientific data like other international science data centres. Chandrayaan-2 mission is the first planetary mission of ISRO to adopt the PDS4 standards. 3.2.1 PDS4 Archival System for Chandrayaan-2 Mission PDS4 is next generation archive which is latest version 4 entirely based on the new concept. Basic understanding of PDS is required for generating PDS4 archive for any mission. ISRO has adopted PDS4 data archive for Chandrayaan-2 mission. Back Index Home Print Next 18",
+    "Payload Data Flow to Public CHAPTER 3 Domain Figure 3.2: Chandrayaan-2 PDS4 Data Archival System 3.3 Policy Based Data Retrieval, Analytics, Dissemination and Notification System (PRADAN): All the payload\u2019s data from Chandrayaan-2 is down linked to the deep space network ground stations. The data then flows to ISSDC and undergoes a series of processing both at ISSDC and Payload Operation Centres (POCs) which is defined by the ISSDC pipeline and Ground Segment. One of the output of ISSDC pipeline is payload archive data in PDS4 standard. Subsequently, based on the mission policy for each of the payloads (lock-in period), the PDS4 data is being released for the use of general public. Interface of general public to access the released data is from ISSDC website or via PRADAN at ISSDC. (URL: https://pradan.issdc.gov.in). PRADAN is the data dissemination web application for Chandrayaan-2. It is a generic web application that can be configured to host data sets which the users can search, browse and download. The data sets to be hosted using PRADAN should be accompanied with the meta information of the data, as in PDS4 standard as per International Planetary Data Alliance (IPDA). 19 Back Index Home Print Next",
+    "Payload Data Flow to Public CHAPTER 3 Domain The following are the major features available to the users in PRADAN: 1. Browse the science data 2. Search data based on payload specific parameters like: location, observation time, etc. 3. Adding multiple filters when searching 4. Download the data in compressed form 5. Pause/resume the download 6. Group small files and download as single file 7. PDS4 compliant archive dissemination 8. Search result display tuning 9. Provision to view detailed metadata 3.4 Data in public domain Scientific data obtained from Chandrayaan-2 Orbiter payloads are planned to be released in public domain to enable the wider use of these data sets to bring out more science. Table 3.1 below shows the number of the data sets of each payload released in public domain during Dec 2020 and Jul 2021. More data sets will be added to these in future. Table 3.2 shows that volume of the data for each payload released in public domain. A total of around 1.25 TB data of orbiter payloads has been released to public for science use. Table 3.1: Publicly Available Data of Chandrayaan-2 Orbiter Payloads Data sets released Data sets released Total data sets in Payload in Dec 2020 in Jul 2021 public domain CLASS 180 870 1050 XSM 69 180 249 CHACE-2 134 269 403 DfSAR 49 53 102 TMC-2 40 93 133 OHRC 01 28 29 DfRS 07 0 07 IIRS 0 5 5 Back Index Home Print Next 20",
+    "Payload Data Flow to Public CHAPTER 3 Domain Table 3.2: Data volume of Chandrayaan-2 Orbiter Payloads available in public domain Payload Data Size (in GB) Total Data (in TB) CLASS 40 XSM 2.4 CHACE-2 0.04 DfSAR 541 1.27 TMC-2 637 OHRC 22 DfRS 11 IIRS 21 Table 3.3 below lists observation strategy of payloads, total data sets released in public domain and various analysis tools and documents provided at PRADAN portal for the analysis of the data sets. Table 3.3: Analysis tools and documents available in public domain for Chandrayaan-2 Orbiter Payloads Number of Analysis tools Documents Observation data sets Payload Name available in available in Strategy released in PRADAN PRADAN public Always ON Continuous CLASS_add_ observation on L1_files_time. ch2_class_ the sunlit side. pro pds4_sis.pdf (s/w interface Geotail Re-distribution specs) CLASS observations 1050 matrix file for 6 days Ch2_class_ Ancillary centered user_manual. response file around full pdf (for L1 data moon. Background analysis) file Active Sun is desirable. 21 Back Index Home Print Next",
+    "Payload Data Flow to Public CHAPTER 3 Domain xsmgtigen Always ON xsmgenspec 30 days xsmgenlc XSM Data observations in Analysis Guide xsmaddspec the middle of (V1.0) XSM (looks at DD season. 249 xsmmet2utc Sun) XSM Data ~20 days xsmutc2met Products and observations Archive SIS in the stand ch2xsm_read_ (V1.0) and end of NM data.pro, season ch2xsm_read_ drm.pro Always ON Operated for 2 CHACE2_ hrs / 4 hrs per readme.pdf day CHACE2_User_ After degas CHACE-2 403 Nil manual.pdf mode operation on ch2_chace2_ 22nd May, one dp_archive_ operation (4 sis.pdf hrs) / day is being done. Operated during Dawn- Dusk season. S/C is roll- tilted for Data Product imaging Microwave SIS and PDS4 operation. DfSAR 102 Data Analysis archival Systematic Software coverage of (MIDAS V2.1) DFSAR user manual. lunar poles (85 to 90 deg in the initial seasons; 80 to 85 deg in subsequent seasons) Back Index Home Print Next 22",
+    "Payload Data Flow to Public CHAPTER 3 Domain Operated during Noon- Midnight (N-M) season which lasts for ~3 months. Data Product 10 min to 30 User Guide. min operation TMC-2 133 PDS4 Viewer LTA (Long Different Term Archive) modes and Assembly exposure Procedure settings. Completed 3 imaging seasons. 4th season is going on from 15 May 2021. Targeted observations only, Imaging in low Data Product illumination User Guide conditions (6 OHRC to 12 deg Sun 29 PDS4 Viewer LTA (Long elevation) Term Archive) 2 sec to Assembly 20 sec Procedure operation. Time delay integration settings. 23 Back Index Home Print Next",
+    "Payload Data Flow to Public CHAPTER 3 Domain Limited operations due to mounting related DPSIS technical document DfRS issues. 07 Nil Technical 250 minutes report on data observations analysis. done so far with varying duration. Operated during N-M season. Completed 3 imaging seasons. 4th season is going on from 15 Data Product May. User Guide IIRS Dark sky 5 PDS4 Viewer LTA (Long data for Cal Term Archive) purposes. Assembly Procedure Given priority to complete coverage of entire moon (unique extended IR region data, for the first time). Back Index Home Print Next 24",
+    "Handbook of C H A P T E R 4 Payloads, Data and Science Major Science Results This chapter presents the major science results obtained from Chandrayaan-2 Orbiter Payloads. In the forthcoming sections, the major science results from each payload are summarized. 4.1 Chandrayaan-2 Large Area Soft X-ray Spectrometer (CLASS) X-ray fluorescence spectroscopy is one of the most direct approaches to determine quantitative elemental abundances of the Moon. The first results from CLASS firmly establishes the ability to map refractory elemental abundance at high spatial resolution (an order of magnitude better than existing maps through gamma ray spectroscopy) with robust modelling approach developed in-house. \u201cChandrayaan-2 Large Area Soft X-ray Spectrometer (CLASS): Calibration, In-flight performance and first results, Icarus, Volume 363, 15 Jul 2021, 114436\u201d presents the elemental abundances for a part of Mare Imbrium and far side highlands at the highest spatial resolution achieved so far. The paper reports detection of Na X-ray fluorescence line accurately with CLASS which proves its ability to map this element more widely. The paper also describes the ground calibration, generation of instrument response, data analysis methods and onboard performance and establishes the capability of the instrument to achieve the science objectives. Figure 4.1: X-ray fluorescence spectrum from a region in Mare Imbrium (track shown on the left) O, Na , Mg, Al and Si lines are observed with the scattered continuum 25 Back Index Home Print Next",
+    "Major Science Results CHAPTER 4 Na is a moderately volatile element and occurs as minor to trace element in the Apollo returned soil samples. The detection here shows that the abundance of Na is variable and could possibly suggest new lithologies not found in Apollo samples. Mapping of the exospheric Na from ground has shown that it varies spatially and temporally but correlation to the surface has not been so far possible. With the observations from CLASS, a direct link of exospheric Na to surface can be established (with global data). Further analysis are in progress towards generating Na global distribution map for the first time using CLASS observations which would be of great impact to lunar science. Global maps of major refractory elements are expected which would be the first from X-ray fluorescence spectroscopy of the Moon. 4.2 Solar X-ray Monitor (XSM) XSM carries out soft X-ray spectroscopic observations of the Sun. XSM observations are used to investigate various processes in the outer atmosphere of the Sun namely corona that emits in X-rays. XSM data is also used for interpretation of lunar X-ray fluorescence measurements with CLASS instrument. Brief summaries of major scientific results obtained with XSM so far are presented here. 4.2.1 Sub-A Class Microflares in Quiet Sun Solar flares, with energies ranging over several orders of magnitude, result from impulsive release of energy due to magnetic reconnection in the corona. Barring a handful, almost all microflares observed in X-rays are associated with the solar active regions. For the first time, a comprehensive analysis of a large sample of quiet Sun microflares was carried out using observations in soft X-rays by the Solar X-ray Monitor (XSM) on board the Chandrayaan-2 mission during the 2019\u20132020 solar minimum. A total of 98 microflares having peak flux below GOES A-level were observed by the XSM during observations spanning 76 days, which are marked in Figure 4.2 with red vertical bars. By using the derived plasma temperature and emission measure of these events obtained by fitting the XSM spectra along with volume estimates from concurrent imaging observations in EUV with the Solar Dynamics Observatory/Atmospheric Imaging Assembly, thermal energies were estimated to be ranging from 3 \u00d7 1026 to 6 \u00d7 1027 erg and the flare frequency distribution was found to follow a power law. The present observations provide a stringent limit on the average number of microflares having flux above ~10\u221210 W m\u22122 (thermal energies above Back Index Home Print Next 26",
+    "Major Science Results CHAPTER 4 ~4\u20137 \u00d7 1026 erg) occurring in the quiet Sun. During the period of observed extremely quiet solar corona, having no active region on the disk, the flare rate is found to be ~1.84 per day, while the mean values for each epoch vary from ~0.75 to ~3.4 per day. These observations provide strong support to the hypothesis of occurrence of small-scale impulsive heating events everywhere on the solar disk, which could contribute to the heating of the corona. This work is published in Vadawale et al., ApJL, 912:L13, 2021. 4.2.2 Elemental Abundances in Quiet Sun Elements with low First Ionization Potential (FIP) are known to be 3\u20134 times more abundant in active region loops of the solar corona than in the photosphere. There have been observations suggesting that this observed \u201cFIP bias\u201d may be different in other parts of the solar corona and such observations are thus important in understanding the underlying mechanism. XSM carried out spectroscopic observations of the Sun in soft X-rays during the 2019\u20132020 solar minimum, considered to be the quietest solar minimum of the past century. These observations provided a unique opportunity to study soft X-ray spectra of the quiescent solar corona in the absence of any active regions, which are marked by the blue shaded intervals in the Figure 4.2. By modeling high-resolution broadband X-ray spectra from XSM, the temperature and emission measure during periods of possibly the lowest solar X-ray intensity were estimated. It was found that the derived parameters remain nearly constant over time with a temperature around 2 MK, suggesting the emission is dominated by X-ray bright points. The abundances of Mg, Al, and Si relative to H were also determined and it is observed that the FIP bias is ~2, lower than the values observed in active regions. These observations are consistent with the ponderomotive force model, which is widely considered to be responsible for the coronal FIP bias. This work is published in Vadawale et al., ApJL, 912:L12, 2021. 27 Back Index Home Print Next",
+    "Major Science Results CHAPTER 4 Figure 4.2: Solar X-ray flux light curve obtained with XSM during the first two primary observing seasons. Blue shaded periods denote times when no active regions were present on the solar disk. Microflares detected during this period are marked by the red points and vertical lines (Adapted from Vadawale et al 2021b). 4.2.3 Evolution of Elemental Abundances During Solar Flares Investigation of elemental abundances during solar flares provide an opportunity to understand the energy and matter transport during such events. During the period from Sept 2019 to May 2020, covering the minimum of Solar Cycle 24, XSM observed nine B-class flares ranging from B1.3 to B4.5. Using time-resolved spectroscopic analysis Back Index Home Print Next 28",
+    "Major Science Results CHAPTER 4 during these flares, the evolution of temperature, emission measure, and absolute elemental abundances of four elements Mg, Al, Si, and S are examined. These are the first measurements of absolute abundances during such small flares. The results demonstrate that the abundances of these four elements decrease towards their photospheric values during the peak phase of the flares. During the decay phase, the abundances are observed to quickly return to their pre-flare coronal values. The depletion of elemental abundances during the flares is consistent with the standard flare model, suggesting the injection of fresh material into coronal loops as a result of chromospheric evaporation. This indicates that during the flares, the coronal loops are quickly filled with plasma originating from the lower parts of the solar atmosphere without having sufficient time for the usually observed fractionation in non-flaring loops to take place. The observation of quick recovery to the coronal values show that any process giving rise to such fraction must be occurring on a time scale of few tens of minutes. To explain the quick recovery of the so-called coronal First Ionization Potential (FIP) bias, two scenarios are proposed based on the Ponderomotive force model. One of the scenarios suggests the presence of the long sought after, alfven waves induced by magnetic reconnection in the flaring loops. This work is accepted for publication: Mondal et. al., ApJ, 2021. 4.3 CHandra\u2019s Atmospheric Composition Explorer-2 (CHACE-2) The following key findings from CHACE-2 payloads have been noted. The associated papers on these findings are in progress and is expected to be submitted soon. The impacts of these findings are discussed below:  Lunar Exospheric Argon CHACE-2 has detected Argon 40 (Ar-40) signals in the lunar exosphere in the low latitudes and for the first time in the mid-latitude regions (30\u00b0 to 60\u00b0 in both hemispheres) of the Moon. CHACE-2 observations have provided the first map of Ar-40 covering the low and mid-latitude regions of Moon. The number density of Ar-40 shows systematic variations during the lunar day, with peaks around sunrise and sunset and minimum during the night time, typical of a condensable gas. This trend agrees with LACE/Apollo observations in the low latitude region in the lunar surface. In addition, CHACE-2 observations show for the first 29 Back Index Home Print Next",
+    "Major Science Results CHAPTER 4 time that these features extend to the mid-latitude regions. Further, the number density of argon also shows significant spatial heterogeneity. For instance, when we compare different longitudes, enhanced Ar-40 concentration was observed over the selenographic longitudes of 280-320\u00b0. These could be partly attributed to the KREEP region. However, over mid-latitudes, the influence of South Pole Aitken (SPA) terrain cannot be ruled out.  Lunar Exospheric CO 2 CHACE-2 has detected CO (amu 44) signals in the lunar exosphere. The significant 2 amount of CO detected by CHACE/MIP aboard Chandrayaan-1 was actually the first direct 2 (in-situ) experimental confirmation of the prediction that CO could be present in the Lunar 2 exosphere (Sridharan et al., 2010). However, CHACE was only a one-time measurement and could not provide the variability. CHACE-2 data have shown the presence of CO in both 2 low and mid-latitude region, and has also shown its temporal variation for the first time. Detailed analysis is in progress. The observations of exospheric composition and variability has the potential to help us understand about the solar wind, the lunar interior and outgassing, the efficiency of volatile sequestration, and the kinetics of adsorption and desorption in low-pressure environments. The new observations from mid-latitudes indicate significant spatial heterogeneity. For example, the enhancement observed in Argon-40 could only be partly attributed due to the KREEP region, and we also have indications of the influence of the South Pole Aitken (SPA) terrain, for the first time. These will provide new insights into the variability in radiogenic activity of the lunar interior. As mentioned earlier, the CO observations from CHACE-2 are first of their kind, which 2 would help to provide new constraints to the exospheric composition, especially in the context that there are model calculations which suggest that the lunar ionosphere is dominated by molecular ions including CO + with near-surface electron density ~250 cm\u22123 2 (Choudhary et al., 2016). The new observations on spatial and temporal variation of CO can 2 provide realistic inputs on exospheric neutral densities for such models. 4.4 Dual Frequency Synthetic Aperture Radar (DFSAR) DFSAR is the first ever Fully Polarimetric (FP) radar data acquired at L and S-band wavelengths in high resolution (best upto 2m slant range) for lunar science. Back Index Home Print Next 30",
+    "Major Science Results CHAPTER 4 The measurements from DFSAR can address some of the most fundamental questions in lunar science such as assessing the history of volcanism and geomorphological evolution of the lunar surface; impact cratering and physical properties of impact crater related deposits; space weathering; and the extent and distribution of water ice at the lunar Permanently Shadowed Regions (PSRs). Salient results from DFSAR are as follows:  Retrieval of Surface Dielectric Constant and Roughness of Lunar Surface: Full-Polarimetric DFSAR data has been used for physical model-based estimation of lunar surface dielectric constant and roughness, which was not possible using hybrid-polarimetry data from previous radar missions. Accurate measurement of these parameters enables comprehensive characterisation of volatiles in PSRs, lunar volcanic features and ejecta materials.  Water Ice Detection at Lunar PSRs: Earlier studies using hybrid-polarimetric SAR data resulted in ambiguous detection of water ice regions because it had similar sensitivity to surface roughness and water ice. Full-Polarimetric DFSAR measurements are used to decouple the effect of water ice and surface roughness, leading to encouraging results on unambiguous detection of water ice in some PSRs.  High Resolution Geo-morphological Mapping and Studies: DFSAR has resolution one order better than the previous best from earlier lunar radars. High resolution DFSAR data helps to better characterise the impact craters, volcanic features, impact melts, crater-ejecta and landing sites. Small scale features deciphered from high resolution will provide new insights on cratering process and geological evolution of the surface features. 31 Back Index Home Print Next",
+    "Major Science Results CHAPTER 4 Figure 4.3: (a) High sensitivity of the cross-polarization channel (HV) in FP acquisition towards crater ejecta. (b) High resolution DFSAR L-band acquisition efficiently differentiates the lunar impact craters belonging to various degradation stages. (c) Integration of retrieved surface DC and roughness along with polarimetric parameter provides critical insight towards occurrence of water ice in PSRs in lunar poles. The initial results from DFSAR are published in the paper titled \u201cChandrayaan-2 Dual Frequency SAR (DFSAR): Performance Characterisation and Initial Results\u201d, The Planetary Science Journal, 2:134 (2021). This paper addresses the radiometric & polarimetric calibration and brings out the preliminary performance characterisation of DFSAR data. The results of Circular Polarization Ratio (CPR) and other polarimetric parameters analysis, for various craters in both Permanently Shadowed Regions (PSRs) and non-PSRs regions are discussed. These have enabled classification of Circular Polarization Ratio (CPR) anomalous craters in both polar and non-polar regions which is in coherence with the previous S-band radar observations from LRO-MiniRF. Analysis of dual frequency radar data helps to understand the behaviour of the surface scatterer over multiple radar frequencies, as demonstrated over Byrgius C crater. In addition, the results also reveal the sensitivity of the DFSAR data towards degradation stages of the craters over time. Back Index Home Print Next 32",
+    "Major Science Results CHAPTER 4 4.5 Imaging Infra-Red Spectrometer (IIRS) The science results from IIRS observation are discussed in brief below:  Detection of OH & H O on the Moon from Chandrayaan-2 IIRS data 2 Spectral radiance data from IIRS were analyzed to detect and quantify 3-\u00b5m hydration feature on the Moon with an extended spectral range up to 5.0 \u00b5m. Lunar hydration absorption has been observed to be present at all latitudes between 29\u00b0 to 62\u00b0 N and the spectral absorption depth shows distinct variability associated with lunar mineralogy, surface temperature and latitudinal dependence. OH retention is found to be more associated with space-weathered mare surfaces at higher surface temperature (>320K), whereas, plagioclase-rich fresh surfaces are relatively H O dominated due to solar wind 2 proton (H+) induced hydroxylation having higher binding energy for H O. 2 Figure 4.4: Thermally corrected lunar spectra for IIRS data strip-2 for bright anorthositic, mare and near polar highland surface. It shows significant lunar hydration feature varying with different surface composition types. 33 Back Index Home Print Next",
+    "Major Science Results CHAPTER 4 Figure 4.5: Total hydration maps for the thermally corrected Chandrayaan-2 IIRS strips analysed in the present study. The observed total water concentration is varying between near 0 to 800 ppm having strong control on mineralogy and latitudes.  Characterisation of hydration feature in the North Polar Region on the far side of the Moon Preliminary analysis of the first light image of the lunar surface acquired on 23 Aug 2019 from an altitude of ~4300 km resulted in the identification of OH and H O separately by 2 studying the corresponding Band Center locations near ~2.86- and 2.95 \u00b5m, respectively. The variations in the reflected light from the lunar surface were distinctly measured by IIRS for different kinds of surface types, namely, crater central peaks (e.g., Stebbins), crater floors (e.g., Stebbins and Sommerfield), very fresh reworked ejecta associated with small craterlets within the crater floor of a large crater (e.g., Sommerfield) and the sun illuminated inner rims of craters (e.g., Kirkwood). Back Index Home Print Next 34",
+    "Major Science Results CHAPTER 4 Figure 4.6: (a) 3000-nm Integrated Band Depth (IBD) map to highlight the variations in the strength of the hydration (OH/H2O) feature as captured by Ch-2 IIRS data over the north polar region on the far side of the Moon; (b) Band Center; (c) Band Depth and (d) Band Area Map.  Detection and quantification of hydroxyl at crater Aristarchus based on Chandrayaan-2 Imaging Infra-Red Spectrometer (IIRS) measurement The mineralogical diversity and enhanced hydration feature associated with crater Aristarchus (23.6\u00b0N, 47.5\u00b0W) have been studied using Chandrayaan-2 IIRS data. For the first time, complete characterisation of the 3000-nm hydration feature is carried out for lunar surface. Prominent doublet as well as asymmetric absorption feature is seen near 35 Back Index Home Print Next",
+    "Major Science Results CHAPTER 4 3000 nm. The doublet and asymmetric nature of the hydration feature suggests it to be more of adsorbed OH than H O. The shape of the hydration features and its strength varies 2 from pyroclasts to impact melts to coarse ejecta and/or bedrock exposures, and it ranges from ~5-20%. Observed water concentration has been quantified and the concentration is found to vary from ~15-170 ppm with an average value of ~80 ppm. Figure 4.7: (a) Ch-2 IIRS RGB-FCC. Coloured boxes indicate Regions of Interests (ROIs); (b) IBD-Albedo- based FCC. ROIs are marked as 1-10; (c) Mean spectral plot corresponding to the ROIs; (d) Temperature map; (e) ESPAT vis-\u00e0-vis H2O content map of crater Aristarchus. The nature of the hydration feature strongly suggests it to be Hydroxyl (OH) and the water content is found to vary from ~15-170 ppm. The IIRS spectral range beyond 3 \u00b5m has helped in complete characterisation of the lunar hydration feature for the first time. 4.6 Terrain Mapping Camera-2 (TMC-2) TMC-2 is a panchromatic camera having stereo viewing capability that captures images of the lunar surface at 5 m resolution. The broad objective of this payload is systematic Back Index Home Print Next 36",
+    "Major Science Results CHAPTER 4 morphological / morphometric and age determination of various landforms and geomprphic units. TMC-2 captures images in low to high sun-angle from an altitude of 100 km. These images help identify subtle topographic variations and enable mapping of low elevation landforms, one of which is a prominent ~220 km long wrinkle ridge called the Dorsa Geikie (DG) lying within Mare Fecunditatis. A wrinkle ridge is suppose to have formed due to crustal deformation (shortening) owing to lateral compressional forces which results in folding followed by rupture of ductile crust and pushes one part over the other along a concealed blind thrust (fault) with a well defined vertical offset as shown in the schematic diagram (Figure 4.8). Figure 4.8: Schematic of a Classic Wrinkle Ridge The stereo viewing capability of TMC-2 aids in generating a Digital Elevation Model (DEM) of the terrain and the corresponding orthoimage from TMC-2 can be overlaid on this DEM to generate a perspective view and correctly estimate the morphometric parameters of the DG. A three dimensional perspective map has been generated for wrinkle ridge Dorsa Geiki using TMC-2 DEM and Orthoimage (Figure 4.9). The morphometric paramets like height, length, verticle offset etc. have been estimated using the standard procedure. 37 Back Index Home Print Next",
+    "Major Science Results CHAPTER 4 Figure 4.9: Three dimensional perspective view of Wrinkle Ridge Dorsa Geiki (DG) The estimated morphometric parameters helped in detailed structural study of the DG and to reveal crustal shortening, cumulative contractional strain and palaeostress regime responsible for thrust faulting for the first time. The average crustal shortening has been found to be 1.89% which is commensurate with Lunar Average (0.26-3.6) [Golembek et. al., 1991]. Contractional Strain is estimated to be 0.60%, this value is higher than in Mare Serenitis (~0.36) and Mare Tranquillitatis (0.14%) [Li et. al., 2018 ]. The age of the ridge has been computed using well known Crater Size Frequency Distribution (CSFD) method which suggest the Dorsa Geiki to have formed around 3.4 ga ago. Initiation of mare volcanism in the Fecunditatis basin occurred at ~3.68 Ga (Yue et al. 2017). Therefore, the DG might have formed ~0.28 Ga after the initiation of basaltic volcanism in the Fecunditatis basin. These findings demonstrate the efficacy and use of TMC-2 stereo coverage for detailed estimation of Lunar Crustal Shortening through accumulated stress/strain analysis, depth Back Index Home Print Next 38",
+    "Major Science Results CHAPTER 4 of detachment, age determination etc. for a given Lunar Wrinkle Ridge, Dorsa Geiki in this case. In order to accurately estimate the TOTAL LUNAR CRUSTAL SHRINKAGE , the present study opens an opportunity for the global scientific community to use TMC-2 data sets and carry out such identical detailed analysis for all wrinkle ridges / lobate scarps on Moon and sum them up to estimate total Lunar accumulated contraction strain. This will be perhaps the first ever accurate estimate of total lunar shrinkage based on morpho-structural strain analysis of each wrinkle ridge / lobate scarp on Moon, as demonstrated for one Ridge in this study by TMC-2. 4.7 Orbiter High Resolution Camera (OHRC) The scientific results obtained from OHRC payload are discussed below:  Analysis for boulders distribution in the region around the Boguslawsky E crater using OHRC data Figure 4.10: Figure (a) shows the boulders that are identified and mapped (shown for a small region). The red circles indicate a circumscribing circle around a boulder and the red line indicates the shadow length. Figure (b) shows the distribution of boulders around a simple crater. The yellow circles indicate the boulders locations and the red circles indicate the distance from the crater centre in terms of crater radii. Figure (c) shows the rose diagram which shows the spatial distribution of boulders around the crater. The proportion of cyan colour in a sector indicates the number of boulders (shown by blue colour) present in that sector. OHRC imaged the region around the Boguslawsky E (74.920\u00b0 S, 54.520\u00b0 E) on 4 Sept 2019 at 0.28 m resolution and at sun elevation angle. Boulders population is seen around a simple (unnamed) crater having diameter of 340 m, located in southern portion of the OHRC image. These boulders are distinctly seen (Figure 4.10 a) in the OHRC image because of the high spatial resolution and low sun elevation (which results in long shadows). 39 Back Index Home Print Next",
+    "Major Science Results CHAPTER 4 Summary of observations from this study is as follows: A total of 1969 boulders above 1.12 m diameter are identified and mapped from the OHRC image. Diameters are measured and heights of the boulders are estimated from the length of the shadows. The range of diameters is from 1.12 m to 6.64 m. The range of calculated heights is from 0.2 m to 4.34 m. Spatial density of boulders decreases with distance from the crater center (Figure 4.10 b). The rose diagram (Figure 4.10 c) is helpful in understanding the directional distribution of the boulders around the crater. The distribution appears to be quite uniform and there is no particular directional dependence of distribution, which indicates that the crater was formed as a result of normal impact (high impact angle). The boulders distribution is taken as a proxy to the age of the crater and it is estimated to be around 65-87 Ma based on empirical relationship between maximum distance of boulders from center of the crater and crater age. OHRC provide the highest resolution optical data from orbit in a nominal mode, so it presents opportunities to look at lunar surface in unprecedented details. Also, it has the capability to image in very low illumination conditions which can be extremely useful for PSR studies (regions illuminated by reflected light). 4.8 Dual Frequency Radio Science (DFRS) Experiment Several set of ingress occultation experiments were conducted with DFRS during Oct 2019 and Jan-Feb 2020. DFRS uses coherent radio signals at two frequencies (X, and S band), transmitted simultaneously from Orbiter and received at ground, to study the temporal and spatial evolution of Lunar ionosphere, and atmosphere. The experiments were conducted in Open Loop mode using a Radio Science receiver at Indian Deep Station Network (IDSN), Byallalu. Theoretical estimates of the satellite Doppler were obtained and Doppler residuals were estimated after subtracting theoretical Doppler from observed Doppler for both the frequencies. A sharp negative Doppler residual at both the frequencies were noted prior to satellite getting hidden behind the Moon. The negative Doppler residual represents bending of the radio signals due to ambient neutral medium of the probing atmosphere. Following the standard procedure, bending angle and refractivity profiles were obtained from the Doppler residual data. An elevated layer of neutral particles of about 2 km thickness giving rise to bending of the satellite signals were noted. The base height of the layer appears to rise in altitude with increasing solar zenith angle. More observations from DFRS are required to properly characterize the elevated layer of neutral particles near lunar surface. Back Index Home Print Next 40",
+    "Major Science Results CHAPTER 4 4.9 Publications related to science results from Chandrayaan-2 Orbiter Payloads The brief science results presented in previous sections from various Chandrayaan-2 Orbiter Payloads can be found in detail in the following peer reviewed publications from Chandrayaan-2 Orbiter Payloads. 1. \u201cChandrayaan-2 Large Area Soft X-ray Spectrometer (CLASS): Calibration, In-flight performance and first results\u201d, Icarus, Netra S Pillai, S. Narendranath, K. Vadodariya, Srikar P Tadepalli, Radhakrishna V, Anurag Tyagi, Reena Yadav, Brajpal Singh, Vaishali Sharan,P. S. Athiray, P. Sreekumar, K. Sankarasubramanian, Megha Bhatt, Amit Basu Sarbadhikari, N. P. S. Mithun, Santosh Vadawale, Icarus, Volume 363, 15 Jul 2021, 114436. 2. \u201cObservations of the Quiet Sun During the Deepest Solar Minimum of the Past Century with Chandrayaan-2 XSM \u2013 Elemental Abundances in the Quiescent Corona\u201d, Vadawale, Santosh V.; Mondal, Biswajit; Mithun, N. P. S.; Sarkar, Aveek; Janardhan, P.; Joshi, Bhuwan; Bhardwaj, Anil; Shanmugam, M.; Patel, Arpit R.; Adalja, Hitesh Kumar L.; Goyal, Shiv Kumar; Ladiya, Tinkal; Tiwari, Neeraj Kumar; Singh, Nishant; Kumar, Sushil, ApJL, 912:L12, 2021. 3. \u201cData Processing Software for Chandrayaan-2 Solar X-ray Monitor\u201d, Mithun, N. P. S.; Vadawale, S. V.; Patel, A. R.; Shanmugam, M.; Chakrabarty, D.; Konar, P.; Sarvaiya, T. N.; Padia, G. D.; Sarkar, A.; Kumar, P.; Jangid, P.; Sarda, A.; Shah, M. S.; Bhardwaj, A., Astronomy & Computing, 34:100449, 2021. 4. \u201cGround Calibration of Solar X-ray Monitor on board the Chandrayaan-2 Orbiter\u201d ,Mithun, N. P. S.; Vadawale, Santosh V.; Shanmugam, M.; Patel, Arpit R.; Tiwari, Neeraj Kumar; Adalja, Hiteshkumar L.; Goyal, Shiv Kumar; Ladiya, Tinkal; Singh, Nishant; Kumar, Sushil; Tiwari, Manoj K.; Modi, M. H.; Mondal, Biswajit; Sarkar, Aveek; Joshi, Bhuwan; Janardhan, P.; Bhardwaj, Anil, Experimental Astronomy, 51:1, 2021. 5. \u201cSolar X-ray Monitor On board the Chandrayaan2 Orbiter: In-flight Performance and Science Prospects\u201d, Mithun, N. P. S.; Vadawale, Santosh V.; Sarkar, Aveek; Shanmugam, M.; Patel, Arpit R.; Mondal, Biswajit; Joshi, Bhuwan; Janardhan, P.; Adalja, Hiteshkumar L.; Goyal, Shiv Kumar; Ladiya, Tinkal; Tiwari, Neeraj Kumar; Singh, Nishant; Kumar, Sushil; Tiwari, Manoj K.; Modi, M. H.; Bhardwaj, Anil, Solar Physics , 295:139, 2020. 6. \u201cChandrayaan-2 Dual-Frequency SAR (DFSAR): Performance Characterisation and Initial 41 Back Index Home Print Next",
+    "Major Science Results CHAPTER 4 Results\u201d, Sriram S. Bhiravarasu, Tathagatha Chakraborty, Deepak Putrevu, Dharmendra Pandey, Anup Das, V. M. Ramanujam, Raghav Mehra, Parikshit Parasher, Krishna M. Agrawal, Shubham Gupta, Gaurav S. Seth, Amit Shukla, Nikhil Y. Pandya, Sanjay Trivedi, Arundhati Misra, Rajeev Jyoti, and Raj Kumar, The Planetary Science Journal, Volume 2, 134 , 2021. 7. \u201cUnambiguous detection of OH & H O on the Moon from Chandrayaan-2 imaging 2 infrared spectrometer (IIRS) reflectance data using 3.0 \u00b5m hydration feature\u201d, Chauhan, P., Chauhan, M., Verma, P. A., Sharma, S., Bhattacharya, S., Dagar, A. K., Amitabh, Patil, A. N., Parashar, A. K., Kumar, A., Desai, N. M., Karidhal, R., Kiran Kumar, A. S., 2021. Current Science (in Press). 8. \u201cStrain /stress evaluation of wrinkle ridge \u2018Dorsa Geikie\u2019 and its implication in adjoining region using Terrain Mapping Camera-2 onboard Chandrayaan-2 Mission and other data\u201d, A.S. Arya, Joyita Thapa, Abhik Kundu, Rwiti Basu, Amitabh, Ankush Kumar and Arup Roychowdhury, 2021. Current Science, Mar 2021 (Published Online - Unedited). 9. \u201cArgon-40 in Lunar Exosphere: Observations from CHACE-2 on Chandrayaan-2 Orbiter\u201d, Dhanya et al., Manuscript submitted; under review (2021). 10. \u201cObservations of the Quiet Sun During the Deepest Solar Minimum of the Past Century with Chandrayaan-2 XSM \u2013 Sub-A Class Microflares Outside Active Regions\u201d, Vadawale, Santosh V.; Mithun, N. P. S.; Mondal, Biswajit; Sarkar, Aveek; Janardhan, P.; Joshi, Bhuwan; Bhardwaj, Anil; Shanmugam, M.; Patel, Arpit R.; Adalja, Hitesh Kumar L.; Goyal, Shiv Kumar; Ladiya, Tinkal; Tiwari, Neeraj Kumar; Singh, Nishant; Kumar, Sushil, ApJL, 912:L13, 2021. Back Index Home Print Next 42",
+    "Major Science Results CHAPTER 4 References  Choudhary, R. K., Ambili, K. M., Choudhury, S., Dhanya, M. B., and Bhardwaj, A. (2016), On the origin of the ionosphere at the Moon using results from Chandrayaan-1 S band radio occultation experiment and a photochemical model, Geophys. Res. Lett., 43, 10,025\u2013 10,033, doi:10.1002/2016GL070612.  Golombek, M. P., Plescia, J. B. and Franklin, B. J., Faulting and folding in the formation of planetary wrinkle ridges. In Lunar and Planetary Science Conference Proceedings, Texas, USA, 1991, vol. 21, pp. 679\u2013693.  Li, B., Ling, Z., Zhang, J., Chen, J., Ni, Y. and Liu, C., Displacement length ratios and contractional strains of lunar wrinkle ridges in mare serenitatis and mare tranquillitatis. J. Struct. Geol., 2018, 109, 27\u201337.  Mondal, Biswajit; Sarkar, Aveek; Vadawale, Santosh V.; Mithun N. P. S.; Janardhan P.; Del Zanna, Giulio; Mason, Helen E.; Mitra-Kraev, Urmila; Narendranath, S., \u201cEvolution of Elemental Abundances During B-Class Solar Flares: Soft X-ray Spectral Measurements with Chandrayaan-2 XSM\u201d, ApJ (accepted), arXiv:2107.07825, 2021.  Sridharan, R., S. M. Ahmed, T.P. Das, P. Sreelatha, P. Pradeepkumar, N. Naik, and G. Supriya, The sunlit lunar atmosphere: A comprehensive study by CHACE on the Moon Impact Probe of Chandrayaan-1, Planetary and Space Science, 58, 1567\u20131577, 2010.  Vadawale, Santosh V.; Mithun, N. P. S.; Mondal, Biswajit; Sarkar, Aveek; Janardhan, P.; Joshi, Bhuwan; Bhardwaj, Anil; Shanmugam, M.; Patel, Arpit R.; Adalja, Hitesh Kumar L.; Goyal, Shiv Kumar; Ladiya, Tinkal; Tiwari, Neeraj Kumar; Singh, Nishant; Kumar, Sushil, \u201cObservations of the Quiet Sun During the Deepest Solar Minimum of the Past Century with Chandrayaan-2 XSM: Sub-A Class Microflares Outside Active Regions\u201d, ApJL, 912:L13, 2021.  Vadawale, Santosh V.; Mondal, Biswajit; Mithun, N. P. S.; Sarkar, Aveek; Janardhan, P.; Joshi, Bhuwan; Bhardwaj, Anil; Shanmugam, M.; Patel, Arpit R.; Adalja, Hitesh Kumar L.; Goyal, Shiv Kumar; Ladiya, Tinkal; Tiwari, Neeraj Kumar; Singh, Nishant; Kumar, Sushil, \u201cObservations of the Quiet Sun During the Deepest Solar Minimum of the Past Century with Chandrayaan-2 XSM: Elemental Abundances in the Quiescent Corona \u201c, ApJL, 912:L12, 2021.  Yue, Z., Michael, G. G., Di, K. and Liu, J., Global survey of lunar wrinkle ridge formation times. Earth Planet. Sci. Lett., 2017, 477, 14\u201320; https://doi.org/10.1016/j.epsl.2017.07.048. 43 Back Index Home Print Next",
+    "Glimpse of the Moon as seen from Terrain Mapping Camera onboard Orbiter Handbook of Payloads Data Science & INDIAN SPACE RESEARCH ORGANISATION I n d i a n S p a c e R e s e a r c h O r g a n i s a t i o n Bengaluru Bengaluru Back Index Home Print"
+  ],
+  "tables": [
+    {
+      "0": {
+        "0": "Plan",
+        "1": "Plan-A",
+        "2": "Plan-B",
+        "3": "Plan-C",
+        "4": "Plan-D",
+        "5": "Plan-E"
+      },
+      "1": {
+        "0": "Attributes",
+        "1": "NM + Edge-On+\nNear Side SunLit",
+        "2": "NM + Edge-On+\nFar Side SunLit",
+        "3": "NM + Face-On",
+        "4": "DD + Face-On",
+        "5": "DD + Edge-On"
+      },
+      "2": {
+        "0": "Imaging Payloads",
+        "1": "TMC+IIRS (10 mins)\nXSM+CLASS (10 mins)\n+ CHACE (Continuous)",
+        "2": "TMC+IIRS (10 mins)\nXSM+CLASS (20 mins)\n+ CHACE (Continuous)",
+        "3": "TMC+IIRS (10 mins)\nXSM+CLASS (20 mins)\n+ CHACE (Continuous)\n+ SAR (3 mins Low Mode)",
+        "4": "XSM+Class (Continuous)\nSAR \u2013 L3 Mode (5mins)\nOr SAR-S3 mode (7 mins)",
+        "5": "XSM+Class (Continuous)\nSAR \u2013 L3 Mode (2.5 mins)\nOr SAR-S3 mode ( 3.5 mins)"
+      },
+      "3": {
+        "0": "visibility Time / \nPlayback (PB) Time",
+        "1": "72 mins / 60 mins",
+        "2": "72 mins / 65 mins",
+        "3": "118 mins / 80 mins",
+        "4": "118mins / 105 mins",
+        "5": "72 mins / 60 mins"
+      },
+      "4": {
+        "0": "Imaging to \nPB Ratio",
+        "1": "~ 1:6",
+        "2": "~1:6",
+        "3": "~1:6",
+        "4": "~ 1:18  \n( SAR L3)",
+        "5": "~ 1:18  \n(SAR L3)"
+      }
+    },
+    {
+      "0": {
+        "0": "",
+        "1": ""
+      },
+      "1": {
+        "0": "",
+        "1": ""
+      },
+      "2": {
+        "0": "",
+        "1": ""
+      },
+      "3": {
+        "0": "",
+        "1": ""
+      }
+    },
+    {
+      "0": {
+        "0": "Payload",
+        "1": "CLASS",
+        "2": "XSM",
+        "3": "CHACE-2",
+        "4": "DfSAR",
+        "5": "TMC-2",
+        "6": "OHRC",
+        "7": "DfRS",
+        "8": "IIRS"
+      },
+      "1": {
+        "0": "Data sets released \nin Dec 2020",
+        "1": "180",
+        "2": "69",
+        "3": "134",
+        "4": "49",
+        "5": "40",
+        "6": "01",
+        "7": "07",
+        "8": "0"
+      },
+      "2": {
+        "0": "Data sets released \nin Jul 2021",
+        "1": "870",
+        "2": "180",
+        "3": "269",
+        "4": "53",
+        "5": "93",
+        "6": "28",
+        "7": "0",
+        "8": "5"
+      },
+      "3": {
+        "0": "Total data sets in \npublic domain",
+        "1": "1050",
+        "2": "249",
+        "3": "403",
+        "4": "102",
+        "5": "133",
+        "6": "29",
+        "7": "07",
+        "8": "5"
+      }
+    },
+    {
+      "0": {
+        "0": "Payload",
+        "1": "CLASS",
+        "2": "XSM",
+        "3": "CHACE-2",
+        "4": "DfSAR",
+        "5": "TMC-2",
+        "6": "OHRC",
+        "7": "DfRS",
+        "8": "IIRS"
+      },
+      "1": {
+        "0": "Data Size (in GB)",
+        "1": "40",
+        "2": "2.4",
+        "3": "0.04",
+        "4": "541",
+        "5": "637",
+        "6": "22",
+        "7": "11",
+        "8": "21"
+      },
+      "2": {
+        "0": "Total Data (in TB)",
+        "1": "1.27",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": ""
+      }
+    },
+    {
+      "0": {
+        "0": "Payload Name",
+        "1": "CLASS"
+      },
+      "1": {
+        "0": "Observation \nStrategy",
+        "1": "Always ON\nContinuous \nobservation on \nthe sunlit side.\nGeotail \nobservations \nfor 6 days \ncentered \naround full \nmoon.\nActive Sun is \ndesirable."
+      },
+      "2": {
+        "0": "Number of \ndata sets \nreleased in \npublic",
+        "1": "1050"
+      },
+      "3": {
+        "0": "Analysis tools \navailable in \nPRADAN",
+        "1": "CLASS_add_\nL1_files_time.\npro\nRe-distribution \nmatrix file \nAncillary \nresponse file \nBackground \nfile"
+      },
+      "4": {
+        "0": "Documents \navailable in \nPRADAN",
+        "1": "ch2_class_\npds4_sis.pdf \n(s/w interface \nspecs)\nCh2_class_\nuser_manual.\npdf (for L1 data \nanalysis)"
+      }
+    },
+    {
+      "0": {
+        "0": "XSM (looks at \nSun)",
+        "1": "CHACE-2",
+        "2": "DfSAR"
+      },
+      "1": {
+        "0": "Always ON\n30 days \nobservations in \nthe middle of \nDD season.\n~20 days \nobservations \nin the stand \nand end of NM \nseason",
+        "1": "Always ON\nOperated for 2 \nhrs / 4 hrs per \nday\nAfter degas \nmode \noperation on \n22nd May, one \noperation (4 \nhrs) / day is \nbeing done.",
+        "2": "Operated \nduring Dawn-\nDusk season.\nS/C is roll-\ntilted for \nimaging \noperation.\nSystematic \ncoverage of \nlunar poles (85 \nto 90 deg in the \ninitial seasons; \n80 to 85 deg \nin subsequent \nseasons)"
+      },
+      "2": {
+        "0": "249",
+        "1": "403",
+        "2": "102"
+      },
+      "3": {
+        "0": "xsmgtigen \nxsmgenspec \nxsmgenlc \nxsmaddspec \nxsmmet2utc\nxsmutc2met\nch2xsm_read_\ndata.pro,\nch2xsm_read_\ndrm.pro",
+        "1": "Nil",
+        "2": "Microwave \nData Analysis \nSoftware \n(MIDAS V2.1)"
+      },
+      "4": {
+        "0": "XSM Data \nAnalysis Guide \n(V1.0)\nXSM Data \nProducts and \nArchive SIS \n(V1.0)",
+        "1": "CHACE2_\nreadme.pdf\nCHACE2_User_\nmanual.pdf \nch2_chace2_\ndp_archive_\nsis.pdf",
+        "2": "Data Product \nSIS and PDS4 \narchival \nDFSAR user \nmanual."
+      }
+    },
+    {
+      "0": {
+        "0": "TMC-2",
+        "1": "OHRC"
+      },
+      "1": {
+        "0": "Operated \nduring Noon-\nMidnight \n(N-M) season \nwhich \nlasts for ~3 \nmonths.\n10 min to 30 \nmin operation\nDifferent \nmodes and \nexposure \nsettings.\nCompleted \n3 imaging \nseasons. 4th \nseason is \ngoing on from \n15 May 2021.",
+        "1": "Targeted \nobservations \nonly,\nImaging \nin low \nillumination \nconditions (6 \nto 12 deg Sun \nelevation)\n2 sec to \n20 sec \noperation.\nTime delay \nintegration \nsettings."
+      },
+      "2": {
+        "0": "133",
+        "1": "29"
+      },
+      "3": {
+        "0": "PDS4 Viewer",
+        "1": "PDS4 Viewer"
+      },
+      "4": {
+        "0": "Data Product \nUser Guide.\nLTA (Long \nTerm Archive) \nAssembly \nProcedure",
+        "1": "Data Product \nUser Guide\nLTA (Long \nTerm Archive) \nAssembly \nProcedure"
+      }
+    },
+    {
+      "0": {
+        "0": "DfRS",
+        "1": "IIRS"
+      },
+      "1": {
+        "0": "Limited \noperations due \nto mounting \nrelated \ntechnical \nissues.\n250 minutes \nobservations \ndone so far \nwith varying \nduration.",
+        "1": "Operated \nduring N-M \nseason.\nCompleted \n3 imaging \nseasons. 4th \nseason is going \non from 15 \nMay.\nDark sky \ndata for Cal \npurposes.\nGiven priority \nto complete \ncoverage of \nentire moon \n(unique \nextended IR \nregion data, for \nthe first time)."
+      },
+      "2": {
+        "0": "07",
+        "1": "5"
+      },
+      "3": {
+        "0": "Nil",
+        "1": "PDS4 Viewer"
+      },
+      "4": {
+        "0": "DPSIS \ndocument\nTechnical \nreport on data \nanalysis.",
+        "1": "Data Product \nUser Guide\nLTA (Long \nTerm Archive) \nAssembly \nProcedure"
+      }
+    },
+    {
+      "0": {
+        "0": ""
+      },
+      "1": {
+        "0": ""
+      },
+      "2": {
+        "0": ""
+      },
+      "3": {
+        "0": ""
+      },
+      "4": {
+        "0": ""
+      }
+    },
+    {
+      "0": {
+        "0": "",
+        "1": "",
+        "2": ""
+      },
+      "1": {
+        "0": "",
+        "1": "",
+        "2": ""
+      },
+      "2": {
+        "0": "",
+        "1": "",
+        "2": ""
+      },
+      "3": {
+        "0": "",
+        "1": "",
+        "2": ""
+      },
+      "4": {
+        "0": "",
+        "1": "",
+        "2": ""
+      },
+      "5": {
+        "0": "",
+        "1": "",
+        "2": ""
+      },
+      "6": {
+        "0": "",
+        "1": "",
+        "2": ""
+      },
+      "7": {
+        "0": "",
+        "1": "",
+        "2": ""
+      }
+    },
+    {
+      "0": {
+        "0": ""
+      },
+      "1": {
+        "0": ""
+      }
+    },
+    {
+      "0": {
+        "0": "",
+        "1": "",
+        "2": ""
+      },
+      "1": {
+        "0": "",
+        "1": "",
+        "2": ""
+      },
+      "2": {
+        "0": "",
+        "1": "",
+        "2": ""
+      },
+      "3": {
+        "0": "",
+        "1": "",
+        "2": ""
+      },
+      "4": {
+        "0": "",
+        "1": "",
+        "2": ""
+      },
+      "5": {
+        "0": "",
+        "1": "",
+        "2": ""
+      }
+    },
+    {
+      "0": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": ""
+      }
+    }
+  ]
+}
