@@ -2,11 +2,11 @@
   "file_name": "AdityaL1_handbook.pdf",
   "mission": "Aditya-L1",
   "instruments": [
-    "SAR",
+    "VELC",
     "HEL1OS",
     "MAG",
     "SUIT",
-    "VELC"
+    "SAR"
   ],
   "entities": {
     "dates": [],
@@ -15,3804 +15,3805 @@
       "tli"
     ],
     "measurements": [
-      "400nm",
-      "1 AU",
-      "6 nT",
+      "200 to 400 nm",
       "5303 Angstrom",
       "100-280 nm",
-      "320-360 nm",
-      "000 km",
-      "6378 km",
-      "700 nm",
-      "200-400nm",
       "22 keV",
-      "280-315 nm",
-      "315 nm",
-      "2 to 22 keV",
-      "125 AU",
       "400 nm",
-      "360 nm",
+      "6378 km",
       "400 km",
-      "200-400 nm",
-      "150 keV",
-      "400 km/s",
-      "2100 km",
-      "1 Angstrom",
-      "200 to 400 nm",
-      "10 to 150 keV",
-      "315-400 nm",
+      "280-315 nm",
       "000 nT",
+      "315-400 nm",
+      "380 nm",
+      "2 to 22 keV",
+      "6 nT",
       "280 nm",
+      "200-400 nm",
+      "10 to 150 keV",
+      "200-400nm",
+      "360 nm",
+      "400nm",
+      "000 km",
+      "1 AU",
+      "700 nm",
+      "2100 km",
+      "315 nm",
+      "400 km/s",
+      "1 Angstrom",
+      "150 keV",
+      "320-360 nm",
       "396.8 nm",
-      "380 nm"
+      "125 AU"
     ],
     "spacy_entities": [
-      {
-        "text": "Tirtha",
-        "label": "PERSON"
-      },
-      {
-        "text": "India",
-        "label": "GPE"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "India",
-        "label": "GPE"
-      },
-      {
-        "text": "India",
-        "label": "GPE"
-      },
-      {
-        "text": "Astronomy",
-        "label": "PERSON"
-      },
-      {
-        "text": "Surya Siddhanta",
-        "label": "PERSON"
-      },
-      {
-        "text": "India",
-        "label": "GPE"
-      },
-      {
-        "text": "Latadeva",
-        "label": "GPE"
-      },
-      {
-        "text": "Indian",
-        "label": "NORP"
-      },
-      {
-        "text": "Aryabhatta",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "India",
-        "label": "GPE"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "India",
-        "label": "GPE"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun-Earth",
-        "label": "ORG"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "ISRO",
-        "label": "ORG"
-      },
-      {
-        "text": "DOS",
-        "label": "ORG"
-      },
-      {
-        "text": "the Principle Investigators",
-        "label": "LOC"
-      },
-      {
-        "text": "Principal Scientist",
-        "label": "PERSON"
-      },
-      {
-        "text": "only a minute",
-        "label": "TIME"
-      },
-      {
-        "text": "three minutes",
-        "label": "TIME"
-      },
-      {
-        "text": "Tirtha",
-        "label": "PERSON"
-      },
-      {
-        "text": "ISRO Headquarters",
-        "label": "ORG"
-      },
-      {
-        "text": "Bengaluru Release",
-        "label": "NORP"
-      },
-      {
-        "text": "first",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "March 2025",
-        "label": "DATE"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "The Sun-Earth Connection",
-        "label": "ORG"
-      },
-      {
-        "text": "13",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "16 UV light",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "19",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "The Interplanetary Magnetic Field",
-        "label": "ORG"
-      },
-      {
-        "text": "22",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "24",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Space Weather",
-        "label": "PERSON"
-      },
-      {
-        "text": "25",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "30",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Scientific Instruments",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1 Mission",
-        "label": "ORG"
-      },
-      {
-        "text": "32",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the Aditya-L1 Data",
-        "label": "ORG"
-      },
-      {
-        "text": "the Aditya-L1 Data",
-        "label": "ORG"
-      },
-      {
-        "text": "36",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Scientific Outcomes",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "VELC",
-        "label": "PERSON"
-      },
-      {
-        "text": "37",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "SUIT",
-        "label": "ORG"
-      },
-      {
-        "text": "41",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the In-Situ Payloads",
-        "label": "ORG"
-      },
-      {
-        "text": "50",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "53",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "54",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "India",
-        "label": "GPE"
-      },
-      {
-        "text": "first",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "1",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "first",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "Sun-Earth Lagrange",
-        "label": "ORG"
-      },
-      {
-        "text": "L1",
-        "label": "GPE"
-      },
-      {
-        "text": "Lagrangian",
-        "label": "NORP"
-      },
-      {
-        "text": "Sun and Earth",
-        "label": "ORG"
-      },
-      {
-        "text": "four",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Lagrange",
-        "label": "ORG"
-      },
-      {
-        "text": "first",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "discussion1",
-        "label": "NORP"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "first",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "Sun-earth",
-        "label": "LOC"
-      },
-      {
-        "text": "1",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "five",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "five",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Lagrange",
-        "label": "ORG"
-      },
-      {
-        "text": "L1",
-        "label": "GPE"
-      },
-      {
-        "text": "L2",
-        "label": "GPE"
-      },
-      {
-        "text": "L3",
-        "label": "GPE"
-      },
-      {
-        "text": "L4",
-        "label": "PERSON"
-      },
-      {
-        "text": "five",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "L1",
-        "label": "GPE"
-      },
-      {
-        "text": "L3",
-        "label": "WORK_OF_ART"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun-Earth",
-        "label": "ORG"
-      },
-      {
-        "text": "L1",
-        "label": "GPE"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "JWST",
-        "label": "PERSON"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "2",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Lagrange",
-        "label": "ORG"
-      },
-      {
-        "text": "L1",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "about 1.5 million kilometers",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "approximately 149.6 million kilometers",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "Sun-Earth Lagrange",
-        "label": "ORG"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "L1",
-        "label": "GPE"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "L1",
-        "label": "GPE"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "L1",
-        "label": "GPE"
-      },
-      {
-        "text": "about 178 days",
-        "label": "DATE"
-      },
-      {
-        "text": "1",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Kepler",
-        "label": "ORG"
-      },
-      {
-        "text": "L1",
-        "label": "GPE"
-      },
-      {
-        "text": "the Aditya-L1 3",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "2",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the Aditya- L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun-Earth L1",
-        "label": "ORG"
-      },
-      {
-        "text": "2",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the Aditya-L1spacecraft",
-        "label": "ORG"
-      },
-      {
-        "text": "Keplerian",
-        "label": "NORP"
-      },
-      {
-        "text": "SOI",
-        "label": "ORG"
-      },
-      {
-        "text": "Sphere of Influence",
-        "label": "ORG"
-      },
-      {
-        "text": "ISRO Now",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun-Earth L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "4",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "twenty-four",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "seven",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth L1",
-        "label": "NORP"
-      },
-      {
-        "text": "three",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Launch Date",
-        "label": "ORG"
-      },
-      {
-        "text": "September 2",
-        "label": "DATE"
-      },
-      {
-        "text": "2023",
-        "label": "DATE"
-      },
-      {
-        "text": "PSLV-C57 Date of Insertion to L1",
-        "label": "ORG"
-      },
-      {
-        "text": "January 6, 2024",
-        "label": "DATE"
-      },
-      {
-        "text": "Broad Scientific",
-        "label": "PERSON"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "5",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "three",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "daily",
-        "label": "DATE"
-      },
-      {
-        "text": "6",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "three",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "fourth",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "one",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "almost zero",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "zero",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "fourth",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "7",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "fourth",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "3",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "2",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "One",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Bose-Einstein",
-        "label": "PERSON"
-      },
-      {
-        "text": "BEC",
-        "label": "ORG"
-      },
-      {
-        "text": "zero",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Fermionic",
-        "label": "ORG"
-      },
-      {
-        "text": "8",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "3",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Tirtha Pratim Das",
-        "label": "ORG"
-      },
-      {
-        "text": "Hydrogen",
-        "label": "ORG"
-      },
-      {
-        "text": "Helium",
-        "label": "GPE"
-      },
-      {
-        "text": "9",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "millions of years",
-        "label": "DATE"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Corona",
-        "label": "ORG"
-      },
-      {
-        "text": "Extreme",
-        "label": "PERSON"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "10",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Radio",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Inner Core",
-        "label": "PERSON"
-      },
-      {
-        "text": "140,000 km",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "up to 7",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "1.4",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "lac km",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "Sun\u2019s",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "1.4",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "5",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun\u2019s",
-        "label": "ORG"
-      },
-      {
-        "text": "millions of years",
-        "label": "DATE"
-      },
-      {
-        "text": "11",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "approximately 7 million",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "about 2 million",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Convectio",
-        "label": "ORG"
-      },
-      {
-        "text": "5",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "7",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "about 2",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "approximately 6000 degrees",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "Outer Photosphe About 400",
-        "label": "WORK_OF_ART"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "about 7",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "only 3700",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "12",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Chromosp",
-        "label": "GPE"
-      },
-      {
-        "text": "About 1700",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "2100 km",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "km thick",
-        "label": "PERSON"
-      },
-      {
-        "text": "between about 3700",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "7700",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "about 7700",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "about 500,000",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Corona Starts",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "13",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "less than 5%",
-        "label": "PERCENT"
-      },
-      {
-        "text": "Helium",
-        "label": "PERSON"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Helium",
-        "label": "ORG"
-      },
-      {
-        "text": "less than 1 %",
-        "label": "PERCENT"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "only about 5 to 10",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "a few hundreds",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "second",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "about 400 km/s",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "about 103.89 hours",
-        "label": "TIME"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "about 149.6 million km",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "Bengaluru",
-        "label": "GPE"
-      },
-      {
-        "text": "Delhi",
-        "label": "GPE"
-      },
-      {
-        "text": "about 4.35 seconds",
-        "label": "TIME"
-      },
-      {
-        "text": "14",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "4",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Coronal Mass Ejection",
-        "label": "ORG"
-      },
-      {
-        "text": "Magnetic Field Lines",
-        "label": "ORG"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "2016",
-        "label": "DATE"
-      },
-      {
-        "text": "4",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "15",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "first",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "Sun-Earth L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Solar Energetic Particles",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "SEP",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "16",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the Ultra Violet",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "between 200 and 400",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "17",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "100-280",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "280",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "315",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "200",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "18",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun-Earth",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "200",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "the Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "200",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "19",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "5",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "280",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "SUIT",
-        "label": "ORG"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "FAC"
-      },
-      {
-        "text": "Sun\u2019s Chromosphere",
-        "label": "ORG"
-      },
-      {
-        "text": "Sunspots",
-        "label": "PERSON"
-      },
-      {
-        "text": "Plages",
-        "label": "ORG"
-      },
-      {
-        "text": "Quiet Sun",
-        "label": "PERSON"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "20",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "5",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Solar",
-        "label": "ORG"
-      },
-      {
-        "text": "UltraViolet",
-        "label": "ORG"
-      },
-      {
-        "text": "280",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "21",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "The Interplanetary Magnetic Field",
-        "label": "ORG"
-      },
-      {
-        "text": "the Interplanetary Magnetic Field",
-        "label": "ORG"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "nT",
-        "label": "PERSON"
-      },
-      {
-        "text": "10-9",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Tesla",
-        "label": "ORG"
-      },
-      {
-        "text": "30",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "5",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "25,000 nT",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "70,000 nT",
-        "label": "PERSON"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "about to 10",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "6378 km",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "day",
-        "label": "DATE"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "approximately 10,000,000",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "about a few hundred",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "about ten",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "approximately between 380",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "700",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "nano meter",
-        "label": "PERSON"
-      },
-      {
-        "text": "Ultra Violet",
-        "label": "ORG"
-      },
-      {
-        "text": "Gamma",
-        "label": "PERSON"
-      },
-      {
-        "text": "Infra Red (",
-        "label": "ORG"
-      },
-      {
-        "text": "IR",
-        "label": "ORG"
-      },
-      {
-        "text": "Radio",
-        "label": "ORG"
-      },
-      {
-        "text": "23",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Solar Wind, IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Sunlight",
-        "label": "PERSON"
-      },
-      {
-        "text": "Sun\u2019s",
-        "label": "ORG"
-      },
-      {
-        "text": "2",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "four",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "four",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "the year",
-        "label": "DATE"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "24",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "the day",
-        "label": "DATE"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "60 degree",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Space Weather",
-        "label": "PERSON"
-      },
-      {
-        "text": "a few hundreds or thousands",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "25",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Coronal Mass Ejection",
-        "label": "ORG"
-      },
-      {
-        "text": "CME",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "26",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "CME",
-        "label": "ORG"
-      },
-      {
-        "text": "Hydrogen",
-        "label": "ORG"
-      },
-      {
-        "text": "Helium",
-        "label": "ORG"
-      },
-      {
-        "text": "CME",
-        "label": "ORG"
-      },
-      {
-        "text": "billions of tons",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "one ton",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "one thousand kilogram",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "27",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Dst-",
-        "label": "ORG"
-      },
-      {
-        "text": "0",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "9",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "three",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Dst",
-        "label": "ORG"
-      },
-      {
-        "text": "Solar",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "28",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "1 to 9",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "X9",
-        "label": "PRODUCT"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "29",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Aditya-L1 Understanding",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun-Earth",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "three",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "First",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "The Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Solar Physics",
-        "label": "ORG"
-      },
-      {
-        "text": "Second",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "about 125",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "AU",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun-Earth",
-        "label": "ORG"
-      },
-      {
-        "text": "1 AU",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "30",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "third",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "Sun-Earth",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "ISRO",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "31",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun-Earth",
-        "label": "ORG"
-      },
-      {
-        "text": "3",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Scientific Instruments",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1 Mission Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "seven",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "GPE"
-      },
-      {
-        "text": "VELC",
-        "label": "PERSON"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "SUIT",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "SoLEXS",
-        "label": "PERSON"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "ASPEX",
-        "label": "PERSON"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "32",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "SUIT",
-        "label": "ORG"
-      },
-      {
-        "text": "SoLEXS",
-        "label": "PERSON"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "ASPEX",
-        "label": "PERSON"
-      },
-      {
-        "text": "Magnetometer",
-        "label": "PERSON"
-      },
-      {
-        "text": "6",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "6",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "7",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "FAC"
-      },
-      {
-        "text": "33",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "six meters",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "Two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "SUIT",
-        "label": "ORG"
-      },
-      {
-        "text": "IUCAA",
-        "label": "ORG"
-      },
-      {
-        "text": "Inter University Centre for Astronomy and Astrophysics",
-        "label": "ORG"
-      },
-      {
-        "text": "Pune",
-        "label": "ORG"
-      },
-      {
-        "text": "the Lune University",
-        "label": "ORG"
-      },
-      {
-        "text": "Indian Institute of Astrophysics",
-        "label": "ORG"
-      },
-      {
-        "text": "Bengaluru",
-        "label": "GPE"
-      },
-      {
-        "text": "ISRO",
-        "label": "ORG"
-      },
-      {
-        "text": "SoLEXS",
-        "label": "ORG"
-      },
-      {
-        "text": "the U R Rao Satellite Centre",
-        "label": "ORG"
-      },
-      {
-        "text": "ISRO",
-        "label": "ORG"
-      },
-      {
-        "text": "ASPEX",
-        "label": "PERSON"
-      },
-      {
-        "text": "PRL (Physical Research Laboratory",
-        "label": "ORG"
-      },
-      {
-        "text": "Ahmedabad",
-        "label": "ORG"
-      },
-      {
-        "text": "Space Physics Laboratory",
-        "label": "ORG"
-      },
-      {
-        "text": "the Vikram Sarabhai Space Centre",
-        "label": "ORG"
-      },
-      {
-        "text": "Thiruvananthapuram",
-        "label": "ORG"
-      },
-      {
-        "text": "LEOS",
-        "label": "ORG"
-      },
-      {
-        "text": "Laboratory for Electro Optic Systems",
-        "label": "ORG"
-      },
-      {
-        "text": "Bengaluru",
-        "label": "GPE"
-      },
-      {
-        "text": "34",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "7",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "ISRO Availability of the Aditya-L1 Data",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "L1",
-        "label": "GPE"
-      },
-      {
-        "text": "the Indian Space Science Data Centre",
-        "label": "ORG"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "35",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the Aditya-L1 Data",
-        "label": "ORG"
-      },
-      {
-        "text": "January 2025",
-        "label": "DATE"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun-Earth L1",
-        "label": "ORG"
-      },
-      {
-        "text": "approximately 178 days",
-        "label": "DATE"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "first",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "Sun-Earth Lagrange",
-        "label": "ORG"
-      },
-      {
-        "text": "NASA",
-        "label": "ORG"
-      },
-      {
-        "text": "ESA",
-        "label": "ORG"
-      },
-      {
-        "text": "SOHO",
-        "label": "ORG"
-      },
-      {
-        "text": "WIND",
-        "label": "ORG"
-      },
-      {
-        "text": "ACE",
-        "label": "ORG"
-      },
-      {
-        "text": "SOHO",
-        "label": "ORG"
-      },
-      {
-        "text": "WIND",
-        "label": "ORG"
-      },
-      {
-        "text": "ACE",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "ISRO",
-        "label": "ORG"
-      },
-      {
-        "text": "first",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "January 6, 2025",
-        "label": "DATE"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "One",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the Visible Emission Line Coronagraph (",
-        "label": "LAW"
-      },
-      {
-        "text": "a Coronal Mass Ejection",
-        "label": "ORG"
-      },
-      {
-        "text": "CME",
-        "label": "ORG"
-      },
-      {
-        "text": "July 16, 2024",
-        "label": "DATE"
-      },
-      {
-        "text": "VELC",
-        "label": "PERSON"
-      },
-      {
-        "text": "36",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "CME",
-        "label": "ORG"
-      },
-      {
-        "text": "CME",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "May 2024",
-        "label": "DATE"
-      },
-      {
-        "text": "ISRO",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Scientific Outcomes",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1 Science",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun\u2019s",
-        "label": "ORG"
-      },
-      {
-        "text": "may 37",
-        "label": "DATE"
-      },
-      {
-        "text": "a few million degree",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "Centigrade",
-        "label": "GPE"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun\u2019s",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun\u2019s",
-        "label": "ORG"
-      },
-      {
-        "text": "5303",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Angstrom",
-        "label": "PERSON"
-      },
-      {
-        "text": "1",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Angstrom",
-        "label": "PERSON"
-      },
-      {
-        "text": "0.0000000001 meter",
-        "label": "QUANTITY"
-      },
-      {
-        "text": "Sun\u2019s",
-        "label": "ORG"
-      },
-      {
-        "text": "The Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "VELC",
-        "label": "PERSON"
-      },
-      {
-        "text": "Sun\u2019s",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun\u2019s",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "first",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "fifty percent",
-        "label": "PERCENT"
-      },
-      {
-        "text": "about six hours",
-        "label": "TIME"
-      },
-      {
-        "text": "38",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "8",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Coronal Mass",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "39",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "India",
-        "label": "GPE"
-      },
-      {
-        "text": "ISRO",
-        "label": "ORG"
-      },
-      {
-        "text": "6",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "8",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "CME",
-        "label": "ORG"
-      },
-      {
-        "text": "VELC",
-        "label": "PERSON"
-      },
-      {
-        "text": "CME",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "40",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "A few long hours",
-        "label": "TIME"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "India",
-        "label": "GPE"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "a few hours",
-        "label": "TIME"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun\u2019s Ultra Violet",
-        "label": "ORG"
-      },
-      {
-        "text": "200",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "41",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "twenty-four",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sunlight",
-        "label": "PERSON"
-      },
-      {
-        "text": "around eight minutes",
-        "label": "TIME"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "FAC"
-      },
-      {
-        "text": "India",
-        "label": "GPE"
-      },
-      {
-        "text": "The Solar Ultra Violet",
-        "label": "ORG"
-      },
-      {
-        "text": "SUIT",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "200",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "first",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "42",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "SUIT",
-        "label": "ORG"
-      },
-      {
-        "text": "1",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "200",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "NUV",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Magnetic Coupling",
-        "label": "ORG"
-      },
-      {
-        "text": "NUV",
-        "label": "ORG"
-      },
-      {
-        "text": "2",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Solar Spectral Irradiance: o",
-        "label": "ORG"
-      },
-      {
-        "text": "NUV",
-        "label": "ORG"
-      },
-      {
-        "text": "Solar",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "43",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Potential Effects",
-        "label": "ORG"
-      },
-      {
-        "text": "the Chemistry of Earth's Atmosphere",
-        "label": "ORG"
-      },
-      {
-        "text": "NUV",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "3",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Solar Flares and Eruptions",
-        "label": "ORG"
-      },
-      {
-        "text": "NUV",
-        "label": "ORG"
-      },
-      {
-        "text": "Eruptive Phenomena",
-        "label": "PERSON"
-      },
-      {
-        "text": "NUV",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "SUIT",
-        "label": "ORG"
-      },
-      {
-        "text": "7",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "3",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "44",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "NUV",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "8",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "9",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "45",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "9",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "SUIT",
-        "label": "ORG"
-      },
-      {
-        "text": "SUIT",
-        "label": "ORG"
-      },
-      {
-        "text": "SUIT",
-        "label": "ORG"
-      },
-      {
-        "text": "first",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "200",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "eleven",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "eleven",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "ISRO",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "SUIT",
-        "label": "ORG"
-      },
-      {
-        "text": "10",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "12",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "46",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "only three",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Wavelength Solar",
-        "label": "PERSON"
-      },
-      {
-        "text": "NB",
-        "label": "ORG"
-      },
-      {
-        "text": "BB",
-        "label": "GPE"
-      },
-      {
-        "text": "Photosphere",
-        "label": "GPE"
-      },
-      {
-        "text": "Chromosphere",
-        "label": "ORG"
-      },
-      {
-        "text": "279",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Plages",
-        "label": "ORG"
-      },
-      {
-        "text": "Quiet Sun",
-        "label": "PERSON"
-      },
-      {
-        "text": "Chromosphere",
-        "label": "ORG"
-      },
-      {
-        "text": "NB4",
-        "label": "GPE"
-      },
-      {
-        "text": "280",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Plages",
-        "label": "ORG"
-      },
-      {
-        "text": "Quiet Sun",
-        "label": "PERSON"
-      },
-      {
-        "text": "Sunspot",
-        "label": "GPE"
-      },
-      {
-        "text": "300",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Chromosphere",
-        "label": "ORG"
-      },
-      {
-        "text": "396.8",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Plages",
-        "label": "ORG"
-      },
-      {
-        "text": "Quiet Sun",
-        "label": "PERSON"
-      },
-      {
-        "text": "200",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Plages",
-        "label": "ORG"
-      },
-      {
-        "text": "Sunspots",
-        "label": "PERSON"
-      },
-      {
-        "text": "47",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Wavelength Solar",
-        "label": "PERSON"
-      },
-      {
-        "text": "NB",
-        "label": "ORG"
-      },
-      {
-        "text": "BB",
-        "label": "GPE"
-      },
-      {
-        "text": "242",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Plages",
-        "label": "ORG"
-      },
-      {
-        "text": "Sunspots Photosphere",
-        "label": "PERSON"
-      },
-      {
-        "text": "320-360",
-        "label": "PRODUCT"
-      },
-      {
-        "text": "10",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "396.8",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "SUIT",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "GPE"
-      },
-      {
-        "text": "Chromosphere",
-        "label": "ORG"
-      },
-      {
-        "text": "Sunspots",
-        "label": "PERSON"
-      },
-      {
-        "text": "Plages",
-        "label": "ORG"
-      },
-      {
-        "text": "Quiet Sun",
-        "label": "PERSON"
-      },
-      {
-        "text": "48",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "11",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "280",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "SUIT",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "GPE"
-      },
-      {
-        "text": "Chromosphere",
-        "label": "ORG"
-      },
-      {
-        "text": "Sunspots",
-        "label": "PERSON"
-      },
-      {
-        "text": "Plages",
-        "label": "ORG"
-      },
-      {
-        "text": "Quiet Sun",
-        "label": "PERSON"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "12",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "LOC"
-      },
-      {
-        "text": "SUIT",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "GPE"
-      },
-      {
-        "text": "Sunspots",
-        "label": "PERSON"
-      },
-      {
-        "text": "49",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the In-Situ Payloads",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "May 2024",
-        "label": "DATE"
-      },
-      {
-        "text": "last two decades",
-        "label": "DATE"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "ISRO",
-        "label": "ORG"
-      },
-      {
-        "text": "4,5",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "13",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Solar",
-        "label": "ORG"
-      },
-      {
-        "text": "ASPEX",
-        "label": "PERSON"
-      },
-      {
-        "text": "ASPEX Team",
-        "label": "ORG"
-      },
-      {
-        "text": "13",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "ASPEX",
-        "label": "PERSON"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Hydrogen",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "the May 10, 2024",
-        "label": "DATE"
-      },
-      {
-        "text": "the late hours",
-        "label": "TIME"
-      },
-      {
-        "text": "50",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the Universal Time",
-        "label": "ORG"
-      },
-      {
-        "text": "May 12, 2024 00:00UT",
-        "label": "DATE"
-      },
-      {
-        "text": "14",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "SoLEX",
-        "label": "NORP"
-      },
-      {
-        "text": "X-Ray",
-        "label": "PRODUCT"
-      },
-      {
-        "text": "15",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "HEL1OS",
-        "label": "GPE"
-      },
-      {
-        "text": "X-Ray 51",
-        "label": "PERSON"
-      },
-      {
-        "text": "6",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "three",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "L1",
-        "label": "GPE"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "few hours Figures",
-        "label": "TIME"
-      },
-      {
-        "text": "14",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "15",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "X-Ray",
-        "label": "PRODUCT"
-      },
-      {
-        "text": "2 to 22",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "X-Ray",
-        "label": "PERSON"
-      },
-      {
-        "text": "10 to 150",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "16",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "IMF",
-        "label": "ORG"
-      },
-      {
-        "text": "52",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "India",
-        "label": "GPE"
-      },
-      {
-        "text": "first",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "Sun-Earth L1 Lagrange",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Earth",
-        "label": "LOC"
-      },
-      {
-        "text": "9",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "10",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "seven",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sun",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "ISSDC",
-        "label": "ORG"
-      },
-      {
-        "text": "L1",
-        "label": "GPE"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "CME",
-        "label": "ORG"
-      },
-      {
-        "text": "July 2024",
-        "label": "DATE"
-      },
-      {
-        "text": "53",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "1",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "ORG"
-      },
-      {
-        "text": "ISRO",
-        "label": "ORG"
-      },
-      {
-        "text": "2",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Arnab Rai Chowdhury",
-        "label": "PERSON"
-      },
-      {
-        "text": "https://youtu.be/CdBXtQEKBRM?si=7UJyiCj5F7ws4uZs",
-        "label": "ORG"
-      },
-      {
-        "text": "3",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the Sun-Earth Connection: Avenues",
-        "label": "ORG"
-      },
-      {
-        "text": "Next Two Decades",
-        "label": "DATE"
-      },
-      {
-        "text": "Gurubaran",
-        "label": "PERSON"
-      },
-      {
-        "text": "IIG https://youtu.be/wUrtQdaTBOA?si=YnnZMD0E15tQCP2E",
-        "label": "LOC"
-      },
-      {
-        "text": "4",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "https://www.isro.gov.in/ISROCapturestheSignaturesoftheRecentSolarE",
-        "label": "ORG"
-      },
-      {
-        "text": "5",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "6",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "7",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "8",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "9",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "10",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "Sudden",
-        "label": "GPE"
-      },
-      {
-        "text": "the Sun Coronal Mass Ejection",
-        "label": "ORG"
-      },
-      {
-        "text": "Aditya-L1",
-        "label": "PERSON"
-      },
-      {
-        "text": "first",
-        "label": "ORDINAL"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL"
-      },
-      {
-        "text": "the Aditya-L1",
-        "label": "ORG"
-      }
+      [
+        "Tirtha",
+        "PERSON"
+      ],
+      [
+        "India",
+        "GPE"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "India",
+        "GPE"
+      ],
+      [
+        "India",
+        "GPE"
+      ],
+      [
+        "Astronomy",
+        "PERSON"
+      ],
+      [
+        "Surya Siddhanta",
+        "PERSON"
+      ],
+      [
+        "India",
+        "GPE"
+      ],
+      [
+        "Latadeva",
+        "GPE"
+      ],
+      [
+        "Indian",
+        "NORP"
+      ],
+      [
+        "Aryabhatta",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "India",
+        "GPE"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "India",
+        "GPE"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Sun-Earth",
+        "ORG"
+      ],
+      [
+        "the Aditya-L1",
+        "ORG"
+      ],
+      [
+        "the Aditya-L1",
+        "ORG"
+      ],
+      [
+        "ISRO",
+        "ORG"
+      ],
+      [
+        "DOS",
+        "ORG"
+      ],
+      [
+        "the Principle Investigators",
+        "LOC"
+      ],
+      [
+        "Principal Scientist",
+        "PERSON"
+      ],
+      [
+        "only a minute",
+        "TIME"
+      ],
+      [
+        "three minutes",
+        "TIME"
+      ],
+      [
+        "Tirtha",
+        "PERSON"
+      ],
+      [
+        "ISRO Headquarters",
+        "ORG"
+      ],
+      [
+        "Bengaluru Release",
+        "NORP"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "March 2025",
+        "DATE"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "The Sun-Earth Connection",
+        "ORG"
+      ],
+      [
+        "13",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "16 UV light",
+        "QUANTITY"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "19",
+        "CARDINAL"
+      ],
+      [
+        "The Interplanetary Magnetic Field",
+        "ORG"
+      ],
+      [
+        "22",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "24",
+        "CARDINAL"
+      ],
+      [
+        "Space Weather",
+        "PERSON"
+      ],
+      [
+        "25",
+        "CARDINAL"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "30",
+        "CARDINAL"
+      ],
+      [
+        "Scientific Instruments",
+        "ORG"
+      ],
+      [
+        "Aditya-L1 Mission",
+        "ORG"
+      ],
+      [
+        "32",
+        "CARDINAL"
+      ],
+      [
+        "the Aditya-L1 Data",
+        "ORG"
+      ],
+      [
+        "the Aditya-L1 Data",
+        "ORG"
+      ],
+      [
+        "36",
+        "CARDINAL"
+      ],
+      [
+        "Scientific Outcomes",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "VELC",
+        "PERSON"
+      ],
+      [
+        "37",
+        "CARDINAL"
+      ],
+      [
+        "SUIT",
+        "ORG"
+      ],
+      [
+        "41",
+        "CARDINAL"
+      ],
+      [
+        "the In-Situ Payloads",
+        "ORG"
+      ],
+      [
+        "50",
+        "CARDINAL"
+      ],
+      [
+        "53",
+        "CARDINAL"
+      ],
+      [
+        "54",
+        "CARDINAL"
+      ],
+      [
+        "India",
+        "GPE"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "1",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "Sun-Earth Lagrange",
+        "ORG"
+      ],
+      [
+        "L1",
+        "GPE"
+      ],
+      [
+        "Lagrangian",
+        "NORP"
+      ],
+      [
+        "Sun and Earth",
+        "ORG"
+      ],
+      [
+        "four",
+        "CARDINAL"
+      ],
+      [
+        "Lagrange",
+        "ORG"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "discussion1",
+        "NORP"
+      ],
+      [
+        "the Aditya-L1",
+        "ORG"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "Sun-earth",
+        "LOC"
+      ],
+      [
+        "1",
+        "CARDINAL"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "five",
+        "CARDINAL"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "five",
+        "CARDINAL"
+      ],
+      [
+        "Lagrange",
+        "ORG"
+      ],
+      [
+        "L1",
+        "GPE"
+      ],
+      [
+        "L2",
+        "GPE"
+      ],
+      [
+        "L3",
+        "GPE"
+      ],
+      [
+        "L4",
+        "PERSON"
+      ],
+      [
+        "five",
+        "CARDINAL"
+      ],
+      [
+        "L1",
+        "GPE"
+      ],
+      [
+        "L3",
+        "WORK_OF_ART"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "Sun-Earth",
+        "ORG"
+      ],
+      [
+        "L1",
+        "GPE"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "JWST",
+        "PERSON"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "2",
+        "CARDINAL"
+      ],
+      [
+        "Lagrange",
+        "ORG"
+      ],
+      [
+        "L1",
+        "CARDINAL"
+      ],
+      [
+        "about 1.5 million kilometers",
+        "QUANTITY"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "approximately 149.6 million kilometers",
+        "QUANTITY"
+      ],
+      [
+        "Sun-Earth Lagrange",
+        "ORG"
+      ],
+      [
+        "the Aditya-L1",
+        "ORG"
+      ],
+      [
+        "L1",
+        "GPE"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "L1",
+        "GPE"
+      ],
+      [
+        "the Aditya-L1",
+        "ORG"
+      ],
+      [
+        "L1",
+        "GPE"
+      ],
+      [
+        "about 178 days",
+        "DATE"
+      ],
+      [
+        "1",
+        "CARDINAL"
+      ],
+      [
+        "the Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Kepler",
+        "ORG"
+      ],
+      [
+        "L1",
+        "GPE"
+      ],
+      [
+        "the Aditya-L1 3",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "2",
+        "CARDINAL"
+      ],
+      [
+        "the Aditya- L1",
+        "ORG"
+      ],
+      [
+        "Sun-Earth L1",
+        "ORG"
+      ],
+      [
+        "2",
+        "CARDINAL"
+      ],
+      [
+        "the Aditya-L1spacecraft",
+        "ORG"
+      ],
+      [
+        "Keplerian",
+        "NORP"
+      ],
+      [
+        "SOI",
+        "ORG"
+      ],
+      [
+        "Sphere of Influence",
+        "ORG"
+      ],
+      [
+        "ISRO Now",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Sun-Earth L1",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "4",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "twenty-four",
+        "CARDINAL"
+      ],
+      [
+        "seven",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Earth L1",
+        "NORP"
+      ],
+      [
+        "three",
+        "CARDINAL"
+      ],
+      [
+        "the Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Launch Date",
+        "ORG"
+      ],
+      [
+        "September 2",
+        "DATE"
+      ],
+      [
+        "2023",
+        "DATE"
+      ],
+      [
+        "PSLV-C57 Date of Insertion to L1",
+        "ORG"
+      ],
+      [
+        "January 6, 2024",
+        "DATE"
+      ],
+      [
+        "Broad Scientific",
+        "PERSON"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "the Aditya-L1",
+        "ORG"
+      ],
+      [
+        "5",
+        "CARDINAL"
+      ],
+      [
+        "three",
+        "CARDINAL"
+      ],
+      [
+        "daily",
+        "DATE"
+      ],
+      [
+        "6",
+        "CARDINAL"
+      ],
+      [
+        "three",
+        "CARDINAL"
+      ],
+      [
+        "fourth",
+        "ORDINAL"
+      ],
+      [
+        "one",
+        "CARDINAL"
+      ],
+      [
+        "almost zero",
+        "CARDINAL"
+      ],
+      [
+        "zero",
+        "CARDINAL"
+      ],
+      [
+        "fourth",
+        "ORDINAL"
+      ],
+      [
+        "7",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "fourth",
+        "ORDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun Sun",
+        "ORG"
+      ],
+      [
+        "3",
+        "CARDINAL"
+      ],
+      [
+        "2",
+        "CARDINAL"
+      ],
+      [
+        "One",
+        "CARDINAL"
+      ],
+      [
+        "Bose-Einstein",
+        "PERSON"
+      ],
+      [
+        "BEC",
+        "ORG"
+      ],
+      [
+        "zero",
+        "CARDINAL"
+      ],
+      [
+        "Fermionic",
+        "ORG"
+      ],
+      [
+        "8",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "3",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Tirtha Pratim Das",
+        "ORG"
+      ],
+      [
+        "Hydrogen",
+        "ORG"
+      ],
+      [
+        "Helium",
+        "GPE"
+      ],
+      [
+        "9",
+        "CARDINAL"
+      ],
+      [
+        "millions of years",
+        "DATE"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Corona",
+        "ORG"
+      ],
+      [
+        "Extreme",
+        "PERSON"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "10",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Radio",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Inner Core",
+        "PERSON"
+      ],
+      [
+        "140,000 km",
+        "QUANTITY"
+      ],
+      [
+        "up to 7",
+        "CARDINAL"
+      ],
+      [
+        "1.4",
+        "CARDINAL"
+      ],
+      [
+        "lac km",
+        "QUANTITY"
+      ],
+      [
+        "Sun\u2019s",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "1.4",
+        "CARDINAL"
+      ],
+      [
+        "5",
+        "CARDINAL"
+      ],
+      [
+        "Sun\u2019s",
+        "ORG"
+      ],
+      [
+        "millions of years",
+        "DATE"
+      ],
+      [
+        "11",
+        "CARDINAL"
+      ],
+      [
+        "approximately 7 million",
+        "CARDINAL"
+      ],
+      [
+        "about 2 million",
+        "CARDINAL"
+      ],
+      [
+        "Convectio",
+        "ORG"
+      ],
+      [
+        "5",
+        "CARDINAL"
+      ],
+      [
+        "7",
+        "CARDINAL"
+      ],
+      [
+        "about 2",
+        "CARDINAL"
+      ],
+      [
+        "approximately 6000 degrees",
+        "QUANTITY"
+      ],
+      [
+        "Outer Photosphe About 400",
+        "WORK_OF_ART"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "about 7",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "only 3700",
+        "CARDINAL"
+      ],
+      [
+        "12",
+        "CARDINAL"
+      ],
+      [
+        "Chromosp",
+        "GPE"
+      ],
+      [
+        "About 1700",
+        "CARDINAL"
+      ],
+      [
+        "2100 km",
+        "QUANTITY"
+      ],
+      [
+        "km thick",
+        "PERSON"
+      ],
+      [
+        "between about 3700",
+        "CARDINAL"
+      ],
+      [
+        "7700",
+        "CARDINAL"
+      ],
+      [
+        "about 7700",
+        "CARDINAL"
+      ],
+      [
+        "about 500,000",
+        "CARDINAL"
+      ],
+      [
+        "Corona Starts",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "13",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "less than 5%",
+        "PERCENT"
+      ],
+      [
+        "Helium",
+        "PERSON"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "Helium",
+        "ORG"
+      ],
+      [
+        "less than 1 %",
+        "PERCENT"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "only about 5 to 10",
+        "CARDINAL"
+      ],
+      [
+        "a few hundreds",
+        "CARDINAL"
+      ],
+      [
+        "second",
+        "ORDINAL"
+      ],
+      [
+        "about 400 km/s",
+        "QUANTITY"
+      ],
+      [
+        "about 103.89 hours",
+        "TIME"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "about 149.6 million km",
+        "QUANTITY"
+      ],
+      [
+        "Bengaluru",
+        "GPE"
+      ],
+      [
+        "Delhi",
+        "GPE"
+      ],
+      [
+        "about 4.35 seconds",
+        "TIME"
+      ],
+      [
+        "14",
+        "CARDINAL"
+      ],
+      [
+        "4",
+        "CARDINAL"
+      ],
+      [
+        "Coronal Mass Ejection",
+        "ORG"
+      ],
+      [
+        "Magnetic Field Lines",
+        "ORG"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "2016",
+        "DATE"
+      ],
+      [
+        "4",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "15",
+        "CARDINAL"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "Sun-Earth L1",
+        "ORG"
+      ],
+      [
+        "Solar Energetic Particles",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "SEP",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "16",
+        "CARDINAL"
+      ],
+      [
+        "the Ultra Violet",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "between 200 and 400",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "17",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "100-280",
+        "CARDINAL"
+      ],
+      [
+        "280",
+        "CARDINAL"
+      ],
+      [
+        "315",
+        "CARDINAL"
+      ],
+      [
+        "200",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "18",
+        "CARDINAL"
+      ],
+      [
+        "Sun-Earth",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "200",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "the Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "200",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "19",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "5",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "280",
+        "CARDINAL"
+      ],
+      [
+        "SUIT",
+        "ORG"
+      ],
+      [
+        "the Aditya-L1",
+        "FAC"
+      ],
+      [
+        "Sun\u2019s Chromosphere",
+        "ORG"
+      ],
+      [
+        "Sunspots",
+        "PERSON"
+      ],
+      [
+        "Plages",
+        "ORG"
+      ],
+      [
+        "Quiet Sun",
+        "PERSON"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "20",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "5",
+        "CARDINAL"
+      ],
+      [
+        "Solar",
+        "ORG"
+      ],
+      [
+        "UltraViolet",
+        "ORG"
+      ],
+      [
+        "280",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "21",
+        "CARDINAL"
+      ],
+      [
+        "The Interplanetary Magnetic Field",
+        "ORG"
+      ],
+      [
+        "the Interplanetary Magnetic Field",
+        "ORG"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "nT",
+        "PERSON"
+      ],
+      [
+        "10-9",
+        "CARDINAL"
+      ],
+      [
+        "Tesla",
+        "ORG"
+      ],
+      [
+        "30",
+        "CARDINAL"
+      ],
+      [
+        "5",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "25,000 nT",
+        "QUANTITY"
+      ],
+      [
+        "70,000 nT",
+        "PERSON"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "about to 10",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "6378 km",
+        "QUANTITY"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "day",
+        "DATE"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "approximately 10,000,000",
+        "CARDINAL"
+      ],
+      [
+        "about a few hundred",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "about ten",
+        "CARDINAL"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "approximately between 380",
+        "CARDINAL"
+      ],
+      [
+        "700",
+        "CARDINAL"
+      ],
+      [
+        "nano meter",
+        "PERSON"
+      ],
+      [
+        "Ultra Violet",
+        "ORG"
+      ],
+      [
+        "Gamma",
+        "PERSON"
+      ],
+      [
+        "Infra Red (",
+        "ORG"
+      ],
+      [
+        "IR",
+        "ORG"
+      ],
+      [
+        "Radio",
+        "ORG"
+      ],
+      [
+        "23",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Solar Wind, IMF",
+        "ORG"
+      ],
+      [
+        "Sunlight",
+        "PERSON"
+      ],
+      [
+        "Sun\u2019s",
+        "ORG"
+      ],
+      [
+        "2",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "four",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "four",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "the year",
+        "DATE"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "24",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "the day",
+        "DATE"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "60 degree",
+        "QUANTITY"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Space Weather",
+        "PERSON"
+      ],
+      [
+        "a few hundreds or thousands",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "25",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "Coronal Mass Ejection",
+        "ORG"
+      ],
+      [
+        "CME",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "26",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "CME",
+        "ORG"
+      ],
+      [
+        "Hydrogen",
+        "ORG"
+      ],
+      [
+        "Helium",
+        "ORG"
+      ],
+      [
+        "CME",
+        "ORG"
+      ],
+      [
+        "billions of tons",
+        "QUANTITY"
+      ],
+      [
+        "one ton",
+        "QUANTITY"
+      ],
+      [
+        "one thousand kilogram",
+        "QUANTITY"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "27",
+        "CARDINAL"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "Dst-",
+        "ORG"
+      ],
+      [
+        "0",
+        "CARDINAL"
+      ],
+      [
+        "9",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "three",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Dst",
+        "ORG"
+      ],
+      [
+        "Solar",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "28",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "1 to 9",
+        "CARDINAL"
+      ],
+      [
+        "X9",
+        "PRODUCT"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "29",
+        "CARDINAL"
+      ],
+      [
+        "Aditya-L1 Understanding",
+        "ORG"
+      ],
+      [
+        "Sun-Earth",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "three",
+        "CARDINAL"
+      ],
+      [
+        "First",
+        "ORDINAL"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "The Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Solar Physics",
+        "ORG"
+      ],
+      [
+        "Second",
+        "ORDINAL"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "about 125",
+        "CARDINAL"
+      ],
+      [
+        "AU",
+        "ORG"
+      ],
+      [
+        "Sun-Earth",
+        "ORG"
+      ],
+      [
+        "1 AU",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "30",
+        "CARDINAL"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "third",
+        "ORDINAL"
+      ],
+      [
+        "Sun-Earth",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "ISRO",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "31",
+        "CARDINAL"
+      ],
+      [
+        "Sun-Earth",
+        "ORG"
+      ],
+      [
+        "3",
+        "CARDINAL"
+      ],
+      [
+        "Scientific Instruments",
+        "ORG"
+      ],
+      [
+        "Aditya-L1 Mission Aditya-L1",
+        "ORG"
+      ],
+      [
+        "seven",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Aditya-L1",
+        "GPE"
+      ],
+      [
+        "VELC",
+        "PERSON"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "SUIT",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "SoLEXS",
+        "PERSON"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "ASPEX",
+        "PERSON"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "32",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "SUIT",
+        "ORG"
+      ],
+      [
+        "SoLEXS",
+        "PERSON"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "ASPEX",
+        "PERSON"
+      ],
+      [
+        "Magnetometer",
+        "PERSON"
+      ],
+      [
+        "6",
+        "CARDINAL"
+      ],
+      [
+        "the Aditya-L1",
+        "ORG"
+      ],
+      [
+        "6",
+        "CARDINAL"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "7",
+        "CARDINAL"
+      ],
+      [
+        "the Aditya-L1",
+        "FAC"
+      ],
+      [
+        "33",
+        "CARDINAL"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "six meters",
+        "QUANTITY"
+      ],
+      [
+        "Two",
+        "CARDINAL"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "the Aditya-L1",
+        "ORG"
+      ],
+      [
+        "SUIT",
+        "ORG"
+      ],
+      [
+        "IUCAA",
+        "ORG"
+      ],
+      [
+        "Inter University Centre for Astronomy and Astrophysics",
+        "ORG"
+      ],
+      [
+        "Pune",
+        "ORG"
+      ],
+      [
+        "the Lune University",
+        "ORG"
+      ],
+      [
+        "Indian Institute of Astrophysics",
+        "ORG"
+      ],
+      [
+        "Bengaluru",
+        "GPE"
+      ],
+      [
+        "ISRO",
+        "ORG"
+      ],
+      [
+        "SoLEXS",
+        "ORG"
+      ],
+      [
+        "the U R Rao Satellite Centre",
+        "ORG"
+      ],
+      [
+        "ISRO",
+        "ORG"
+      ],
+      [
+        "ASPEX",
+        "PERSON"
+      ],
+      [
+        "PRL (Physical Research Laboratory",
+        "ORG"
+      ],
+      [
+        "Ahmedabad",
+        "ORG"
+      ],
+      [
+        "Space Physics Laboratory",
+        "ORG"
+      ],
+      [
+        "the Vikram Sarabhai Space Centre",
+        "ORG"
+      ],
+      [
+        "Thiruvananthapuram",
+        "ORG"
+      ],
+      [
+        "LEOS",
+        "ORG"
+      ],
+      [
+        "Laboratory for Electro Optic Systems",
+        "ORG"
+      ],
+      [
+        "Bengaluru",
+        "GPE"
+      ],
+      [
+        "34",
+        "CARDINAL"
+      ],
+      [
+        "7",
+        "CARDINAL"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "ISRO Availability of the Aditya-L1 Data",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "L1",
+        "GPE"
+      ],
+      [
+        "the Indian Space Science Data Centre",
+        "ORG"
+      ],
+      [
+        "the Aditya-L1",
+        "ORG"
+      ],
+      [
+        "35",
+        "CARDINAL"
+      ],
+      [
+        "the Aditya-L1 Data",
+        "ORG"
+      ],
+      [
+        "January 2025",
+        "DATE"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "Sun-Earth L1",
+        "ORG"
+      ],
+      [
+        "approximately 178 days",
+        "DATE"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "Sun-Earth Lagrange",
+        "ORG"
+      ],
+      [
+        "NASA",
+        "ORG"
+      ],
+      [
+        "ESA",
+        "ORG"
+      ],
+      [
+        "SOHO",
+        "ORG"
+      ],
+      [
+        "WIND",
+        "ORG"
+      ],
+      [
+        "ACE",
+        "ORG"
+      ],
+      [
+        "SOHO",
+        "ORG"
+      ],
+      [
+        "WIND",
+        "ORG"
+      ],
+      [
+        "ACE",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "ISRO",
+        "ORG"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "January 6, 2025",
+        "DATE"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "One",
+        "CARDINAL"
+      ],
+      [
+        "the Visible Emission Line Coronagraph (",
+        "LAW"
+      ],
+      [
+        "a Coronal Mass Ejection",
+        "ORG"
+      ],
+      [
+        "CME",
+        "ORG"
+      ],
+      [
+        "July 16, 2024",
+        "DATE"
+      ],
+      [
+        "VELC",
+        "PERSON"
+      ],
+      [
+        "36",
+        "CARDINAL"
+      ],
+      [
+        "CME",
+        "ORG"
+      ],
+      [
+        "CME",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "May 2024",
+        "DATE"
+      ],
+      [
+        "ISRO",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Scientific Outcomes",
+        "ORG"
+      ],
+      [
+        "Aditya-L1 Science",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Sun\u2019s",
+        "ORG"
+      ],
+      [
+        "may 37",
+        "DATE"
+      ],
+      [
+        "a few million degree",
+        "QUANTITY"
+      ],
+      [
+        "Centigrade",
+        "GPE"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Sun\u2019s",
+        "ORG"
+      ],
+      [
+        "Sun\u2019s",
+        "ORG"
+      ],
+      [
+        "5303",
+        "CARDINAL"
+      ],
+      [
+        "Angstrom",
+        "PERSON"
+      ],
+      [
+        "1",
+        "CARDINAL"
+      ],
+      [
+        "Angstrom",
+        "PERSON"
+      ],
+      [
+        "0.0000000001 meter",
+        "QUANTITY"
+      ],
+      [
+        "Sun\u2019s",
+        "ORG"
+      ],
+      [
+        "The Aditya-L1",
+        "ORG"
+      ],
+      [
+        "VELC",
+        "PERSON"
+      ],
+      [
+        "Sun\u2019s",
+        "ORG"
+      ],
+      [
+        "Sun\u2019s",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "fifty percent",
+        "PERCENT"
+      ],
+      [
+        "about six hours",
+        "TIME"
+      ],
+      [
+        "38",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "8",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "the Aditya-L1",
+        "ORG"
+      ],
+      [
+        "the Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Coronal Mass",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "39",
+        "CARDINAL"
+      ],
+      [
+        "India",
+        "GPE"
+      ],
+      [
+        "ISRO",
+        "ORG"
+      ],
+      [
+        "6",
+        "CARDINAL"
+      ],
+      [
+        "8",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "CME",
+        "ORG"
+      ],
+      [
+        "VELC",
+        "PERSON"
+      ],
+      [
+        "CME",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "40",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "A few long hours",
+        "TIME"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "India",
+        "GPE"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "a few hours",
+        "TIME"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun\u2019s Ultra Violet",
+        "ORG"
+      ],
+      [
+        "200",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "41",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "twenty-four",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sunlight",
+        "PERSON"
+      ],
+      [
+        "around eight minutes",
+        "TIME"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "the Aditya-L1",
+        "FAC"
+      ],
+      [
+        "India",
+        "GPE"
+      ],
+      [
+        "The Solar Ultra Violet",
+        "ORG"
+      ],
+      [
+        "SUIT",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "200",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "42",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "SUIT",
+        "ORG"
+      ],
+      [
+        "1",
+        "CARDINAL"
+      ],
+      [
+        "200",
+        "CARDINAL"
+      ],
+      [
+        "NUV",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Magnetic Coupling",
+        "ORG"
+      ],
+      [
+        "NUV",
+        "ORG"
+      ],
+      [
+        "2",
+        "CARDINAL"
+      ],
+      [
+        "Solar Spectral Irradiance: o",
+        "ORG"
+      ],
+      [
+        "NUV",
+        "ORG"
+      ],
+      [
+        "Solar",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "43",
+        "CARDINAL"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Potential Effects",
+        "ORG"
+      ],
+      [
+        "the Chemistry of Earth's Atmosphere",
+        "ORG"
+      ],
+      [
+        "NUV",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "3",
+        "CARDINAL"
+      ],
+      [
+        "Solar Flares and Eruptions",
+        "ORG"
+      ],
+      [
+        "NUV",
+        "ORG"
+      ],
+      [
+        "Eruptive Phenomena",
+        "PERSON"
+      ],
+      [
+        "NUV",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "SUIT",
+        "ORG"
+      ],
+      [
+        "7",
+        "CARDINAL"
+      ],
+      [
+        "3",
+        "CARDINAL"
+      ],
+      [
+        "44",
+        "CARDINAL"
+      ],
+      [
+        "NUV",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "8",
+        "CARDINAL"
+      ],
+      [
+        "9",
+        "CARDINAL"
+      ],
+      [
+        "45",
+        "CARDINAL"
+      ],
+      [
+        "9",
+        "CARDINAL"
+      ],
+      [
+        "SUIT",
+        "ORG"
+      ],
+      [
+        "SUIT",
+        "ORG"
+      ],
+      [
+        "SUIT",
+        "ORG"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "200",
+        "CARDINAL"
+      ],
+      [
+        "eleven",
+        "CARDINAL"
+      ],
+      [
+        "eleven",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "ISRO",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "SUIT",
+        "ORG"
+      ],
+      [
+        "10",
+        "CARDINAL"
+      ],
+      [
+        "12",
+        "CARDINAL"
+      ],
+      [
+        "46",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "only three",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Wavelength Solar",
+        "PERSON"
+      ],
+      [
+        "NB",
+        "ORG"
+      ],
+      [
+        "BB",
+        "GPE"
+      ],
+      [
+        "Photosphere",
+        "GPE"
+      ],
+      [
+        "Chromosphere",
+        "ORG"
+      ],
+      [
+        "279",
+        "CARDINAL"
+      ],
+      [
+        "Plages",
+        "ORG"
+      ],
+      [
+        "Quiet Sun",
+        "PERSON"
+      ],
+      [
+        "Chromosphere",
+        "ORG"
+      ],
+      [
+        "NB4",
+        "GPE"
+      ],
+      [
+        "280",
+        "CARDINAL"
+      ],
+      [
+        "Plages",
+        "ORG"
+      ],
+      [
+        "Quiet Sun",
+        "PERSON"
+      ],
+      [
+        "Sunspot",
+        "GPE"
+      ],
+      [
+        "300",
+        "CARDINAL"
+      ],
+      [
+        "Chromosphere",
+        "ORG"
+      ],
+      [
+        "396.8",
+        "CARDINAL"
+      ],
+      [
+        "Plages",
+        "ORG"
+      ],
+      [
+        "Quiet Sun",
+        "PERSON"
+      ],
+      [
+        "200",
+        "CARDINAL"
+      ],
+      [
+        "Plages",
+        "ORG"
+      ],
+      [
+        "Sunspots",
+        "PERSON"
+      ],
+      [
+        "47",
+        "CARDINAL"
+      ],
+      [
+        "Wavelength Solar",
+        "PERSON"
+      ],
+      [
+        "NB",
+        "ORG"
+      ],
+      [
+        "BB",
+        "GPE"
+      ],
+      [
+        "242",
+        "CARDINAL"
+      ],
+      [
+        "Plages",
+        "ORG"
+      ],
+      [
+        "Sunspots Photosphere",
+        "PERSON"
+      ],
+      [
+        "320-360",
+        "PRODUCT"
+      ],
+      [
+        "10",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "396.8",
+        "CARDINAL"
+      ],
+      [
+        "SUIT",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "GPE"
+      ],
+      [
+        "Chromosphere",
+        "ORG"
+      ],
+      [
+        "Sunspots",
+        "PERSON"
+      ],
+      [
+        "Plages",
+        "ORG"
+      ],
+      [
+        "Quiet Sun",
+        "PERSON"
+      ],
+      [
+        "48",
+        "CARDINAL"
+      ],
+      [
+        "11",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "280",
+        "CARDINAL"
+      ],
+      [
+        "SUIT",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "GPE"
+      ],
+      [
+        "Chromosphere",
+        "ORG"
+      ],
+      [
+        "Sunspots",
+        "PERSON"
+      ],
+      [
+        "Plages",
+        "ORG"
+      ],
+      [
+        "Quiet Sun",
+        "PERSON"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "12",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "LOC"
+      ],
+      [
+        "SUIT",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "GPE"
+      ],
+      [
+        "Sunspots",
+        "PERSON"
+      ],
+      [
+        "49",
+        "CARDINAL"
+      ],
+      [
+        "the In-Situ Payloads",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "May 2024",
+        "DATE"
+      ],
+      [
+        "last two decades",
+        "DATE"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "ISRO",
+        "ORG"
+      ],
+      [
+        "4,5",
+        "CARDINAL"
+      ],
+      [
+        "13",
+        "CARDINAL"
+      ],
+      [
+        "Solar",
+        "ORG"
+      ],
+      [
+        "ASPEX",
+        "PERSON"
+      ],
+      [
+        "ASPEX Team",
+        "ORG"
+      ],
+      [
+        "13",
+        "CARDINAL"
+      ],
+      [
+        "ASPEX",
+        "PERSON"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "Hydrogen",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "the May 10, 2024",
+        "DATE"
+      ],
+      [
+        "the late hours",
+        "TIME"
+      ],
+      [
+        "50",
+        "CARDINAL"
+      ],
+      [
+        "the Universal Time",
+        "ORG"
+      ],
+      [
+        "May 12, 2024 00:00UT",
+        "DATE"
+      ],
+      [
+        "14",
+        "CARDINAL"
+      ],
+      [
+        "SoLEX",
+        "NORP"
+      ],
+      [
+        "X-Ray",
+        "PRODUCT"
+      ],
+      [
+        "15",
+        "CARDINAL"
+      ],
+      [
+        "HEL1OS",
+        "GPE"
+      ],
+      [
+        "X-Ray 51",
+        "PERSON"
+      ],
+      [
+        "6",
+        "CARDINAL"
+      ],
+      [
+        "three",
+        "CARDINAL"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "L1",
+        "GPE"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "few hours Figures",
+        "TIME"
+      ],
+      [
+        "14",
+        "CARDINAL"
+      ],
+      [
+        "15",
+        "CARDINAL"
+      ],
+      [
+        "X-Ray",
+        "PRODUCT"
+      ],
+      [
+        "2 to 22",
+        "CARDINAL"
+      ],
+      [
+        "X-Ray",
+        "PERSON"
+      ],
+      [
+        "10 to 150",
+        "CARDINAL"
+      ],
+      [
+        "16",
+        "CARDINAL"
+      ],
+      [
+        "IMF",
+        "ORG"
+      ],
+      [
+        "52",
+        "CARDINAL"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "India",
+        "GPE"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "Sun-Earth L1 Lagrange",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Earth",
+        "LOC"
+      ],
+      [
+        "9",
+        "CARDINAL"
+      ],
+      [
+        "10",
+        "CARDINAL"
+      ],
+      [
+        "seven",
+        "CARDINAL"
+      ],
+      [
+        "Sun",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "ISSDC",
+        "ORG"
+      ],
+      [
+        "L1",
+        "GPE"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "CME",
+        "ORG"
+      ],
+      [
+        "July 2024",
+        "DATE"
+      ],
+      [
+        "53",
+        "CARDINAL"
+      ],
+      [
+        "the Aditya-L1",
+        "ORG"
+      ],
+      [
+        "1",
+        "CARDINAL"
+      ],
+      [
+        "Aditya-L1",
+        "ORG"
+      ],
+      [
+        "ISRO",
+        "ORG"
+      ],
+      [
+        "2",
+        "CARDINAL"
+      ],
+      [
+        "Arnab Rai Chowdhury",
+        "PERSON"
+      ],
+      [
+        "https://youtu.be/CdBXtQEKBRM?si=7UJyiCj5F7ws4uZs",
+        "ORG"
+      ],
+      [
+        "3",
+        "CARDINAL"
+      ],
+      [
+        "the Sun-Earth Connection: Avenues",
+        "ORG"
+      ],
+      [
+        "Next Two Decades",
+        "DATE"
+      ],
+      [
+        "Gurubaran",
+        "PERSON"
+      ],
+      [
+        "IIG https://youtu.be/wUrtQdaTBOA?si=YnnZMD0E15tQCP2E",
+        "LOC"
+      ],
+      [
+        "4",
+        "CARDINAL"
+      ],
+      [
+        "https://www.isro.gov.in/ISROCapturestheSignaturesoftheRecentSolarE",
+        "ORG"
+      ],
+      [
+        "5",
+        "CARDINAL"
+      ],
+      [
+        "6",
+        "CARDINAL"
+      ],
+      [
+        "7",
+        "CARDINAL"
+      ],
+      [
+        "8",
+        "CARDINAL"
+      ],
+      [
+        "9",
+        "CARDINAL"
+      ],
+      [
+        "10",
+        "CARDINAL"
+      ],
+      [
+        "Sudden",
+        "GPE"
+      ],
+      [
+        "the Sun Coronal Mass Ejection",
+        "ORG"
+      ],
+      [
+        "Aditya-L1",
+        "PERSON"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "the Aditya-L1",
+        "ORG"
+      ]
     ]
   },
+  "observations": [],
   "metadata": {
     "format": "PDF 1.7",
     "title": "",

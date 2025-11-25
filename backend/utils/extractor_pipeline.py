@@ -34,7 +34,10 @@ def process_pdf_pipeline(pdf_path):
 
     # 4. Create observations
     observations = create_observations(
-        cleaned_text, instruments, entities, filename
+       pages=cleaned_text,
+        instruments=instruments,
+        entities=entities,
+        pdf_name=file_path.split("/")[-1]
     )
 
     # 5. Return full data in unified structure

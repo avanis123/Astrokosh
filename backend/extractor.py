@@ -5,6 +5,7 @@ import os
 import json
 from ner_pipeline import extract_entities_from_pages
 
+
 DATA_RAW = "../data_raw/"
 DATA_PROCESSED = "../data_processed/"
 
@@ -42,15 +43,21 @@ def process_pdf(pdf_file):
     from utils_text import clean_pages
     from mission_detector import detect_mission
     from instrument_detector import find_instruments
+    from observation_linker import create_observations
 
     raw_text = extract_text(pdf_path)
     metadata = extract_metadata(pdf_path)
     tables = extract_tables(pdf_path)
     cleaned_text = clean_pages(raw_text)
     entities = extract_entities_from_pages(cleaned_text)
-
     mission = detect_mission(" ".join(cleaned_text[:5]))  # scan first 5 pages
     instruments = find_instruments(cleaned_text)
+    observations = create_observations(
+    cleaned_text,
+    instruments,
+    entities,
+    pdf_file
+)
 
 
     output = {
@@ -58,6 +65,7 @@ def process_pdf(pdf_file):
         "mission": mission,
         "instruments": instruments,
         "entities": entities,
+        "observations": observations,
         "metadata": metadata,
         "pages": cleaned_text,
         "tables": tables
