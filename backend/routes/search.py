@@ -75,11 +75,11 @@ async def search_pages(mission: str, q: str):
     pages = doc.get("pages", [])
     found_pages = []
 
-    for idx, page_text in enumerate(pages):
-        if q.lower() in page_text.lower():
+    for page in pages:
+        if q.lower() in page["text"].lower():
             found_pages.append({
-                "page_number": idx + 1,
-                "text": page_text[:500] + " ..."  # Preview only
+                "page_number": page["page_number"],
+                "text": page["text"][:500] + " ..."
             })
 
     return {

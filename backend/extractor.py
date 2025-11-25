@@ -1,83 +1,117 @@
+import fitz         # PyMuPDF
 import pdfplumber
-import fitz  # PyMuPDF
 import camelot
 import os
-import json
-from ner_pipeline import extract_entities_from_pages
+from typing import List, Dict, Any
 
 
-DATA_RAW = "../data_raw/"
-DATA_PROCESSED = "../data_processed/"
+# ---------------------------------------------------------
+# 1. TEXT EXTRACTION (Page-wise)
+# ---------------------------------------------------------
+def extract_text(pdf_path: str) -> List[str]:
+    """
+    Extracts text page-by-page using PyMuPDF (fast & robust).
+    Returns: ["page1 text...", "page2 text...", ...]
+    """
+    pages = []
 
-def extract_text(pdf_path):
-    text_pages = []
-    with pdfplumber.open(pdf_path) as pdf:
-        for page in pdf.pages:
-            text_pages.append(page.extract_text())
-    return text_pages
+    with fitz.open(pdf_path) as doc:
+        for page in doc:
+            text = page.get_text("text")
+            text = text.strip() if text else ""
+            pages.append(text)
 
-def extract_metadata(pdf_path):
-    doc = fitz.open(pdf_path)
-    return doc.metadata
-
-def extract_tables(pdf_path):
-    try:
-        tables = camelot.read_pdf(pdf_path, pages="all", suppress_stdout=True)
-        return [table.df.to_dict() for table in tables]
-    except Exception as e:
-        print("Camelot error:", e)
-        return []
-
-def clean_text(text_list):
-    cleaned = []
-    for page in text_list:
-        if page:
-            cleaned.append(" ".join(page.split()))
-    return cleaned
-
-def process_pdf(pdf_file):
-    pdf_path = DATA_RAW + pdf_file
-
-    print(f"Processing: {pdf_file}")
-
-    from utils_text import clean_pages
-    from mission_detector import detect_mission
-    from instrument_detector import find_instruments
-    from observation_linker import create_observations
-
-    raw_text = extract_text(pdf_path)
-    metadata = extract_metadata(pdf_path)
-    tables = extract_tables(pdf_path)
-    cleaned_text = clean_pages(raw_text)
-    entities = extract_entities_from_pages(cleaned_text)
-    mission = detect_mission(" ".join(cleaned_text[:5]))  # scan first 5 pages
-    instruments = find_instruments(cleaned_text)
-    observations = create_observations(
-    cleaned_text,
-    instruments,
-    entities,
-    pdf_file
-)
+    return pages
 
 
-    output = {
-        "file_name": pdf_file,
-        "mission": mission,
-        "instruments": instruments,
-        "entities": entities,
-        "observations": observations,
-        "metadata": metadata,
-        "pages": cleaned_text,
-        "tables": tables
+# ---------------------------------------------------------
+# 2. METADATA EXTRACTION
+# ---------------------------------------------------------
+def extract_metadata(pdf_path: str) -> Dict[str, Any]:
+    """
+    Extract metadata such as title, author, creation date, etc.
+    """
+    with fitz.open(pdf_path) as doc:
+        meta = doc.metadata or {}
+
+    return {
+        "title": meta.get("title"),
+        "author": meta.get("author"),
+        "subject": meta.get("subject"),
+        "keywords": meta.get("keywords"),
+        "creation_date": meta.get("creationDate"),
+        "modification_date": meta.get("modDate"),
+        "producer": meta.get("producer"),
+        "encrypted": meta.get("encrypted", False),
     }
 
-    with open(DATA_PROCESSED + pdf_file.replace(".pdf", ".json"), "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2)
 
-    print(f"Saved: {pdf_file.replace('.pdf', '.json')}")
+# ---------------------------------------------------------
+# 3. TABLE EXTRACTION (Camelot)
+# ---------------------------------------------------------
+def extract_tables(pdf_path: str) -> List[Dict[str, Any]]:
+    """
+    Extract tables using Camelot (works well for digital PDFs).
+    Returns list of tables with their data as lists of rows.
+    """
+    extracted_tables = []
+
+    try:
+        tables = camelot.read_pdf(pdf_path, pages="all", flavor="lattice")
+    except Exception:
+        # fallback to Stream mode (less accurate but works on more PDFs)
+        try:
+            tables = camelot.read_pdf(pdf_path, pages="all", flavor="stream")
+        except Exception:
+            return []
+
+    for t in tables:
+        extracted_tables.append({
+            "page": t.page,
+            "rows": t.data,
+            "shape": t.shape,
+        })
+
+    return extracted_tables
 
 
-if __name__ == "__main__":
-    for file in os.listdir(DATA_RAW):
-        if file.endswith(".pdf"):
-            process_pdf(file)
+# ---------------------------------------------------------
+# 4. OPTIONAL OCR FALLBACK (for scanned PDFs)
+# ---------------------------------------------------------
+def is_scanned(pdf_path: str) -> bool:
+    """
+    Checks if PDF pages have little/no digital text.
+    If so, likely a scanned document → needs OCR.
+    """
+    with pdfplumber.open(pdf_path) as pdf:
+        sample_pages = pdf.pages[:3]  # check first 3 pages
+
+        for page in sample_pages:
+            text = page.extract_text()
+            if text and len(text.strip()) > 10:
+                return False  # digital text exists
+
+    return True  # likely scanned
+
+
+# (Optional) OCR extraction
+def extract_text_ocr(pdf_path: str) -> List[str]:
+    """
+    Fallback OCR using Tesseract for scanned PDFs.
+    Only used if absolutely required.
+    """
+    try:
+        import pytesseract
+        from pdf2image import convert_from_path
+    except ImportError:
+        print("⚠ OCR not available (install pytesseract + pdf2image)")
+        return []
+
+    images = convert_from_path(pdf_path)
+    pages = []
+
+    for img in images:
+        text = pytesseract.image_to_string(img)
+        pages.append(text)
+
+    return pages

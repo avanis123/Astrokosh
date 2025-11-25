@@ -1,7 +1,7 @@
-from ner_rules import extract_dates, extract_coordinates
-from ner_ml import extract_spacy_entities
-from mission_phase_extractor import extract_mission_phases
-from measurement_extractor import extract_measurements
+from utils.ner_rules import extract_dates, extract_coordinates
+from utils.ner_ml import extract_spacy_entities
+from utils.mission_phase_extractor import extract_mission_phases
+from utils.measurement_extractor import extract_measurements
 
 
 def extract_entities_from_pages(pages):
