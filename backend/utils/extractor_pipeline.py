@@ -10,6 +10,16 @@ from utils.ner_pipeline import extract_entities_from_pages
 from utils.mission_detector import detect_mission
 from utils.instrument_detector import find_instruments
 from utils.observation_linker import create_observations
+import hashlib
+
+def compute_pdf_hash(pdf_path):
+    sha = hashlib.sha256()
+    with open(pdf_path, "rb") as f:
+        for chunk in iter(lambda: f.read(8192), b""):
+            sha.update(chunk)
+    return sha.hexdigest()
+
+
 
 
 def stringify_keys(obj: Any) -> Any:
@@ -68,6 +78,7 @@ def process_pdf_pipeline(pdf_path: str) -> Dict[str, Any]:
 
     # Detect instruments mentioned anywhere in the document
     instruments = find_instruments(cleaned_pages)
+    pdf_hash = compute_pdf_hash(pdf_path)
 
     # 4. Create observation objects (per page)
     # ------------------------------------------------------------------
@@ -76,6 +87,7 @@ def process_pdf_pipeline(pdf_path: str) -> Dict[str, Any]:
         instruments=instruments,
         entities=entities,
         pdf_name=filename,
+        pdf_hash=pdf_hash,
     )
 
     # 5. Build structured pages list for MongoDB & RAG
@@ -93,6 +105,7 @@ def process_pdf_pipeline(pdf_path: str) -> Dict[str, Any]:
     # ------------------------------------------------------------------
     document_data: Dict[str, Any] = {
         "file_name": filename,
+        "pdf_hash": pdf_hash,
         "mission": mission,
         "instruments": instruments,
         "metadata": metadata,

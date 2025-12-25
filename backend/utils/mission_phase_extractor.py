@@ -6,6 +6,7 @@ MISSION_PHASE_PATTERNS = [
     r"Lift[- ]?off",
     r"Separation Event",
 
+
     # Earth-bound phases
     r"Earth[- ]?Bound Phase",
     r"Earth[- ]?bound Orbit",
