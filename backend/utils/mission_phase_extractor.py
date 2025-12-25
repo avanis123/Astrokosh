@@ -11,7 +11,7 @@ MISSION_PHASE_PATTERNS = [
     r"Earth[- ]?bound Orbit",
     r"EBO[- ]?\d+",
     r"EBD[- ]?\d+",
-    r"Earth[- ]?bound Maneuver",
+    r"Earth[- ]?bound Maneuver",    r"Earth[-]? Phase",
 
     # Orbit raising
     r"Orbit[- ]?Raising Phase",
@@ -33,8 +33,7 @@ MISSION_PHASE_PATTERNS = [
     r"LOI Burn",
 
     # Lunar Bound Phase
-    r"Lunar[- ]?Bound Phase",
-    r"Lunar[- ]?Transfer Phase",
+    r"Lunar[- ]?Bound Phase",    r"Lunar[- ]?Transfer Phase",
 
     # Science / payload
     r"Science Phase",

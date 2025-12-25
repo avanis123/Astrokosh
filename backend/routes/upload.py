@@ -3,6 +3,7 @@ from fastapi.responses import JSONResponse
 import os
 from database import db
 from utils.extractor_pipeline import process_pdf_pipeline
+from rag.indexer import index_single_document
 
 router = APIRouter()
 
@@ -25,11 +26,15 @@ async def upload_pdf(file: UploadFile = File(...)):
     document_data = extracted_data["document"]
     observations = extracted_data["observations"]
 
-    # 3. Insert into MongoDB
-    await db.documents.insert_one(document_data)
+   # Insert document and get ID
+    result = await db.documents.insert_one(document_data)
+    doc_id = str(result.inserted_id)
 
     if observations:
         await db.observations.insert_many(observations)
+    
+    # Auto-index for RAG
+    await index_single_document(doc_id)
 
     return {
         "status": "Success",
