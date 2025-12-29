@@ -1,12 +1,26 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import List, Optional
+from rag.mongo_answers import answer_from_mongo
 
 from rag.retriever import retrieve_chunks
 from rag.llm import generate_answer
 
 router = APIRouter(prefix="/query", tags=["query"])
 
+FACTUAL_INTENTS = {
+    "PAYLOAD",          # instruments
+    "MISSION_PHASES",
+    "LAUNCH",
+    "TABLES",
+    "OBSERVATIONS",
+}
+
+EXPLANATION_INTENTS = {
+    "OBJECTIVES",
+    "RESULTS",
+    "GENERAL",
+}
 
 # ---------- Models ----------
 
@@ -55,35 +69,54 @@ INTENT_TO_SECTION = {
 # ---------- Query Endpoint ----------
 
 @router.post("/", response_model=QueryResponse)
-async def query(body: QueryRequest):
+async def rag_light_query(body: QueryRequest):
 
     question = body.question.strip()
     if not question:
         raise HTTPException(status_code=400, detail="Question cannot be empty")
 
     intent = detect_intent(question)
-    section = INTENT_TO_SECTION.get(intent)
 
-    # 🔍 Retrieve relevant chunks
-    chunks = retrieve_chunks(
-        question,
-        top_k=body.top_k or 5,
-        section=section
-    )
+    # --------------------------------------------------
+    # 1️⃣ FACTUAL QUESTIONS → MONGO
+    # --------------------------------------------------
+    mongo_answer = None
+    if intent in FACTUAL_INTENTS:
+        mongo_answer, _ = await answer_from_mongo(intent, question)
 
-    if not chunks:
         return QueryResponse(
-            answer="Information not found in the provided documents.",
+            answer=mongo_answer,
             chunks=[]
         )
 
-    # 🧠 LLM synthesis (FINAL STEP)
+    # --------------------------------------------------
+    # 2️⃣ EXPLANATION QUESTIONS → RAG + LLM
+    # --------------------------------------------------
+    section = INTENT_TO_SECTION.get(intent)
+    chunks = retrieve_chunks(
+        query=question,
+        top_k=body.top_k or 5,
+        section=section
+    )
+    if not chunks:
+        return QueryResponse(
+            answer="This information is not present in the uploaded mission documents.",
+            chunks=[]
+        )
+
     answer = generate_answer(
         question=question,
-        context_chunks=chunks
+        context_chunks=chunks,
+        structured_context=mongo_answer
     )
 
     return QueryResponse(
         answer=answer,
         chunks=[RetrievedChunk(**c) for c in chunks]
     )
+
+
+@router.get("/debug/chroma-count")
+def chroma_count():
+    from rag.retriever import debug_chroma_count
+    return {"chroma_chunks": debug_chroma_count()}

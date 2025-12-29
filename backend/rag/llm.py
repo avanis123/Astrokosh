@@ -1,7 +1,7 @@
 import subprocess
 
 
-def generate_answer(question: str, context_chunks: list) -> str:
+def generate_answer(question: str, context_chunks: list, structured_context: str | None = None) -> str:
     """
     Generate answer using local Ollama LLM.
     Uses ONLY retrieved context.
@@ -11,22 +11,30 @@ def generate_answer(question: str, context_chunks: list) -> str:
         f"- {chunk['text']}" for chunk in context_chunks
     )
 
+    structured_text = structured_context or "None"
+
     prompt = f"""
 You are a scientific assistant.
 
-Answer the question using ONLY the context below.
-If the answer is not in the context, say:
-"Information not found in the provided documents."
+Answer the question using ALL the information below.
+
+If structured data is incomplete, supplement it using document excerpts.
+If information is partially available, answer with what is known.
+Do NOT hallucinate missing facts.
 
 Question:
 {question}
 
-Context:
+Structured Information:
+{structured_text}
+
+Document Excerpts:
 {context_text}
 
 Instructions:
 - Write a clean, concise answer
 - Use bullet points
+- Support both brief and detailed answers
 - Do not repeat information
 - Do not add external knowledge
 """
@@ -35,6 +43,8 @@ Instructions:
         [OLLAMA_PATH, "run", "llama3.1:8b"],
         input=prompt,
         text=True,
+        encoding="utf-8",
+        errors="ignore",
         capture_output=True
     )
 

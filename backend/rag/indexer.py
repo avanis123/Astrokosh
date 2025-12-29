@@ -17,7 +17,9 @@ load_dotenv()
 embedding_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
 # ---- ChromaDB client (persistent, local) ----
-CHROMA_PATH = os.path.join(os.path.dirname(__file__), "..", "chroma")
+CHROMA_PATH = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "chroma")
+)
 os.makedirs(CHROMA_PATH, exist_ok=True)
 
 chroma_client = chromadb.PersistentClient(
@@ -31,7 +33,7 @@ collection = chroma_client.get_or_create_collection(
 )
 
 # ---- MongoDB ----
-MONGO_URL = os.getenv("MONGO_URL")
+MONGO_URL = os.getenv("MONGODB_URL")
 mongo_client = AsyncIOMotorClient(MONGO_URL)
 db = mongo_client["astrokosh"]
 
@@ -49,9 +51,13 @@ async def index_single_document(doc_id: str) -> Dict[str, Any]:
     ids: List[str] = []
     metadatas: List[Dict[str, Any]] = []
 
+    print("INDEXING DOC:", doc_id)
+    print("PAGES FOUND:", len(pages))
+
     for page in pages:
         page_text = page.get("text", "")
         page_number = page.get("page_number")
+        print("PAGE LENGTH:", len(page_text))
 
         if not page_text:
             continue
@@ -77,6 +83,8 @@ async def index_single_document(doc_id: str) -> Dict[str, Any]:
                 "mission": mission,
                 "section": section_name,   # ⭐ CRITICAL
             })
+        print("TOTAL CHUNKS TO INDEX:", len(texts))
+
 
     if not texts:
         return {"status": "skipped", "reason": "no text chunks"}
@@ -89,5 +97,25 @@ async def index_single_document(doc_id: str) -> Dict[str, Any]:
         metadatas=metadatas,
         ids=ids,
     )
+    print("✅ Added to Chroma:", len(texts))
+    print("🔢 Current Chroma count:", collection.count())
+
 
     return {"status": "indexed", "chunks": len(texts)}
+
+async def index_all_documents() -> dict:
+    """
+    Rebuilds the entire Chroma index from MongoDB.
+    Safe to run multiple times.
+    """
+    cursor = db.documents.find({})
+    count = 0
+
+    async for doc in cursor:
+        await index_single_document(str(doc["_id"]))
+        count += 1
+
+    return {
+        "status": "full_index_done",
+        "documents_indexed": count
+    }
