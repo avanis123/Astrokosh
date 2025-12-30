@@ -22,28 +22,29 @@ collection = chroma_client.get_or_create_collection(
 embedding_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
 
-def retrieve_chunks(query: str, top_k: int = 5, section: str = None):
+def retrieve_chunks(query: str, top_k: int = 5, section: str = None, mission: str | None = None):
     query_embedding = embedding_model.encode([query]).tolist()[0]
 
-    # 1️⃣ Try section-specific search
+    where = {}
+
     if section:
+        where["section"] = section
+
+    if mission:
+        where["mission"] = mission
+
+    if where:
         results = collection.query(
             query_embeddings=[query_embedding],
             n_results=top_k,
-            where={"section": section}
+            where=where
         )
-
-        # 🔥 FALLBACK if section empty
-        if not results["documents"][0]:
-            results = collection.query(
-                query_embeddings=[query_embedding],
-                n_results=top_k
-            )
     else:
         results = collection.query(
             query_embeddings=[query_embedding],
             n_results=top_k
         )
+
 
     docs = results.get("documents", [[]])[0]
     metas = results.get("metadatas", [[]])[0]

@@ -2,7 +2,6 @@ from fastapi import APIRouter, UploadFile, File, HTTPException
 from database import db
 from utils.extractor_pipeline import process_pdf_pipeline
 from rag.indexer import index_single_document
-from rag.indexer import index_all_documents
 import os
 
 router = APIRouter()
@@ -33,13 +32,13 @@ async def upload_pdf(file: UploadFile = File(...)):
         # 3️⃣ Deduplication
         if pdf_hash:
             existing = await db.documents.find_one({"pdf_hash": pdf_hash})
-            #if existing:
-               # return {
-                 #   "status": "Duplicate",
-                  #  "message": "This PDF was already uploaded",
-                   # "file_name": document.get("file_name"),
-                    #"mission": document.get("mission"),
-                #}
+            if existing:
+               return {
+                   "status": "Duplicate",
+                    "message": "This PDF was already uploaded",
+                   "file_name": document.get("file_name"),
+                    "mission": document.get("mission"),
+                }
 
         # 4️⃣ Store document
         result = await db.documents.insert_one(document)

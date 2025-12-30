@@ -5,6 +5,11 @@ from rag.mongo_answers import answer_from_mongo
 
 from rag.retriever import retrieve_chunks
 from rag.llm import generate_answer
+from utils.question_classifier import classify_question
+from utils.mission_extractor import extract_missions_from_question
+from database import db
+from utils.query_scope import is_multi_mission_question
+
 
 router = APIRouter(prefix="/query", tags=["query"])
 
@@ -76,28 +81,49 @@ async def rag_light_query(body: QueryRequest):
         raise HTTPException(status_code=400, detail="Question cannot be empty")
 
     intent = detect_intent(question)
+    question_type = classify_question(question)
+    multi_mission = is_multi_mission_question(question)
 
-    # --------------------------------------------------
-    # 1️⃣ FACTUAL QUESTIONS → MONGO
-    # --------------------------------------------------
+    missions_found = []
+
+    if multi_mission:
+        all_missions = await db.documents.distinct("mission")
+        missions_found = extract_missions_from_question(
+            question,
+            all_missions
+        )
+
+
     mongo_answer = None
     if intent in FACTUAL_INTENTS:
         mongo_answer, _ = await answer_from_mongo(intent, question)
-
-        return QueryResponse(
-            answer=mongo_answer,
-            chunks=[]
-        )
 
     # --------------------------------------------------
     # 2️⃣ EXPLANATION QUESTIONS → RAG + LLM
     # --------------------------------------------------
     section = INTENT_TO_SECTION.get(intent)
-    chunks = retrieve_chunks(
-        query=question,
-        top_k=body.top_k or 5,
-        section=section
-    )
+    top_k=body.top_k or 5
+    if question_type in [
+        "measurement", "numeric", "entity", "comparison"
+    ]:
+        top_k = 12
+    chunks = []
+
+    if multi_mission and missions_found:
+        # Retrieve per mission (balanced context)
+        for mission in missions_found:
+            mission_chunks = retrieve_chunks(
+                query=question,
+                top_k=6,
+                mission=mission
+            )
+            chunks.extend(mission_chunks)
+    else:
+        # Normal single-mission / global retrieval
+        chunks = retrieve_chunks(
+            query=question,
+            top_k=top_k
+        )
     if not chunks:
         return QueryResponse(
             answer="This information is not present in the uploaded mission documents.",
@@ -107,7 +133,8 @@ async def rag_light_query(body: QueryRequest):
     answer = generate_answer(
         question=question,
         context_chunks=chunks,
-        structured_context=mongo_answer
+        structured_context=mongo_answer,
+        question_type= question_type
     )
 
     return QueryResponse(

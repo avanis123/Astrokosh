@@ -57,6 +57,28 @@ def classify_question(q: str):
     # -----------------------
     if any(x in qn for x in ["how much", "how far", "value of", "distance", "km", "nm", "keV", "au"]):
         return "measurement"
+    
+    if any(k in q for k in [
+        "how long", "duration", "time", "minutes", "seconds",
+        "km", "kg", "hz", "watt", "capacity"
+    ]):
+        return "numeric"
+    
+    if any(k in q for k in [
+        "who", "which scientist", "which scientists",
+        "engineer", "researcher", "team"
+    ]):
+        return "entity"
+    
+    if any(k in q for k in [
+        "list", "what are the", "different", "types of"
+    ]):
+        return "list"
+    
+    if any(k in q for k in [
+        "compare", "difference between", "vs", "versus"
+    ]):
+        return "comparison"
 
     # -----------------------
     # Default fallback

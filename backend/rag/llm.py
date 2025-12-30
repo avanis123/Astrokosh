@@ -1,7 +1,8 @@
 import subprocess
 
 
-def generate_answer(question: str, context_chunks: list, structured_context: str | None = None) -> str:
+def generate_answer(question: str, context_chunks: list, structured_context: str | None = None, question_type: str | None = None
+) -> str:
     """
     Generate answer using local Ollama LLM.
     Uses ONLY retrieved context.
@@ -25,6 +26,8 @@ Do NOT hallucinate missing facts.
 Question:
 {question}
 
+Question type: {question_type}
+
 Structured Information:
 {structured_text}
 
@@ -37,6 +40,9 @@ Instructions:
 - Support both brief and detailed answers
 - Do not repeat information
 - Do not add external knowledge
+- If question type is "numeric" or "measurement", extract exact values.
+- If question type is "entity", list names if available.
+- If question type is "comparison", clearly compare items.
 """
     OLLAMA_PATH = r"C:\Users\Avni Jain\AppData\Local\Programs\Ollama\ollama.exe"
     result = subprocess.run(
