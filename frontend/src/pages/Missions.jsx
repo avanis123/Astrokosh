@@ -138,11 +138,6 @@ function Missions() {
               <span className="text-[#F05454] font-black text-2xl">{missions.length}</span>
               <span className="text-[#DDDDDD]/50 uppercase text-sm">Mission{missions.length !== 1 ? 's' : ''}</span>
             </div>
-
-            <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#F05454]/10 border border-[#F05454]/30">
-              <div className="w-2 h-2 bg-[#F05454] rounded-full animate-pulse"></div>
-              <span className="text-[#DDDDDD] text-sm font-mono uppercase tracking-wide">Active</span>
-            </div>
           </div>
         </div>
 

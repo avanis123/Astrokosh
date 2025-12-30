@@ -249,7 +249,6 @@ function InstrumentInsights() {
 
                   <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#222831]/50 border border-[#30475E]/50">
                     <div className="w-2 h-2 bg-[#F05454] rounded-full animate-pulse"></div>
-                    <span className="text-[#DDDDDD] text-sm font-mono uppercase tracking-wide">Active</span>
                   </div>
                 </div>
               </div>
