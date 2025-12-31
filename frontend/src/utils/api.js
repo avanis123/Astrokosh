@@ -34,6 +34,14 @@ export const apiEndpoints = {
     `${API_BASE_URL}/observations/${mission}/page/${pageNumber}`,
 
   // =====================
+  // MISSION IMAGES
+  // =====================
+  missionImages: (mission) =>
+    `${API_BASE_URL}/api/missions/${encodeURIComponent(mission)}/images`,
+
+
+
+  // =====================
   // SEARCH
   // =====================
   searchGlobal: (query) =>

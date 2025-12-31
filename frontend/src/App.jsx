@@ -20,6 +20,7 @@ import QA from './pages/QA'
 import EntitiesOverview from './pages/EntitiesOverview'
 import PageViewer from './pages/PageViewer'
 import InstrumentInsights from './pages/InstrumentInsights'
+import MissionGallery from './pages/MissionGallery'
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
 
               {/* Upload */}
               <Route path="/upload" element={<Upload />} />
+
+              {/* Mission Gallery */}
+              <Route path="/gallery" element={<MissionGallery />} />
 
               {/* Missions */}
               <Route path="/missions" element={<Missions />} />

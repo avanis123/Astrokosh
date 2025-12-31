@@ -1,10 +1,13 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from routes.upload import router as upload_router
 from routes.observations import router as obs_router
 from routes.search import router as search_router
 from routes.query import router as query_router
-from api.timeline import router as timeline_router
+from routes.timeline import router as timeline_router
+from routes.mission_images import router as mission_images_router
+import os
 
 app = FastAPI(
     title="AstroKosh Backend",
@@ -21,12 +24,20 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+IMAGE_DIR = os.path.join(BASE_DIR, "extracted_images")
+app.mount(
+    "/static/images",
+    StaticFiles(directory=IMAGE_DIR),
+    name="images"
+)
+
 app.include_router(upload_router, prefix="/upload", tags=["Upload"])
 app.include_router(obs_router, prefix="/observations", tags=["Observations"])
 app.include_router(search_router, prefix="/search", tags=["Search"])
 app.include_router(query_router, prefix="/query", tags=["Q&A"])
 app.include_router(timeline_router, prefix="/api")
-
+app.include_router(mission_images_router, prefix="/api")
 
 @app.get("/test-db")
 async def test_db():

@@ -51,13 +51,10 @@ async def index_single_document(doc_id: str) -> Dict[str, Any]:
     ids: List[str] = []
     metadatas: List[Dict[str, Any]] = []
 
-    print("INDEXING DOC:", doc_id)
-    print("PAGES FOUND:", len(pages))
 
     for page in pages:
         page_text = page.get("text", "")
         page_number = page.get("page_number")
-        print("PAGE LENGTH:", len(page_text))
 
         if not page_text:
             continue
@@ -65,8 +62,6 @@ async def index_single_document(doc_id: str) -> Dict[str, Any]:
         # ✅ Detect section for the whole page
         section_name = detect_section_from_text(page_text)
 
-        # 🔍 (TEMP DEBUG – keep for now)
-        print(f"PAGE {page_number} → SECTION: {section_name}")
 
         # ✅ Chunk the page text
         chunks = chunk_text(page_text)
@@ -83,7 +78,6 @@ async def index_single_document(doc_id: str) -> Dict[str, Any]:
                 "mission": mission,
                 "section": section_name,   # ⭐ CRITICAL
             })
-        print("TOTAL CHUNKS TO INDEX:", len(texts))
 
 
     if not texts:
@@ -97,8 +91,6 @@ async def index_single_document(doc_id: str) -> Dict[str, Any]:
         metadatas=metadatas,
         ids=ids,
     )
-    print("✅ Added to Chroma:", len(texts))
-    print("🔢 Current Chroma count:", collection.count())
 
 
     return {"status": "indexed", "chunks": len(texts)}
