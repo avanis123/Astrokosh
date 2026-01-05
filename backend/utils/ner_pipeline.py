@@ -28,7 +28,6 @@ def extract_entities_from_pages(pages):
         for m in extract_measurements(text):
             all_measurements.add(m)
 
-        # ML-based
         spacy_output = extract_spacy_entities(text)
         all_spacy.extend(spacy_output)
 

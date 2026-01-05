@@ -1,6 +1,8 @@
 import os
 import fitz
 import hashlib
+from utils.caption_extractor import extract_caption_blocks
+from utils.caption_matcher import match_caption_to_image
 
 
 def extract_images_from_pdf(pdf_path, output_dir, mission):
@@ -12,11 +14,12 @@ def extract_images_from_pdf(pdf_path, output_dir, mission):
 
     for page_index, page in enumerate(doc):
         images = page.get_images(full=True)
+        caption_blocks = extract_caption_blocks(page)
 
         for img_index, img in enumerate(images):
             xref = img[0]
-            base_image = doc.extract_image(xref)
 
+            base_image = doc.extract_image(xref)
             image_bytes = base_image["image"]
             image_ext = base_image["ext"]
             width = base_image["width"]
@@ -32,6 +35,15 @@ def extract_images_from_pdf(pdf_path, output_dir, mission):
                 continue
             seen_hashes.add(img_hash)
 
+            # 🔹 Get bounding box for THIS image
+            image_rects = page.get_image_rects(xref)
+            image_bbox = image_rects[0] if image_rects else None
+
+            # 🔹 Spatial caption matching
+            caption = None
+            if image_bbox:
+                caption = match_caption_to_image(image_bbox, caption_blocks)
+
             image_name = f"{mission}_page_{page_index+1}_img_{img_index+1}.{image_ext}"
             image_path = os.path.join(output_dir, image_name)
 
@@ -46,6 +58,7 @@ def extract_images_from_pdf(pdf_path, output_dir, mission):
                 "source_pdf": os.path.basename(pdf_path),
                 "width": width,
                 "height": height,
+                "caption": caption,
             })
 
     doc.close()

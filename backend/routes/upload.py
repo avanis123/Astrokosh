@@ -54,12 +54,12 @@ async def upload_pdf(file: UploadFile = File(...)):
         # 3️⃣ Deduplication
         if pdf_hash:
             existing = await db.documents.find_one({"pdf_hash": pdf_hash})
-            #if existing:
-             #  return {
-              #     "status": "Duplicate",
-               #     "message": "This PDF was already uploaded",
-                #    "mission": document.get("mission"),
-                #}
+            if existing:
+               return {
+                   "status": "Duplicate",
+                    "message": "This PDF was already uploaded",
+                    "mission": document.get("mission"),
+                }
 
         # 4️⃣ Store document
         result = await db.documents.insert_one(document)

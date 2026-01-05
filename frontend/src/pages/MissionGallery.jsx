@@ -208,29 +208,33 @@ function MissionGallery({ initialMission = null }) {
 
         {!loadingImages && images.length > 0 && (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {images.map((img, idx) => (
-              <div
-                key={idx}
-                className="group cursor-pointer bg-gradient-to-br from-[#30475E]/60 to-[#222831]/60 border border-[#30475E]/50 rounded-xl overflow-hidden hover:border-[#F05454] hover:shadow-lg hover:shadow-[#F05454]/20 transition-all duration-300"
-                onClick={() => setSelectedImage(img)}
-              >
-                <div className="relative overflow-hidden">
-                  <img
-                    src={`http://localhost:8000${img.image_path}`}
-                    alt={`Page ${img.page}`}
-                    className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#222831]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            {images
+              .filter(img => img.caption)   // 🔥 KEY CHANGE
+              .map((img, idx) => (
+                <div
+                  key={idx}
+                  className="group cursor-pointer bg-gradient-to-br from-[#30475E]/60 to-[#222831]/60 border border-[#30475E]/50 rounded-xl overflow-hidden hover:border-[#F05454] hover:shadow-lg hover:shadow-[#F05454]/20 transition-all duration-300"
+                  onClick={() => setSelectedImage(img)}
+                >
+                  <div className="relative overflow-hidden">
+                    <img
+                      src={`http://localhost:8000${img.image_path}`}
+                      alt={` ${img.caption}`}
+                      className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#222831]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  </div>
+
+                  <div className="p-4">
+                    <p className="text-sm text-[#DDDDDD]/70 font-mono">
+                      {img.caption}
+                    </p>
+                  </div>
                 </div>
-                <div className="p-4">
-                  <p className="text-sm text-[#DDDDDD]/70 font-mono">
-                    Page {img.page}
-                  </p>
-                </div>
-              </div>
-            ))}
+              ))}
           </div>
         )}
+
       </div>
 
       {/* Modal */}
@@ -244,7 +248,7 @@ function MissionGallery({ initialMission = null }) {
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex justify-between items-center mb-4">
-              <p className="text-[#DDDDDD] font-medium">Page {selectedImage.page}</p>
+              <p className="text-[#DDDDDD] font-medium"> {selectedImage.caption}</p>
               <button
                 onClick={() => setSelectedImage(null)}
                 className="w-10 h-10 rounded-full bg-[#F05454]/20 hover:bg-[#F05454]/30 flex items-center justify-center transition-colors"
@@ -257,7 +261,7 @@ function MissionGallery({ initialMission = null }) {
             <div className="overflow-auto max-h-[calc(90vh-8rem)] rounded-lg">
               <img
                 src={`http://localhost:8000${selectedImage.image_path}`}
-                alt={`Page ${selectedImage.page}`}
+                alt={` ${selectedImage.caption}`}
                 className="w-full h-auto object-contain"
               />
             </div>

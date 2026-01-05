@@ -98,9 +98,6 @@ async def rag_light_query(body: QueryRequest):
     if intent in FACTUAL_INTENTS:
         mongo_answer, _ = await answer_from_mongo(intent, question)
 
-    # --------------------------------------------------
-    # 2️⃣ EXPLANATION QUESTIONS → RAG + LLM
-    # --------------------------------------------------
     section = INTENT_TO_SECTION.get(intent)
     top_k=body.top_k or 5
     if question_type in [
@@ -141,9 +138,3 @@ async def rag_light_query(body: QueryRequest):
         answer=answer,
         chunks=[RetrievedChunk(**c) for c in chunks]
     )
-
-
-@router.get("/debug/chroma-count")
-def chroma_count():
-    from rag.retriever import debug_chroma_count
-    return {"chroma_chunks": debug_chroma_count()}
