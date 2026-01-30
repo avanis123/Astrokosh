@@ -10,17 +10,51 @@ from typing import List, Dict, Any
 # ---------------------------------------------------------
 def extract_text(pdf_path: str) -> List[str]:
     """
-    Extracts text page-by-page using PyMuPDF (fast & robust).
-    Returns: ["page1 text...", "page2 text...", ...]
+    Extract text with OCR fallback for scanned PDFs.
+    First tries PyMuPDF (fast), then falls back to OCR if needed.
     """
+    import pdfplumber
+    
     pages = []
-
-    with fitz.open(pdf_path) as doc:
-        for page in doc:
-            text = page.get_text("text")
-            text = text.strip() if text else ""
-            pages.append(text)
-
+    
+    # Step 1: Try PyMuPDF extraction
+    try:
+        with fitz.open(pdf_path) as doc:
+            for page in doc:
+                text = page.get_text("text")
+                text = text.strip() if text else ""
+                pages.append(text)
+    except Exception as e:
+        print(f"❌ PyMuPDF extraction failed: {e}")
+        pages = []
+    
+    # Step 2: Check if extraction was successful
+    if not pages:
+        print("⚠️  PyMuPDF returned no pages, checking for scanned PDF...")
+        non_empty_pages = sum(1 for p in pages if len(p.strip()) > 20)
+    else:
+        non_empty_pages = sum(1 for p in pages if len(p.strip()) > 20)
+    
+    # Step 3: If <40% of pages have meaningful text, try OCR
+    total_pages = len(pages)
+    if total_pages == 0 or non_empty_pages < max(1, total_pages * 0.4):
+        print(f"⚠️  Only {non_empty_pages}/{total_pages} pages have text (scanned PDF detected)")
+        print("🔄 Attempting OCR extraction...")
+        
+        try:
+            ocr_pages = extract_text_ocr(pdf_path)
+            if ocr_pages and sum(1 for p in ocr_pages if len(p.strip()) > 20) > non_empty_pages:
+                print(f"✅ OCR successful: {len(ocr_pages)} pages extracted")
+                return ocr_pages
+        except Exception as e:
+            print(f"❌ OCR failed: {e}")
+    
+    # Step 4: Return best effort
+    if not pages:
+        print("❌ Could not extract text from PDF")
+        return []
+    
+    print(f"✅ Extracted {total_pages} pages ({non_empty_pages} with content)")
     return pages
 
 
