@@ -161,7 +161,7 @@ function Home() {
           </Link>
 
           <Link
-            to="/search"
+            to="/pdf-search"
             className="group relative bg-gradient-to-br from-[#30475E] to-[#222831] rounded-2xl p-8 border border-[#30475E] hover:border-[#F05454] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-[#F05454]/50 overflow-hidden"
           >
             <div className="absolute inset-0 bg-gradient-to-br from-[#F05454]/0 to-[#F05454]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -175,13 +175,13 @@ function Home() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-[#DDDDDD] mb-3">SEARCH</h3>
+              <h3 className="text-2xl font-bold text-[#DDDDDD] mb-3">PDF SEARCH</h3>
               <p className="text-[#DDDDDD]/70 text-sm leading-relaxed mb-4">
-                Quantum search across all mission parameters
+                Search across uploaded mission documents with AI precision
               </p>
 
               <div className="flex items-center text-[#F05454] font-semibold text-sm group-hover:translate-x-2 transition-transform">
-                SEARCH
+                PDF SEARCH
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
