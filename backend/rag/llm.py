@@ -1,7 +1,7 @@
 import os
 import time
 from typing import Optional, List, Dict
-from google import genai
+import google.genai as genai
 from google.genai import errors
 from google.genai import types
 

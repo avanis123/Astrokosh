@@ -1,3 +1,9 @@
+from dotenv import load_dotenv
+import os
+
+# Load environment variables FIRST
+load_dotenv()
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -7,7 +13,7 @@ from routes.search import router as search_router
 from routes.query import router as query_router
 from routes.timeline import router as timeline_router
 from routes.mission_images import router as mission_images_router
-import os
+from routes.pdf_search import router as pdf_search_router
 
 app = FastAPI(
     title="AstroKosh Backend",
@@ -31,13 +37,23 @@ app.mount(
     StaticFiles(directory=IMAGE_DIR),
     name="images"
 )
+from pathlib import Path
+
+SEARCH_HIGHLIGHTS_DIR = Path(__file__).parent / "search_highlights"
+SEARCH_HIGHLIGHTS_DIR.mkdir(exist_ok=True)
+
+app.mount(
+    "/static/search_highlights",
+    StaticFiles(directory=str(SEARCH_HIGHLIGHTS_DIR)),
+    name="search_highlights"
+)
 
 app.include_router(upload_router, prefix="/upload", tags=["Upload"])
 app.include_router(obs_router, prefix="/observations", tags=["Observations"])
-app.include_router(search_router, prefix="/search", tags=["Search"])
 app.include_router(query_router, prefix="/query", tags=["Q&A"])
 app.include_router(timeline_router, prefix="/api")
 app.include_router(mission_images_router, prefix="/api")
+app.include_router(pdf_search_router, prefix="/api", tags=["PDF Search"])
 
 @app.get("/test-db")
 async def test_db():

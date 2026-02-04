@@ -3,7 +3,7 @@
 // ============================================================================
 
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { ApiProvider } from './context/ApiContext'
 import Navbar from './components/Navbar'
 
@@ -21,6 +21,7 @@ import EntitiesOverview from './pages/EntitiesOverview'
 import PageViewer from './pages/PageViewer'
 import InstrumentInsights from './pages/InstrumentInsights'
 import MissionGallery from './pages/MissionGallery'
+import PdfSearch from './pages/PdfSearch';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
           <Navbar />
           <main className="container mx-auto px-4 py-8">
+         
             <Routes>
               {/* Home */}
               <Route path="/" element={<Home />} />
@@ -59,6 +61,8 @@ function App() {
               {/* Search & QA */}
               <Route path="/search" element={<Search />} />
               <Route path="/qa" element={<QA />} />
+
+              <Route path="/pdf-search" element={<PdfSearch />} />
             </Routes>
           </main>
         </div>
